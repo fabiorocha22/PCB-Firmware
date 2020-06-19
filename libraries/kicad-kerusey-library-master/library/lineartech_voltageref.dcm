@@ -1,0 +1,87 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC6655BHMS8-1.25
+D LTC6655BHMS8-1.25, Precision Low Noise 0.25ppm Low Drift Voltage Reference, MSOP8
+K Precision Voltage Reference 1.25V
+F http://cds.linear.com/docs/en/datasheet/6655fc.pdf
+$ENDCMP
+#
+$CMP LTC6655BHMS8-2.048
+D LTC6655BHMS8-2.048, Precision Low Noise 0.25ppm Low Drift Voltage Reference, MSOP8
+K Precision Voltage Reference 2.048V
+F http://cds.linear.com/docs/en/datasheet/6655fc.pdf
+$ENDCMP
+#
+$CMP LTC6655BHMS8-2.5
+D LTC6655BHMS8-2.5, Precision Low Noise 0.25ppm Low Drift Voltage Reference, MSOP8
+K Precision Voltage Reference 2.5V
+F http://cds.linear.com/docs/en/datasheet/6655fc.pdf
+$ENDCMP
+#
+$CMP LTC6655BHMS8-3
+D LTC6655BHMS8-3, Precision Low Noise 0.25ppm Low Drift Voltage Reference, MSOP8
+K Precision Voltage Reference 3V
+F http://cds.linear.com/docs/en/datasheet/6655fc.pdf
+$ENDCMP
+#
+$CMP LTC6655BHMS8-3.3
+D LTC6655BHMS8-3.3, Precision Low Noise 0.25ppm Low Drift Voltage Reference, MSOP8
+K Precision Voltage Reference 3.3V
+F http://cds.linear.com/docs/en/datasheet/6655fc.pdf
+$ENDCMP
+#
+$CMP LTC6655BHMS8-4.096
+D LTC6655BHMS8-4.096, Precision Low Noise 0.25ppm Low Drift Voltage Reference, MSOP8
+K Precision Voltage Reference 4.096V
+F http://cds.linear.com/docs/en/datasheet/6655fc.pdf
+$ENDCMP
+#
+$CMP LTC6655BHMS8-5
+D LTC6655BHMS8-5, Precision Low Noise 0.25ppm Low Drift Voltage Reference, MSOP8
+K Precision Voltage Reference 5V
+F http://cds.linear.com/docs/en/datasheet/6655fc.pdf
+$ENDCMP
+#
+$CMP LTC6655CHMS8-1.25
+D LTC6655CHMS8-1.25, Precision Low Noise 0.25ppm Low Drift Voltage Reference, MSOP8
+K Precision Voltage Reference 1.25V
+F http://cds.linear.com/docs/en/datasheet/6655fc.pdf
+$ENDCMP
+#
+$CMP LTC6655CHMS8-2.048
+D LTC6655CHMS8-2.048, Precision Low Noise 0.25ppm Low Drift Voltage Reference, MSOP8
+K Precision Voltage Reference 2.048V
+F http://cds.linear.com/docs/en/datasheet/6655fc.pdf
+$ENDCMP
+#
+$CMP LTC6655CHMS8-2.5
+D LTC6655CHMS8-2.5, Precision Low Noise 0.25ppm Low Drift Voltage Reference, MSOP8
+K Precision Voltage Reference 2.5V
+F http://cds.linear.com/docs/en/datasheet/6655fc.pdf
+$ENDCMP
+#
+$CMP LTC6655CHMS8-3
+D LTC6655CHMS8-3, Precision Low Noise 0.25ppm Low Drift Voltage Reference, MSOP8
+K Precision Voltage Reference 3V
+F http://cds.linear.com/docs/en/datasheet/6655fc.pdf
+$ENDCMP
+#
+$CMP LTC6655CHMS8-3.3
+D LTC6655CHMS8-3.3, Precision Low Noise 0.25ppm Low Drift Voltage Reference, MSOP8
+K Precision Voltage Reference 3.3V
+F http://cds.linear.com/docs/en/datasheet/6655fc.pdf
+$ENDCMP
+#
+$CMP LTC6655CHMS8-4.096
+D LTC6655CHMS8-4.096, Precision Low Noise 0.25ppm Low Drift Voltage Reference, MSOP8
+K Precision Voltage Reference 4.096V
+F http://cds.linear.com/docs/en/datasheet/6655fc.pdf
+$ENDCMP
+#
+$CMP LTC6655CHMS8-5
+D LTC6655CHMS8-5, Precision Low Noise 0.25ppm Low Drift Voltage Reference, MSOP8
+K Precision Voltage Reference 5V
+F http://cds.linear.com/docs/en/datasheet/6655fc.pdf
+$ENDCMP
+#
+#End Doc Library

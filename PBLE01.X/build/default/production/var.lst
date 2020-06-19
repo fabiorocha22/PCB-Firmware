@@ -1,0 +1,1305 @@
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE  1
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+                      00001 ;--------------------------------------------------------
+                      00002 ; File Created by SDCC : free open source ANSI-C Compiler
+                      00003 ; Version 3.6.0 #9615 (MINGW64)
+                      00004 ;--------------------------------------------------------
+                      00005 ; PIC16 port for the Microchip 16-bit core micros
+                      00006 ;--------------------------------------------------------
+                      00007         list    p=18f4520
+                      00008         radix   dec
+                      00009 
+                      00010 
+                      00011 ;--------------------------------------------------------
+                      00012 ; public variables in this module
+                      00013 ;--------------------------------------------------------
+  0000                00014         global  _varInit
+  0000                00015         global  _getState
+  0000                00016         global  _setState
+  0000                00017         global  _getTime
+  0000                00018         global  _setTime
+  0000                00019         global  _getMult
+  0000                00020         global  _setMult
+  0000                00021         global  _getAlarmLevel
+  0000                00022         global  _setAlarmLevel
+  0000                00023         global  _getLanguage
+  0000                00024         global  _setLanguage
+  0000                00025         global  _getSenhaStatus
+  0000                00026         global  _enableSenha
+  0000                00027         global  _getSenha_i
+  0000                00028         global  _getSenha_try
+  0000                00029         global  _getTestResult
+  0000                00030         global  _setTestResult
+  0000                00031         global  _testSenha
+  0000                00032         global  _setSenha
+  0000                00033         global  _delay40us
+  0000                00034         global  _delay2ms
+                      00035 
+                      00036 ;--------------------------------------------------------
+                      00037 ; extern variables in this module
+                      00038 ;--------------------------------------------------------
+  0000                00039         extern  __mulint
+                      00040 
+                      00041 ;--------------------------------------------------------
+                      00042 ;       Equates to used internal registers
+                      00043 ;--------------------------------------------------------
+  00000FD8            00044 STATUS  equ     0xfd8
+  00000FE8            00045 WREG    equ     0xfe8
+  00000FE9            00046 FSR0L   equ     0xfe9
+  00000FEA            00047 FSR0H   equ     0xfea
+  00000FE1            00048 FSR1L   equ     0xfe1
+  00000FD9            00049 FSR2L   equ     0xfd9
+  00000FEF            00050 INDF0   equ     0xfef
+  00000FEE            00051 POSTINC0        equ     0xfee
+  00000FE5            00052 POSTDEC1        equ     0xfe5
+  00000FE4            00053 PREINC1 equ     0xfe4
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE  2
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+  00000FDB            00054 PLUSW2  equ     0xfdb
+  00000FF3            00055 PRODL   equ     0xff3
+  00000FF4            00056 PRODH   equ     0xff4
+                      00057 
+                      00058 
+                      00059 ; Internal registers
+                      00060 .registers      udata_ovr       0x0000
+000000                00061 r0x00   res     1
+000001                00062 r0x01   res     1
+000002                00063 r0x02   res     1
+000003                00064 r0x03   res     1
+000004                00065 r0x04   res     1
+000005                00066 r0x05   res     1
+000006                00067 r0x06   res     1
+                      00068 
+                      00069 udata_var_0     udata
+000000                00070 _state  res     1
+                      00071 
+                      00072 udata_var_1     udata
+000000                00073 _language       res     1
+                      00074 
+                      00075 udata_var_2     udata
+000000                00076 _time   res     2
+                      00077 
+                      00078 udata_var_3     udata
+000000                00079 _alarmLevel_H   res     2
+                      00080 
+                      00081 udata_var_4     udata
+000000                00082 _alarmLevel_L   res     2
+                      00083 
+                      00084 udata_var_5     udata
+000000                00085 _senha_enable   res     2
+                      00086 
+                      00087 udata_var_6     udata
+000000                00088 _senha_i        res     2
+                      00089 
+                      00090 udata_var_7     udata
+000000                00091 _senha_result   res     2
+                      00092 
+                      00093 udata_var_8     udata
+000000                00094 _senha_try      res     2
+                      00095 
+                      00096 udata_var_9     udata
+000000                00097 _multiplicador  res     2
+                      00098 
+                      00099 udata_var_10    udata
+000000                00100 _senha_save     res     10
+                      00101 
+                      00102 udata_var_11    udata
+000000                00103 _senha_count    res     10
+                      00104 
+                      00105 udata_var_12    udata
+000000                00106 _senha_new      res     10
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE  3
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+                      00107 
+                      00108 ;--------------------------------------------------------
+                      00109 ; global & static initialisations
+                      00110 ;--------------------------------------------------------
+                      00111 ; I code from now on!
+                      00112 ; ; Starting pCode block
+                      00113 S_var__setSenha code
+000000                00114 _setSenha:
+                      00115 ;       .line   149; var.c      int setSenha(char senha){
+000000 CFD9 FFE5      00116         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00117         MOVFF   FSR1L, FSR2L
+000008 C??? F???      00118         MOVFF   r0x00, POSTDEC1
+00000C C??? F???      00119         MOVFF   r0x01, POSTDEC1
+000010 C??? F???      00120         MOVFF   r0x02, POSTDEC1
+000014 C??? F???      00121         MOVFF   r0x03, POSTDEC1
+000018 C??? F???      00122         MOVFF   r0x04, POSTDEC1
+00001C C??? F???      00123         MOVFF   r0x05, POSTDEC1
+000020 C??? F???      00124         MOVFF   r0x06, POSTDEC1
+000024 0E02           00125         MOVLW   0x02
+000026 CFDB F000      00126         MOVFF   PLUSW2, r0x00
+00002A 010?           00127         BANKSEL _senha_try
+                      00128 ;       .line   152; var.c      senha_try = 0;
+00002C 6B??           00129         CLRF    _senha_try, B
+00002E 010?           00130         BANKSEL (_senha_try + 1)
+000030 6B??           00131         CLRF    (_senha_try + 1), B
+                      00132 ;       .line   153; var.c      if(senha != 0 && senha_i>4){
+000032 50??           00133         MOVF    r0x00, W
+000034 E0??           00134         BZ      _00299_DS_
+000036 010?           00135         BANKSEL (_senha_i + 1)
+000038 51??           00136         MOVF    (_senha_i + 1), W, B
+00003A 0F80           00137         ADDLW   0x80
+00003C 0F80           00138         ADDLW   0x80
+00003E E1??           00139         BNZ     _00347_DS_
+000040 0E05           00140         MOVLW   0x05
+000042 010?           00141         BANKSEL _senha_i
+000044 5D??           00142         SUBWF   _senha_i, W, B
+000046                00143 _00347_DS_:
+000046 E3??           00144         BNC     _00299_DS_
+000048 010?           00145         BANKSEL _senha_i
+                      00146 ;       .line   154; var.c      senha_count[senha_i - 5] = senha;
+00004A 51??           00147         MOVF    _senha_i, W, B
+00004C 6E??           00148         MOVWF   r0x01
+00004E 0EFB           00149         MOVLW   0xfb
+000050 26??           00150         ADDWF   r0x01, F
+                      00151 ; ;multiply lit val:0x02 by variable r0x01 and store in r0x01
+000052 50??           00152         MOVF    r0x01, W
+000054 0D02           00153         MULLW   0x02
+000056 50F4           00154         MOVF    PRODH, W
+000058 BE??           00155         BTFSC   r0x01, 7
+00005A 0802           00156         SUBLW   0x02
+00005C 6E??           00157         MOVWF   r0x02
+00005E CFF3 F000      00158         MOVFF   PRODL, r0x01
+000062 0E??           00159         MOVLW   LOW(_senha_count)
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE  4
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+000064 26??           00160         ADDWF   r0x01, F
+000066 0E??           00161         MOVLW   HIGH(_senha_count)
+000068 22??           00162         ADDWFC  r0x02, F
+00006A C??? F???      00163         MOVFF   r0x00, r0x03
+00006E 6A??           00164         CLRF    r0x04
+000070 C??? F???      00165         MOVFF   r0x01, FSR0L
+000074 C??? F???      00166         MOVFF   r0x02, FSR0H
+000078 C??? F???      00167         MOVFF   r0x03, POSTINC0
+00007C C??? F???      00168         MOVFF   r0x04, INDF0
+000080 010?           00169         BANKSEL _senha_i
+                      00170 ;       .line   155; var.c      senha_i++;
+000082 3F??           00171         INCFSZ  _senha_i, F, B
+000084 D???           00172         BRA     _10298_DS_
+000086 010?           00173         BANKSEL (_senha_i + 1)
+000088 2B??           00174         INCF    (_senha_i + 1), F, B
+00008A                00175 _10298_DS_:
+00008A                00176 _00299_DS_:
+                      00177 ;       .line   158; var.c      if(senha != 0 && senha_i<5 ){
+00008A 50??           00178         MOVF    r0x00, W
+00008C E0??           00179         BZ      _00302_DS_
+00008E 010?           00180         BANKSEL (_senha_i + 1)
+000090 51??           00181         MOVF    (_senha_i + 1), W, B
+000092 0F80           00182         ADDLW   0x80
+000094 0F80           00183         ADDLW   0x80
+000096 E1??           00184         BNZ     _00348_DS_
+000098 0E05           00185         MOVLW   0x05
+00009A 010?           00186         BANKSEL _senha_i
+00009C 5D??           00187         SUBWF   _senha_i, W, B
+00009E                00188 _00348_DS_:
+00009E E2??           00189         BC      _00302_DS_
+0000A0 010?           00190         BANKSEL (_senha_i + 1)
+                      00191 ;       .line   159; var.c      senha_new[senha_i] = senha;
+0000A2 51??           00192         MOVF    (_senha_i + 1), W, B
+0000A4 6EE5           00193         MOVWF   POSTDEC1
+0000A6 010?           00194         BANKSEL _senha_i
+0000A8 51??           00195         MOVF    _senha_i, W, B
+0000AA 6EE5           00196         MOVWF   POSTDEC1
+0000AC 0E00           00197         MOVLW   0x00
+0000AE 6EE5           00198         MOVWF   POSTDEC1
+0000B0 0E02           00199         MOVLW   0x02
+0000B2 6EE5           00200         MOVWF   POSTDEC1
+0000B4 EC?? F0??      00201         CALL    __mulint
+0000B8 6E??           00202         MOVWF   r0x01
+0000BA CFF3 F000      00203         MOVFF   PRODL, r0x02
+0000BE 0E04           00204         MOVLW   0x04
+0000C0 26E1           00205         ADDWF   FSR1L, F
+0000C2 0E??           00206         MOVLW   LOW(_senha_new)
+0000C4 26??           00207         ADDWF   r0x01, F
+0000C6 0E??           00208         MOVLW   HIGH(_senha_new)
+0000C8 22??           00209         ADDWFC  r0x02, F
+0000CA 6A??           00210         CLRF    r0x03
+0000CC C??? F???      00211         MOVFF   r0x01, FSR0L
+0000D0 C??? F???      00212         MOVFF   r0x02, FSR0H
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE  5
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+0000D4 C??? F???      00213         MOVFF   r0x00, POSTINC0
+0000D8 C??? F???      00214         MOVFF   r0x03, INDF0
+0000DC 010?           00215         BANKSEL _senha_i
+                      00216 ;       .line   160; var.c      senha_i++;
+0000DE 3F??           00217         INCFSZ  _senha_i, F, B
+0000E0 D???           00218         BRA     _20299_DS_
+0000E2 010?           00219         BANKSEL (_senha_i + 1)
+0000E4 2B??           00220         INCF    (_senha_i + 1), F, B
+0000E6                00221 _20299_DS_:
+0000E6                00222 _00302_DS_:
+0000E6 010?           00223         BANKSEL _senha_result
+                      00224 ;       .line   163; var.c      senha_result = 0;
+0000E8 6B??           00225         CLRF    _senha_result, B
+0000EA 010?           00226         BANKSEL (_senha_result + 1)
+0000EC 6B??           00227         CLRF    (_senha_result + 1), B
+0000EE 010?           00228         BANKSEL _senha_i
+                      00229 ;       .line   164; var.c      if(senha_i==10){
+0000F0 51??           00230         MOVF    _senha_i, W, B
+0000F2 0A0A           00231         XORLW   0x0a
+0000F4 E1??           00232         BNZ     _00349_DS_
+0000F6 010?           00233         BANKSEL (_senha_i + 1)
+0000F8 51??           00234         MOVF    (_senha_i + 1), W, B
+0000FA E0??           00235         BZ      _00350_DS_
+0000FC                00236 _00349_DS_:
+0000FC D???           00237         BRA     _00309_DS_
+0000FE                00238 _00350_DS_:
+0000FE 010?           00239         BANKSEL _senha_i
+                      00240 ;       .line   165; var.c      senha_i=0;
+000100 6B??           00241         CLRF    _senha_i, B
+000102 010?           00242         BANKSEL (_senha_i + 1)
+000104 6B??           00243         CLRF    (_senha_i + 1), B
+                      00244 ;       .line   166; var.c      for(i=0;i<5;i++){
+000106 6A??           00245         CLRF    r0x00
+000108 6A??           00246         CLRF    r0x01
+00010A 6A??           00247         CLRF    r0x02
+00010C                00248 _00310_DS_:
+                      00249 ;       .line   167; var.c      if(senha_new[i] != senha_count[i]){
+00010C 0E??           00250         MOVLW   LOW(_senha_new)
+00010E 24??           00251         ADDWF   r0x01, W
+000110 6E??           00252         MOVWF   r0x03
+000112 0E??           00253         MOVLW   HIGH(_senha_new)
+000114 20??           00254         ADDWFC  r0x02, W
+000116 6E??           00255         MOVWF   r0x04
+000118 C??? F???      00256         MOVFF   r0x03, FSR0L
+00011C C??? F???      00257         MOVFF   r0x04, FSR0H
+000120 CFEE F000      00258         MOVFF   POSTINC0, r0x03
+000124 CFEF F000      00259         MOVFF   INDF0, r0x04
+000128 0E??           00260         MOVLW   LOW(_senha_count)
+00012A 24??           00261         ADDWF   r0x01, W
+00012C 6E??           00262         MOVWF   r0x05
+00012E 0E??           00263         MOVLW   HIGH(_senha_count)
+000130 20??           00264         ADDWFC  r0x02, W
+000132 6E??           00265         MOVWF   r0x06
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE  6
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+000134 C??? F???      00266         MOVFF   r0x05, FSR0L
+000138 C??? F???      00267         MOVFF   r0x06, FSR0H
+00013C CFEE F000      00268         MOVFF   POSTINC0, r0x05
+000140 CFEF F000      00269         MOVFF   INDF0, r0x06
+000144 50??           00270         MOVF    r0x03, W
+000146 18??           00271         XORWF   r0x05, W
+000148 E1??           00272         BNZ     _00352_DS_
+00014A 50??           00273         MOVF    r0x04, W
+00014C 18??           00274         XORWF   r0x06, W
+00014E E0??           00275         BZ      _00311_DS_
+000150                00276 _00352_DS_:
+000150 010?           00277         BANKSEL _senha_result
+                      00278 ;       .line   168; var.c      senha_result = 0;
+000152 6B??           00279         CLRF    _senha_result, B
+000154 010?           00280         BANKSEL (_senha_result + 1)
+000156 6B??           00281         CLRF    (_senha_result + 1), B
+                      00282 ;       .line   169; var.c      senha_try++;
+000158 0E01           00283         MOVLW   0x01
+00015A 010?           00284         BANKSEL _senha_try
+00015C 6F??           00285         MOVWF   _senha_try, B
+00015E 010?           00286         BANKSEL (_senha_try + 1)
+000160 6B??           00287         CLRF    (_senha_try + 1), B
+                      00288 ;       .line   170; var.c      return 1;
+000162 6AF3           00289         CLRF    PRODL
+000164 0E01           00290         MOVLW   0x01
+000166 D???           00291         BRA     _00314_DS_
+000168                00292 _00311_DS_:
+                      00293 ;       .line   166; var.c      for(i=0;i<5;i++){
+000168 0E02           00294         MOVLW   0x02
+00016A 26??           00295         ADDWF   r0x01, F
+00016C B0D8           00296         BTFSC   STATUS, 0
+00016E 2A??           00297         INCF    r0x02, F
+000170 2A??           00298         INCF    r0x00, F
+000172 0E05           00299         MOVLW   0x05
+000174 5C??           00300         SUBWF   r0x00, W
+000176 E3??           00301         BNC     _00310_DS_
+                      00302 ;       .line   174; var.c      for(i=0;i<5;i++){
+000178 6A??           00303         CLRF    r0x00
+00017A 6A??           00304         CLRF    r0x01
+00017C 6A??           00305         CLRF    r0x02
+00017E                00306 _00312_DS_:
+                      00307 ;       .line   175; var.c      senha_save[i] = senha_new[i];
+00017E 0E??           00308         MOVLW   LOW(_senha_save)
+000180 24??           00309         ADDWF   r0x01, W
+000182 6E??           00310         MOVWF   r0x03
+000184 0E??           00311         MOVLW   HIGH(_senha_save)
+000186 20??           00312         ADDWFC  r0x02, W
+000188 6E??           00313         MOVWF   r0x04
+00018A 0E??           00314         MOVLW   LOW(_senha_new)
+00018C 24??           00315         ADDWF   r0x01, W
+00018E 6E??           00316         MOVWF   r0x05
+000190 0E??           00317         MOVLW   HIGH(_senha_new)
+000192 20??           00318         ADDWFC  r0x02, W
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE  7
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+000194 6E??           00319         MOVWF   r0x06
+000196 C??? F???      00320         MOVFF   r0x05, FSR0L
+00019A C??? F???      00321         MOVFF   r0x06, FSR0H
+00019E CFEE F000      00322         MOVFF   POSTINC0, r0x05
+0001A2 CFEF F000      00323         MOVFF   INDF0, r0x06
+0001A6 C??? F???      00324         MOVFF   r0x03, FSR0L
+0001AA C??? F???      00325         MOVFF   r0x04, FSR0H
+0001AE C??? F???      00326         MOVFF   r0x05, POSTINC0
+0001B2 C??? F???      00327         MOVFF   r0x06, INDF0
+                      00328 ;       .line   174; var.c      for(i=0;i<5;i++){
+0001B6 0E02           00329         MOVLW   0x02
+0001B8 26??           00330         ADDWF   r0x01, F
+0001BA B0D8           00331         BTFSC   STATUS, 0
+0001BC 2A??           00332         INCF    r0x02, F
+0001BE 2A??           00333         INCF    r0x00, F
+0001C0 0E05           00334         MOVLW   0x05
+0001C2 5C??           00335         SUBWF   r0x00, W
+0001C4 E3??           00336         BNC     _00312_DS_
+                      00337 ;       .line   177; var.c      senha_result=1;
+0001C6 0E01           00338         MOVLW   0x01
+0001C8 010?           00339         BANKSEL _senha_result
+0001CA 6F??           00340         MOVWF   _senha_result, B
+0001CC 010?           00341         BANKSEL (_senha_result + 1)
+0001CE 6B??           00342         CLRF    (_senha_result + 1), B
+                      00343 ;       .line   178; var.c      return 1;
+0001D0 6AF3           00344         CLRF    PRODL
+0001D2 0E01           00345         MOVLW   0x01
+0001D4 D???           00346         BRA     _00314_DS_
+0001D6                00347 _00309_DS_:
+                      00348 ;       .line   180; var.c      return 0;
+0001D6 6AF3           00349         CLRF    PRODL
+0001D8 6AE8           00350         CLRF    WREG
+0001DA                00351 _00314_DS_:
+0001DA CFE4 F000      00352         MOVFF   PREINC1, r0x06
+0001DE CFE4 F000      00353         MOVFF   PREINC1, r0x05
+0001E2 CFE4 F000      00354         MOVFF   PREINC1, r0x04
+0001E6 CFE4 F000      00355         MOVFF   PREINC1, r0x03
+0001EA CFE4 F000      00356         MOVFF   PREINC1, r0x02
+0001EE CFE4 F000      00357         MOVFF   PREINC1, r0x01
+0001F2 CFE4 F000      00358         MOVFF   PREINC1, r0x00
+0001F6 CFE4 FFD9      00359         MOVFF   PREINC1, FSR2L
+0001FA 0012           00360         RETURN  
+                      00361 
+                      00362 ; ; Starting pCode block
+                      00363 S_var__testSenha        code
+000000                00364 _testSenha:
+                      00365 ;       .line   120; var.c      int testSenha(char senha){
+000000 CFD9 FFE5      00366         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00367         MOVFF   FSR1L, FSR2L
+000008 C??? F???      00368         MOVFF   r0x00, POSTDEC1
+00000C C??? F???      00369         MOVFF   r0x01, POSTDEC1
+000010 C??? F???      00370         MOVFF   r0x02, POSTDEC1
+000014 C??? F???      00371         MOVFF   r0x03, POSTDEC1
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE  8
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+000018 C??? F???      00372         MOVFF   r0x04, POSTDEC1
+00001C C??? F???      00373         MOVFF   r0x05, POSTDEC1
+000020 C??? F???      00374         MOVFF   r0x06, POSTDEC1
+000024 0E02           00375         MOVLW   0x02
+000026 CFDB F000      00376         MOVFF   PLUSW2, r0x00
+00002A 010?           00377         BANKSEL (_senha_i + 1)
+                      00378 ;       .line   123; var.c      if(senha_i<5){
+00002C 51??           00379         MOVF    (_senha_i + 1), W, B
+00002E 0F80           00380         ADDLW   0x80
+000030 0F80           00381         ADDLW   0x80
+000032 E1??           00382         BNZ     _00286_DS_
+000034 0E05           00383         MOVLW   0x05
+000036 010?           00384         BANKSEL _senha_i
+000038 5D??           00385         SUBWF   _senha_i, W, B
+00003A                00386 _00286_DS_:
+00003A E2??           00387         BC      _00255_DS_
+00003C 010?           00388         BANKSEL _senha_result
+                      00389 ;       .line   124; var.c      senha_result=0;
+00003E 6B??           00390         CLRF    _senha_result, B
+000040 010?           00391         BANKSEL (_senha_result + 1)
+000042 6B??           00392         CLRF    (_senha_result + 1), B
+                      00393 ;       .line   125; var.c      if(senha != 0){
+000044 50??           00394         MOVF    r0x00, W
+000046 E0??           00395         BZ      _00251_DS_
+000048 010?           00396         BANKSEL _senha_i
+                      00397 ;       .line   126; var.c      senha_i++;
+00004A 3F??           00398         INCFSZ  _senha_i, F, B
+00004C D???           00399         BRA     _30300_DS_
+00004E 010?           00400         BANKSEL (_senha_i + 1)
+000050 2B??           00401         INCF    (_senha_i + 1), F, B
+000052                00402 _30300_DS_:
+000052 010?           00403         BANKSEL _senha_i
+                      00404 ;       .line   127; var.c      senha_count[senha_i - 1] = senha;
+000054 51??           00405         MOVF    _senha_i, W, B
+000056 6E??           00406         MOVWF   r0x01
+000058 06??           00407         DECF    r0x01, F
+                      00408 ; ;multiply lit val:0x02 by variable r0x01 and store in r0x01
+00005A 50??           00409         MOVF    r0x01, W
+00005C 0D02           00410         MULLW   0x02
+00005E 50F4           00411         MOVF    PRODH, W
+000060 BE??           00412         BTFSC   r0x01, 7
+000062 0802           00413         SUBLW   0x02
+000064 6E??           00414         MOVWF   r0x02
+000066 CFF3 F000      00415         MOVFF   PRODL, r0x01
+00006A 0E??           00416         MOVLW   LOW(_senha_count)
+00006C 26??           00417         ADDWF   r0x01, F
+00006E 0E??           00418         MOVLW   HIGH(_senha_count)
+000070 22??           00419         ADDWFC  r0x02, F
+000072 6A??           00420         CLRF    r0x03
+000074 C??? F???      00421         MOVFF   r0x01, FSR0L
+000078 C??? F???      00422         MOVFF   r0x02, FSR0H
+00007C C??? F???      00423         MOVFF   r0x00, POSTINC0
+000080 C??? F???      00424         MOVFF   r0x03, INDF0
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE  9
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+000084                00425 _00251_DS_:
+000084 010?           00426         BANKSEL _senha_try
+                      00427 ;       .line   129; var.c      if(senha_try==3){
+000086 51??           00428         MOVF    _senha_try, W, B
+000088 0A03           00429         XORLW   0x03
+00008A E1??           00430         BNZ     _00255_DS_
+00008C 010?           00431         BANKSEL (_senha_try + 1)
+00008E 51??           00432         MOVF    (_senha_try + 1), W, B
+000090 E0??           00433         BZ      _00288_DS_
+000092                00434 _00287_DS_:
+000092 D???           00435         BRA     _00255_DS_
+000094                00436 _00288_DS_:
+000094 010?           00437         BANKSEL _senha_try
+                      00438 ;       .line   130; var.c      senha_try=0;
+000096 6B??           00439         CLRF    _senha_try, B
+000098 010?           00440         BANKSEL (_senha_try + 1)
+00009A 6B??           00441         CLRF    (_senha_try + 1), B
+00009C                00442 _00255_DS_:
+00009C 010?           00443         BANKSEL _senha_i
+                      00444 ;       .line   133; var.c      if(senha_i==5){
+00009E 51??           00445         MOVF    _senha_i, W, B
+0000A0 0A05           00446         XORLW   0x05
+0000A2 E1??           00447         BNZ     _00289_DS_
+0000A4 010?           00448         BANKSEL (_senha_i + 1)
+0000A6 51??           00449         MOVF    (_senha_i + 1), W, B
+0000A8 E0??           00450         BZ      _00290_DS_
+0000AA                00451 _00289_DS_:
+0000AA D???           00452         BRA     _00260_DS_
+0000AC                00453 _00290_DS_:
+                      00454 ;       .line   134; var.c      for(i=0;i<5;i++){
+0000AC 6A??           00455         CLRF    r0x00
+0000AE 6A??           00456         CLRF    r0x01
+0000B0 6A??           00457         CLRF    r0x02
+0000B2                00458 _00261_DS_:
+                      00459 ;       .line   135; var.c      if(senha_count[i] != senha_save[i]){
+0000B2 0E??           00460         MOVLW   LOW(_senha_count)
+0000B4 24??           00461         ADDWF   r0x01, W
+0000B6 6E??           00462         MOVWF   r0x03
+0000B8 0E??           00463         MOVLW   HIGH(_senha_count)
+0000BA 20??           00464         ADDWFC  r0x02, W
+0000BC 6E??           00465         MOVWF   r0x04
+0000BE C??? F???      00466         MOVFF   r0x03, FSR0L
+0000C2 C??? F???      00467         MOVFF   r0x04, FSR0H
+0000C6 CFEE F000      00468         MOVFF   POSTINC0, r0x03
+0000CA CFEF F000      00469         MOVFF   INDF0, r0x04
+0000CE 0E??           00470         MOVLW   LOW(_senha_save)
+0000D0 24??           00471         ADDWF   r0x01, W
+0000D2 6E??           00472         MOVWF   r0x05
+0000D4 0E??           00473         MOVLW   HIGH(_senha_save)
+0000D6 20??           00474         ADDWFC  r0x02, W
+0000D8 6E??           00475         MOVWF   r0x06
+0000DA C??? F???      00476         MOVFF   r0x05, FSR0L
+0000DE C??? F???      00477         MOVFF   r0x06, FSR0H
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE 10
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+0000E2 CFEE F000      00478         MOVFF   POSTINC0, r0x05
+0000E6 CFEF F000      00479         MOVFF   INDF0, r0x06
+0000EA 50??           00480         MOVF    r0x03, W
+0000EC 18??           00481         XORWF   r0x05, W
+0000EE E1??           00482         BNZ     _00292_DS_
+0000F0 50??           00483         MOVF    r0x04, W
+0000F2 18??           00484         XORWF   r0x06, W
+0000F4 E0??           00485         BZ      _00262_DS_
+0000F6                00486 _00292_DS_:
+0000F6 010?           00487         BANKSEL _senha_try
+                      00488 ;       .line   136; var.c      senha_try++;
+0000F8 3F??           00489         INCFSZ  _senha_try, F, B
+0000FA D???           00490         BRA     _40301_DS_
+0000FC 010?           00491         BANKSEL (_senha_try + 1)
+0000FE 2B??           00492         INCF    (_senha_try + 1), F, B
+000100                00493 _40301_DS_:
+000100 010?           00494         BANKSEL _senha_i
+                      00495 ;       .line   137; var.c      senha_i=0;
+000102 6B??           00496         CLRF    _senha_i, B
+000104 010?           00497         BANKSEL (_senha_i + 1)
+000106 6B??           00498         CLRF    (_senha_i + 1), B
+                      00499 ;       .line   138; var.c      return 0;
+000108 6AF3           00500         CLRF    PRODL
+00010A 6AE8           00501         CLRF    WREG
+00010C D???           00502         BRA     _00263_DS_
+00010E                00503 _00262_DS_:
+                      00504 ;       .line   134; var.c      for(i=0;i<5;i++){
+00010E 0E02           00505         MOVLW   0x02
+000110 26??           00506         ADDWF   r0x01, F
+000112 B0D8           00507         BTFSC   STATUS, 0
+000114 2A??           00508         INCF    r0x02, F
+000116 2A??           00509         INCF    r0x00, F
+000118 0E05           00510         MOVLW   0x05
+00011A 5C??           00511         SUBWF   r0x00, W
+00011C E3??           00512         BNC     _00261_DS_
+00011E 010?           00513         BANKSEL _senha_try
+                      00514 ;       .line   142; var.c      senha_try = 0;
+000120 6B??           00515         CLRF    _senha_try, B
+000122 010?           00516         BANKSEL (_senha_try + 1)
+000124 6B??           00517         CLRF    (_senha_try + 1), B
+000126 010?           00518         BANKSEL _senha_i
+                      00519 ;       .line   143; var.c      senha_i = 0;
+000128 6B??           00520         CLRF    _senha_i, B
+00012A 010?           00521         BANKSEL (_senha_i + 1)
+00012C 6B??           00522         CLRF    (_senha_i + 1), B
+                      00523 ;       .line   144; var.c      senha_result = 1;
+00012E 0E01           00524         MOVLW   0x01
+000130 010?           00525         BANKSEL _senha_result
+000132 6F??           00526         MOVWF   _senha_result, B
+000134 010?           00527         BANKSEL (_senha_result + 1)
+000136 6B??           00528         CLRF    (_senha_result + 1), B
+                      00529 ;       .line   145; var.c      return 1;
+000138 6AF3           00530         CLRF    PRODL
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE 11
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+00013A 0E01           00531         MOVLW   0x01
+00013C D???           00532         BRA     _00263_DS_
+00013E                00533 _00260_DS_:
+                      00534 ;       .line   147; var.c      return 0;
+00013E 6AF3           00535         CLRF    PRODL
+000140 6AE8           00536         CLRF    WREG
+000142                00537 _00263_DS_:
+000142 CFE4 F000      00538         MOVFF   PREINC1, r0x06
+000146 CFE4 F000      00539         MOVFF   PREINC1, r0x05
+00014A CFE4 F000      00540         MOVFF   PREINC1, r0x04
+00014E CFE4 F000      00541         MOVFF   PREINC1, r0x03
+000152 CFE4 F000      00542         MOVFF   PREINC1, r0x02
+000156 CFE4 F000      00543         MOVFF   PREINC1, r0x01
+00015A CFE4 F000      00544         MOVFF   PREINC1, r0x00
+00015E CFE4 FFD9      00545         MOVFF   PREINC1, FSR2L
+000162 0012           00546         RETURN  
+                      00547 
+                      00548 ; ; Starting pCode block
+                      00549 S_var__setTestResult    code
+000000                00550 _setTestResult:
+                      00551 ;       .line   117; var.c      void setTestResult(int x){
+000000 CFD9 FFE5      00552         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00553         MOVFF   FSR1L, FSR2L
+000008 0E02           00554         MOVLW   0x02
+00000A CFDB F000      00555         MOVFF   PLUSW2, _senha_result
+00000E 0E03           00556         MOVLW   0x03
+000010 CFDB F000      00557         MOVFF   PLUSW2, (_senha_result + 1)
+                      00558 ;       .line   118; var.c      senha_result = x;
+000014 CFE4 FFD9      00559         MOVFF   PREINC1, FSR2L
+000018 0012           00560         RETURN  
+                      00561 
+                      00562 ; ; Starting pCode block
+                      00563 S_var__getTestResult    code
+000000                00564 _getTestResult:
+                      00565 ;       .line   114; var.c      int getTestResult(){
+000000 CFD9 FFE5      00566         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00567         MOVFF   FSR1L, FSR2L
+                      00568 ;       .line   115; var.c      return senha_result;
+000008 C??? F???      00569         MOVFF   (_senha_result + 1), PRODL
+00000C 010?           00570         BANKSEL _senha_result
+00000E 51??           00571         MOVF    _senha_result, W, B
+000010 CFE4 FFD9      00572         MOVFF   PREINC1, FSR2L
+000014 0012           00573         RETURN  
+                      00574 
+                      00575 ; ; Starting pCode block
+                      00576 S_var__getSenha_try     code
+000000                00577 _getSenha_try:
+                      00578 ;       .line   111; var.c      int getSenha_try(){
+000000 CFD9 FFE5      00579         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00580         MOVFF   FSR1L, FSR2L
+                      00581 ;       .line   112; var.c      return senha_try;
+000008 C??? F???      00582         MOVFF   (_senha_try + 1), PRODL
+00000C 010?           00583         BANKSEL _senha_try
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE 12
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+00000E 51??           00584         MOVF    _senha_try, W, B
+000010 CFE4 FFD9      00585         MOVFF   PREINC1, FSR2L
+000014 0012           00586         RETURN  
+                      00587 
+                      00588 ; ; Starting pCode block
+                      00589 S_var__getSenha_i       code
+000000                00590 _getSenha_i:
+                      00591 ;       .line   108; var.c      int getSenha_i(){
+000000 CFD9 FFE5      00592         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00593         MOVFF   FSR1L, FSR2L
+                      00594 ;       .line   109; var.c      return senha_i;
+000008 C??? F???      00595         MOVFF   (_senha_i + 1), PRODL
+00000C 010?           00596         BANKSEL _senha_i
+00000E 51??           00597         MOVF    _senha_i, W, B
+000010 CFE4 FFD9      00598         MOVFF   PREINC1, FSR2L
+000014 0012           00599         RETURN  
+                      00600 
+                      00601 ; ; Starting pCode block
+                      00602 S_var__enableSenha      code
+000000                00603 _enableSenha:
+                      00604 ;       .line   105; var.c      void enableSenha(int x){
+000000 CFD9 FFE5      00605         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00606         MOVFF   FSR1L, FSR2L
+000008 0E02           00607         MOVLW   0x02
+00000A CFDB F000      00608         MOVFF   PLUSW2, _senha_enable
+00000E 0E03           00609         MOVLW   0x03
+000010 CFDB F000      00610         MOVFF   PLUSW2, (_senha_enable + 1)
+                      00611 ;       .line   106; var.c      senha_enable = x;
+000014 CFE4 FFD9      00612         MOVFF   PREINC1, FSR2L
+000018 0012           00613         RETURN  
+                      00614 
+                      00615 ; ; Starting pCode block
+                      00616 S_var__getSenhaStatus   code
+000000                00617 _getSenhaStatus:
+                      00618 ;       .line   102; var.c      int getSenhaStatus(){
+000000 CFD9 FFE5      00619         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00620         MOVFF   FSR1L, FSR2L
+                      00621 ;       .line   103; var.c      return senha_enable;
+000008 C??? F???      00622         MOVFF   (_senha_enable + 1), PRODL
+00000C 010?           00623         BANKSEL _senha_enable
+00000E 51??           00624         MOVF    _senha_enable, W, B
+000010 CFE4 FFD9      00625         MOVFF   PREINC1, FSR2L
+000014 0012           00626         RETURN  
+                      00627 
+                      00628 ; ; Starting pCode block
+                      00629 S_var__setLanguage      code
+000000                00630 _setLanguage:
+                      00631 ;       .line   95; var.c       void setLanguage(char newLanguage){
+000000 CFD9 FFE5      00632         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00633         MOVFF   FSR1L, FSR2L
+000008 C??? F???      00634         MOVFF   r0x00, POSTDEC1
+00000C 0E02           00635         MOVLW   0x02
+00000E CFDB F000      00636         MOVFF   PLUSW2, r0x00
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE 13
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+                      00637 ;       .line   98; var.c       language = newLanguage%2;
+000012 0E01           00638         MOVLW   0x01
+000014 14??           00639         ANDWF   r0x00, W
+000016 010?           00640         BANKSEL _language
+000018 6F??           00641         MOVWF   _language, B
+00001A CFE4 F000      00642         MOVFF   PREINC1, r0x00
+00001E CFE4 FFD9      00643         MOVFF   PREINC1, FSR2L
+000022 0012           00644         RETURN  
+                      00645 
+                      00646 ; ; Starting pCode block
+                      00647 S_var__getLanguage      code
+000000                00648 _getLanguage:
+                      00649 ;       .line   92; var.c       char getLanguage(void){
+000000 CFD9 FFE5      00650         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00651         MOVFF   FSR1L, FSR2L
+000008 010?           00652         BANKSEL _language
+                      00653 ;       .line   93; var.c       return language;
+00000A 51??           00654         MOVF    _language, W, B
+00000C CFE4 FFD9      00655         MOVFF   PREINC1, FSR2L
+000010 0012           00656         RETURN  
+                      00657 
+                      00658 ; ; Starting pCode block
+                      00659 S_var__setAlarmLevel    code
+000000                00660 _setAlarmLevel:
+                      00661 ;       .line   82; var.c       void setAlarmLevel(int newAlarmLevel, int valor) {
+000000 CFD9 FFE5      00662         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00663         MOVFF   FSR1L, FSR2L
+000008 C??? F???      00664         MOVFF   r0x00, POSTDEC1
+00000C C??? F???      00665         MOVFF   r0x01, POSTDEC1
+000010 C??? F???      00666         MOVFF   r0x02, POSTDEC1
+000014 C??? F???      00667         MOVFF   r0x03, POSTDEC1
+000018 0E02           00668         MOVLW   0x02
+00001A CFDB F000      00669         MOVFF   PLUSW2, r0x00
+00001E 0E03           00670         MOVLW   0x03
+000020 CFDB F000      00671         MOVFF   PLUSW2, r0x01
+000024 0E04           00672         MOVLW   0x04
+000026 CFDB F000      00673         MOVFF   PLUSW2, r0x02
+00002A 0E05           00674         MOVLW   0x05
+00002C CFDB F000      00675         MOVFF   PLUSW2, r0x03
+                      00676 ;       .line   83; var.c       if(valor == 2){
+000030 50??           00677         MOVF    r0x02, W
+000032 0A02           00678         XORLW   0x02
+000034 E1??           00679         BNZ     _00202_DS_
+000036 50??           00680         MOVF    r0x03, W
+000038 E0??           00681         BZ      _00203_DS_
+00003A                00682 _00202_DS_:
+00003A D???           00683         BRA     _00191_DS_
+00003C                00684 _00203_DS_:
+                      00685 ;       .line   84; var.c       alarmLevel_H = newAlarmLevel;
+00003C C??? F???      00686         MOVFF   r0x00, _alarmLevel_H
+000040 C??? F???      00687         MOVFF   r0x01, (_alarmLevel_H + 1)
+000044                00688 _00191_DS_:
+                      00689 ;       .line   86; var.c       if(valor == 1){
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE 14
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+000044 50??           00690         MOVF    r0x02, W
+000046 0A01           00691         XORLW   0x01
+000048 E1??           00692         BNZ     _00204_DS_
+00004A 50??           00693         MOVF    r0x03, W
+00004C E0??           00694         BZ      _00205_DS_
+00004E                00695 _00204_DS_:
+00004E D???           00696         BRA     _00194_DS_
+000050                00697 _00205_DS_:
+                      00698 ;       .line   87; var.c       alarmLevel_L = newAlarmLevel;
+000050 C??? F???      00699         MOVFF   r0x00, _alarmLevel_L
+000054 C??? F???      00700         MOVFF   r0x01, (_alarmLevel_L + 1)
+000058                00701 _00194_DS_:
+000058 CFE4 F000      00702         MOVFF   PREINC1, r0x03
+00005C CFE4 F000      00703         MOVFF   PREINC1, r0x02
+000060 CFE4 F000      00704         MOVFF   PREINC1, r0x01
+000064 CFE4 F000      00705         MOVFF   PREINC1, r0x00
+000068 CFE4 FFD9      00706         MOVFF   PREINC1, FSR2L
+00006C 0012           00707         RETURN  
+                      00708 
+                      00709 ; ; Starting pCode block
+                      00710 S_var__getAlarmLevel    code
+000000                00711 _getAlarmLevel:
+                      00712 ;       .line   73; var.c       int getAlarmLevel(int valor) {
+000000 CFD9 FFE5      00713         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00714         MOVFF   FSR1L, FSR2L
+000008 C??? F???      00715         MOVFF   r0x00, POSTDEC1
+00000C C??? F???      00716         MOVFF   r0x01, POSTDEC1
+000010 0E02           00717         MOVLW   0x02
+000012 CFDB F000      00718         MOVFF   PLUSW2, r0x00
+000016 0E03           00719         MOVLW   0x03
+000018 CFDB F000      00720         MOVFF   PLUSW2, r0x01
+                      00721 ;       .line   74; var.c       if(valor == 2)
+00001C 50??           00722         MOVF    r0x00, W
+00001E 0A02           00723         XORLW   0x02
+000020 E1??           00724         BNZ     _00182_DS_
+000022 50??           00725         MOVF    r0x01, W
+000024 E0??           00726         BZ      _00183_DS_
+000026                00727 _00182_DS_:
+000026 D???           00728         BRA     _00170_DS_
+000028                00729 _00183_DS_:
+                      00730 ;       .line   75; var.c       return alarmLevel_H;
+000028 C??? F???      00731         MOVFF   (_alarmLevel_H + 1), PRODL
+00002C 010?           00732         BANKSEL _alarmLevel_H
+00002E 51??           00733         MOVF    _alarmLevel_H, W, B
+000030 D???           00734         BRA     _00174_DS_
+000032                00735 _00170_DS_:
+                      00736 ;       .line   76; var.c       if(valor == 1)
+000032 50??           00737         MOVF    r0x00, W
+000034 0A01           00738         XORLW   0x01
+000036 E1??           00739         BNZ     _00184_DS_
+000038 50??           00740         MOVF    r0x01, W
+00003A E0??           00741         BZ      _00185_DS_
+00003C                00742 _00184_DS_:
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE 15
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+00003C D???           00743         BRA     _00172_DS_
+00003E                00744 _00185_DS_:
+                      00745 ;       .line   77; var.c       return alarmLevel_L;
+00003E C??? F???      00746         MOVFF   (_alarmLevel_L + 1), PRODL
+000042 010?           00747         BANKSEL _alarmLevel_L
+000044 51??           00748         MOVF    _alarmLevel_L, W, B
+000046 D???           00749         BRA     _00174_DS_
+000048                00750 _00172_DS_:
+                      00751 ;       .line   79; var.c       return 0;
+000048 6AF3           00752         CLRF    PRODL
+00004A 6AE8           00753         CLRF    WREG
+00004C                00754 _00174_DS_:
+00004C CFE4 F000      00755         MOVFF   PREINC1, r0x01
+000050 CFE4 F000      00756         MOVFF   PREINC1, r0x00
+000054 CFE4 FFD9      00757         MOVFF   PREINC1, FSR2L
+000058 0012           00758         RETURN  
+                      00759 
+                      00760 ; ; Starting pCode block
+                      00761 S_var__setMult  code
+000000                00762 _setMult:
+                      00763 ;       .line   68; var.c       void setMult(int mult){
+000000 CFD9 FFE5      00764         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00765         MOVFF   FSR1L, FSR2L
+000008 0E02           00766         MOVLW   0x02
+00000A CFDB F000      00767         MOVFF   PLUSW2, _multiplicador
+00000E 0E03           00768         MOVLW   0x03
+000010 CFDB F000      00769         MOVFF   PLUSW2, (_multiplicador + 1)
+                      00770 ;       .line   69; var.c       multiplicador = mult;
+000014 CFE4 FFD9      00771         MOVFF   PREINC1, FSR2L
+000018 0012           00772         RETURN  
+                      00773 
+                      00774 ; ; Starting pCode block
+                      00775 S_var__getMult  code
+000000                00776 _getMult:
+                      00777 ;       .line   65; var.c       int getMult(){
+000000 CFD9 FFE5      00778         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00779         MOVFF   FSR1L, FSR2L
+                      00780 ;       .line   66; var.c       return multiplicador;
+000008 C??? F???      00781         MOVFF   (_multiplicador + 1), PRODL
+00000C 010?           00782         BANKSEL _multiplicador
+00000E 51??           00783         MOVF    _multiplicador, W, B
+000010 CFE4 FFD9      00784         MOVFF   PREINC1, FSR2L
+000014 0012           00785         RETURN  
+                      00786 
+                      00787 ; ; Starting pCode block
+                      00788 S_var__setTime  code
+000000                00789 _setTime:
+                      00790 ;       .line   62; var.c       void setTime(int newTime) {
+000000 CFD9 FFE5      00791         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00792         MOVFF   FSR1L, FSR2L
+000008 0E02           00793         MOVLW   0x02
+00000A CFDB F000      00794         MOVFF   PLUSW2, _time
+00000E 0E03           00795         MOVLW   0x03
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE 16
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+000010 CFDB F000      00796         MOVFF   PLUSW2, (_time + 1)
+                      00797 ;       .line   63; var.c       time = newTime;
+000014 CFE4 FFD9      00798         MOVFF   PREINC1, FSR2L
+000018 0012           00799         RETURN  
+                      00800 
+                      00801 ; ; Starting pCode block
+                      00802 S_var__getTime  code
+000000                00803 _getTime:
+                      00804 ;       .line   59; var.c       int getTime(void) {
+000000 CFD9 FFE5      00805         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00806         MOVFF   FSR1L, FSR2L
+                      00807 ;       .line   60; var.c       return time;
+000008 C??? F???      00808         MOVFF   (_time + 1), PRODL
+00000C 010?           00809         BANKSEL _time
+00000E 51??           00810         MOVF    _time, W, B
+000010 CFE4 FFD9      00811         MOVFF   PREINC1, FSR2L
+000014 0012           00812         RETURN  
+                      00813 
+                      00814 ; ; Starting pCode block
+                      00815 S_var__setState code
+000000                00816 _setState:
+                      00817 ;       .line   54; var.c       void setState(char newState) {
+000000 CFD9 FFE5      00818         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00819         MOVFF   FSR1L, FSR2L
+000008 0E02           00820         MOVLW   0x02
+00000A CFDB F000      00821         MOVFF   PLUSW2, _state
+                      00822 ;       .line   55; var.c       state = newState;
+00000E CFE4 FFD9      00823         MOVFF   PREINC1, FSR2L
+000012 0012           00824         RETURN  
+                      00825 
+                      00826 ; ; Starting pCode block
+                      00827 S_var__getState code
+000000                00828 _getState:
+                      00829 ;       .line   51; var.c       char getState(void) {
+000000 CFD9 FFE5      00830         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00831         MOVFF   FSR1L, FSR2L
+000008 010?           00832         BANKSEL _state
+                      00833 ;       .line   52; var.c       return state;
+00000A 51??           00834         MOVF    _state, W, B
+00000C CFE4 FFD9      00835         MOVFF   PREINC1, FSR2L
+000010 0012           00836         RETURN  
+                      00837 
+                      00838 ; ; Starting pCode block
+                      00839 S_var__varInit  code
+000000                00840 _varInit:
+                      00841 ;       .line   34; var.c       void varInit(void) {
+000000 CFD9 FFE5      00842         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00843         MOVFF   FSR1L, FSR2L
+000008 C??? F???      00844         MOVFF   r0x00, POSTDEC1
+00000C C??? F???      00845         MOVFF   r0x01, POSTDEC1
+000010 010?           00846         BANKSEL _state
+                      00847 ;       .line   35; var.c       state = 0;
+000012 6B??           00848         CLRF    _state, B
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE 17
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+                      00849 ;       .line   36; var.c       time = 1000;
+000014 0EE8           00850         MOVLW   0xe8
+000016 010?           00851         BANKSEL _time
+000018 6F??           00852         MOVWF   _time, B
+00001A 0E03           00853         MOVLW   0x03
+00001C 010?           00854         BANKSEL (_time + 1)
+00001E 6F??           00855         MOVWF   (_time + 1), B
+                      00856 ;       .line   37; var.c       alarmLevel_L = 20;
+000020 0E14           00857         MOVLW   0x14
+000022 010?           00858         BANKSEL _alarmLevel_L
+000024 6F??           00859         MOVWF   _alarmLevel_L, B
+000026 010?           00860         BANKSEL (_alarmLevel_L + 1)
+000028 6B??           00861         CLRF    (_alarmLevel_L + 1), B
+                      00862 ;       .line   38; var.c       alarmLevel_H = 80;
+00002A 0E50           00863         MOVLW   0x50
+00002C 010?           00864         BANKSEL _alarmLevel_H
+00002E 6F??           00865         MOVWF   _alarmLevel_H, B
+000030 010?           00866         BANKSEL (_alarmLevel_H + 1)
+000032 6B??           00867         CLRF    (_alarmLevel_H + 1), B
+000034 010?           00868         BANKSEL _language
+                      00869 ;       .line   39; var.c       language = 0;
+000036 6B??           00870         CLRF    _language, B
+                      00871 ;       .line   40; var.c       multiplicador = 10;
+000038 0E0A           00872         MOVLW   0x0a
+00003A 010?           00873         BANKSEL _multiplicador
+00003C 6F??           00874         MOVWF   _multiplicador, B
+00003E 010?           00875         BANKSEL (_multiplicador + 1)
+000040 6B??           00876         CLRF    (_multiplicador + 1), B
+000042 010?           00877         BANKSEL _senha_i
+                      00878 ;       .line   41; var.c       for(senha_i=0;senha_i<5;senha_i++){
+000044 6B??           00879         CLRF    _senha_i, B
+000046 010?           00880         BANKSEL (_senha_i + 1)
+000048 6B??           00881         CLRF    (_senha_i + 1), B
+00004A                00882 _00124_DS_:
+00004A 010?           00883         BANKSEL (_senha_i + 1)
+                      00884 ;       .line   42; var.c       senha_save[senha_i]= 5 ;
+00004C 51??           00885         MOVF    (_senha_i + 1), W, B
+00004E 6EE5           00886         MOVWF   POSTDEC1
+000050 010?           00887         BANKSEL _senha_i
+000052 51??           00888         MOVF    _senha_i, W, B
+000054 6EE5           00889         MOVWF   POSTDEC1
+000056 0E00           00890         MOVLW   0x00
+000058 6EE5           00891         MOVWF   POSTDEC1
+00005A 0E02           00892         MOVLW   0x02
+00005C 6EE5           00893         MOVWF   POSTDEC1
+00005E EC?? F0??      00894         CALL    __mulint
+000062 6E??           00895         MOVWF   r0x00
+000064 CFF3 F000      00896         MOVFF   PRODL, r0x01
+000068 0E04           00897         MOVLW   0x04
+00006A 26E1           00898         ADDWF   FSR1L, F
+00006C 0E??           00899         MOVLW   LOW(_senha_save)
+00006E 26??           00900         ADDWF   r0x00, F
+000070 0E??           00901         MOVLW   HIGH(_senha_save)
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE 18
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+000072 22??           00902         ADDWFC  r0x01, F
+000074 C??? F???      00903         MOVFF   r0x00, FSR0L
+000078 C??? F???      00904         MOVFF   r0x01, FSR0H
+00007C 0E05           00905         MOVLW   0x05
+00007E 6EEE           00906         MOVWF   POSTINC0
+000080 0E00           00907         MOVLW   0x00
+000082 6EEF           00908         MOVWF   INDF0
+000084 010?           00909         BANKSEL _senha_i
+                      00910 ;       .line   41; var.c       for(senha_i=0;senha_i<5;senha_i++){
+000086 3F??           00911         INCFSZ  _senha_i, F, B
+000088 D???           00912         BRA     _50302_DS_
+00008A 010?           00913         BANKSEL (_senha_i + 1)
+00008C 2B??           00914         INCF    (_senha_i + 1), F, B
+00008E                00915 _50302_DS_:
+00008E 010?           00916         BANKSEL (_senha_i + 1)
+000090 51??           00917         MOVF    (_senha_i + 1), W, B
+000092 0F80           00918         ADDLW   0x80
+000094 0F80           00919         ADDLW   0x80
+000096 E1??           00920         BNZ     _00134_DS_
+000098 0E05           00921         MOVLW   0x05
+00009A 010?           00922         BANKSEL _senha_i
+00009C 5D??           00923         SUBWF   _senha_i, W, B
+00009E                00924 _00134_DS_:
+00009E E3??           00925         BNC     _00124_DS_
+                      00926 ;       .line   44; var.c       senha_enable = 1;
+0000A0 0E01           00927         MOVLW   0x01
+0000A2 010?           00928         BANKSEL _senha_enable
+0000A4 6F??           00929         MOVWF   _senha_enable, B
+0000A6 010?           00930         BANKSEL (_senha_enable + 1)
+0000A8 6B??           00931         CLRF    (_senha_enable + 1), B
+0000AA 010?           00932         BANKSEL _senha_i
+                      00933 ;       .line   45; var.c       senha_i = 0;
+0000AC 6B??           00934         CLRF    _senha_i, B
+0000AE 010?           00935         BANKSEL (_senha_i + 1)
+0000B0 6B??           00936         CLRF    (_senha_i + 1), B
+0000B2 010?           00937         BANKSEL _senha_try
+                      00938 ;       .line   46; var.c       senha_try = 0;
+0000B4 6B??           00939         CLRF    _senha_try, B
+0000B6 010?           00940         BANKSEL (_senha_try + 1)
+0000B8 6B??           00941         CLRF    (_senha_try + 1), B
+0000BA 010?           00942         BANKSEL _senha_result
+                      00943 ;       .line   47; var.c       senha_result = 0;
+0000BC 6B??           00944         CLRF    _senha_result, B
+0000BE 010?           00945         BANKSEL (_senha_result + 1)
+0000C0 6B??           00946         CLRF    (_senha_result + 1), B
+0000C2 CFE4 F000      00947         MOVFF   PREINC1, r0x01
+0000C6 CFE4 F000      00948         MOVFF   PREINC1, r0x00
+0000CA CFE4 FFD9      00949         MOVFF   PREINC1, FSR2L
+0000CE 0012           00950         RETURN  
+                      00951 
+                      00952 ; ; Starting pCode block
+                      00953 S_var__delay2ms code
+000000                00954 _delay2ms:
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE 19
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+                      00955 ;       .line   27; var.c       void delay2ms(void) {
+000000 CFD9 FFE5      00956         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00957         MOVFF   FSR1L, FSR2L
+000008 C??? F???      00958         MOVFF   r0x00, POSTDEC1
+00000C C??? F???      00959         MOVFF   r0x01, POSTDEC1
+                      00960 ;       .line   29; var.c       for (i = 0; i < 50; i++) {
+000010 0E32           00961         MOVLW   0x32
+000012 6E??           00962         MOVWF   r0x00
+000014                00963 _00117_DS_:
+                      00964 ;       .line   30; var.c       delay40us();
+000014 EC?? F0??      00965         CALL    _delay40us
+000018 04??           00966         DECF    r0x00, W
+00001A 6E??           00967         MOVWF   r0x01
+00001C C??? F???      00968         MOVFF   r0x01, r0x00
+                      00969 ;       .line   29; var.c       for (i = 0; i < 50; i++) {
+000020 50??           00970         MOVF    r0x01, W
+000022 E1??           00971         BNZ     _00117_DS_
+000024 CFE4 F000      00972         MOVFF   PREINC1, r0x01
+000028 CFE4 F000      00973         MOVFF   PREINC1, r0x00
+00002C CFE4 FFD9      00974         MOVFF   PREINC1, FSR2L
+000030 0012           00975         RETURN  
+                      00976 
+                      00977 ; ; Starting pCode block
+                      00978 S_var__delay40us        code
+000000                00979 _delay40us:
+                      00980 ;       .line   22; var.c       void delay40us(void) {
+000000 CFD9 FFE5      00981         MOVFF   FSR2L, POSTDEC1
+000004 CFE1 FFD9      00982         MOVFF   FSR1L, FSR2L
+000008 C??? F???      00983         MOVFF   r0x00, POSTDEC1
+00000C C??? F???      00984         MOVFF   r0x01, POSTDEC1
+                      00985 ;       .line   24; var.c       for (i = 0; i < 10; i++); //valor aproximado
+000010 0E0A           00986         MOVLW   0x0a
+000012 6E??           00987         MOVWF   r0x00
+000014                00988 _00108_DS_:
+000014 04??           00989         DECF    r0x00, W
+000016 6E??           00990         MOVWF   r0x01
+000018 C??? F???      00991         MOVFF   r0x01, r0x00
+00001C 50??           00992         MOVF    r0x01, W
+00001E E1??           00993         BNZ     _00108_DS_
+000020 CFE4 F000      00994         MOVFF   PREINC1, r0x01
+000024 CFE4 F000      00995         MOVFF   PREINC1, r0x00
+000028 CFE4 FFD9      00996         MOVFF   PREINC1, FSR2L
+00002C 0012           00997         RETURN  
+                      00998 
+                      00999 
+                      01000 
+                      01001 ; Statistics:
+                      01002 ; code size:     1696 (0x06a0) bytes ( 1.29%)
+                      01003 ;                 848 (0x0350) words
+                      01004 ; udata size:      48 (0x0030) bytes ( 3.75%)
+                      01005 ; access size:      7 (0x0007) bytes
+                      01006 
+                      01007 
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE 20
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+                      01008         end
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE 21
+
+
+SYMBOL TABLE
+  LABEL                              TYPE        VALUE         VALUE          VALUE
+                                                 (hex)         (dec)          (text)
+
+FSR0H                             CONSTANT      00000FEA           4074
+FSR0L                             CONSTANT      00000FE9           4073
+FSR1L                             CONSTANT      00000FE1           4065
+FSR2L                             CONSTANT      00000FD9           4057
+INDF0                             CONSTANT      00000FEF           4079
+PLUSW2                            CONSTANT      00000FDB           4059
+POSTDEC1                          CONSTANT      00000FE5           4069
+POSTINC0                          CONSTANT      00000FEE           4078
+PREINC1                           CONSTANT      00000FE4           4068
+PRODH                             CONSTANT      00000FF4           4084
+PRODL                             CONSTANT      00000FF3           4083
+STATUS                            CONSTANT      00000FD8           4056
+WREG                              CONSTANT      00000FE8           4072
+_00108_DS_                        ADDRESS       00000014             20
+_00117_DS_                        ADDRESS       00000014             20
+_00124_DS_                        ADDRESS       0000004A             74
+_00134_DS_                        ADDRESS       0000009E            158
+_00170_DS_                        ADDRESS       00000032             50
+_00172_DS_                        ADDRESS       00000048             72
+_00174_DS_                        ADDRESS       0000004C             76
+_00182_DS_                        ADDRESS       00000026             38
+_00183_DS_                        ADDRESS       00000028             40
+_00184_DS_                        ADDRESS       0000003C             60
+_00185_DS_                        ADDRESS       0000003E             62
+_00191_DS_                        ADDRESS       00000044             68
+_00194_DS_                        ADDRESS       00000058             88
+_00202_DS_                        ADDRESS       0000003A             58
+_00203_DS_                        ADDRESS       0000003C             60
+_00204_DS_                        ADDRESS       0000004E             78
+_00205_DS_                        ADDRESS       00000050             80
+_00251_DS_                        ADDRESS       00000084            132
+_00255_DS_                        ADDRESS       0000009C            156
+_00260_DS_                        ADDRESS       0000013E            318
+_00261_DS_                        ADDRESS       000000B2            178
+_00262_DS_                        ADDRESS       0000010E            270
+_00263_DS_                        ADDRESS       00000142            322
+_00286_DS_                        ADDRESS       0000003A             58
+_00287_DS_                        ADDRESS       00000092            146
+_00288_DS_                        ADDRESS       00000094            148
+_00289_DS_                        ADDRESS       000000AA            170
+_00290_DS_                        ADDRESS       000000AC            172
+_00292_DS_                        ADDRESS       000000F6            246
+_00299_DS_                        ADDRESS       0000008A            138
+_00302_DS_                        ADDRESS       000000E6            230
+_00309_DS_                        ADDRESS       000001D6            470
+_00310_DS_                        ADDRESS       0000010C            268
+_00311_DS_                        ADDRESS       00000168            360
+_00312_DS_                        ADDRESS       0000017E            382
+_00314_DS_                        ADDRESS       000001DA            474
+_00347_DS_                        ADDRESS       00000046             70
+_00348_DS_                        ADDRESS       0000009E            158
+_00349_DS_                        ADDRESS       000000FC            252
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE 22
+
+
+SYMBOL TABLE
+  LABEL                              TYPE        VALUE         VALUE          VALUE
+                                                 (hex)         (dec)          (text)
+
+_00350_DS_                        ADDRESS       000000FE            254
+_00352_DS_                        ADDRESS       00000150            336
+_10298_DS_                        ADDRESS       0000008A            138
+_20299_DS_                        ADDRESS       000000E6            230
+_30300_DS_                        ADDRESS       00000052             82
+_40301_DS_                        ADDRESS       00000100            256
+_50302_DS_                        ADDRESS       0000008E            142
+__16_BIT                          CONSTANT      00000001              1
+__18F4520                         CONSTANT      00000001              1
+__ACC_RAM_LOW_END                 CONSTANT      0000007F            127
+__ACC_RAM_LOW_START               CONSTANT      00000000              0
+__ACTIVE_BANK_ADDR                VARIABLE      FFFFFFFF             -1
+__ASSUMED_BANK_ADDR               VARIABLE      FFFFFFFF             -1
+__BANK_0                          CONSTANT      00000000              0
+__BANK_1                          CONSTANT      00000100            256
+__BANK_2                          CONSTANT      00000200            512
+__BANK_3                          CONSTANT      00000300            768
+__BANK_4                          CONSTANT      00000400           1024
+__BANK_5                          CONSTANT      00000500           1280
+__BANK_6                          CONSTANT      00000600           1536
+__BANK_7                          CONSTANT      00000700           1792
+__BANK_8                          CONSTANT      00000800           2048
+__BANK_9                          CONSTANT      00000900           2304
+__BANK_10                         CONSTANT      00000A00           2560
+__BANK_11                         CONSTANT      00000B00           2816
+__BANK_12                         CONSTANT      00000C00           3072
+__BANK_13                         CONSTANT      00000D00           3328
+__BANK_14                         CONSTANT      00000E00           3584
+__BANK_15                         CONSTANT      00000F00           3840
+__BANK_BITS                       CONSTANT      00000F00           3840
+__BANK_FIRST                      CONSTANT      00000000              0
+__BANK_INV                        CONSTANT      FFFFFFFF             -1
+__BANK_LAST                       CONSTANT      00000F00           3840
+__BANK_MASK                       CONSTANT      000000FF            255
+__BANK_SHIFT                      CONSTANT      00000008              8
+__BANK_SIZE                       CONSTANT      00000100            256
+__CODE_END                        CONSTANT      00007FFF          32767
+__CODE_START                      CONSTANT      00000000              0
+__COMMON_RAM_END                  CONSTANT      0000007F            127
+__COMMON_RAM_START                CONSTANT      00000000              0
+__CONFIG_END                      CONSTANT      0030000D        3145741
+__CONFIG_START                    CONSTANT      00300000        3145728
+__EEPROM_END                      CONSTANT      00F000FF       15728895
+__EEPROM_START                    CONSTANT      00F00000       15728640
+__EXTENDED                        CONSTANT      00000001              1
+__GPUTILS_SVN_VERSION             CONSTANT      00000505           1285
+__GPUTILS_VERSION_MAJOR           CONSTANT      00000001              1
+__GPUTILS_VERSION_MICRO           CONSTANT      00000000              0
+__GPUTILS_VERSION_MINOR           CONSTANT      00000005              5
+__IDLOCS_END                      CONSTANT      00200007        2097159
+__IDLOCS_START                    CONSTANT      00200000        2097152
+__NUM_BANKS                       CONSTANT      00000010             16
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  20:12:47          PAGE 23
+
+
+SYMBOL TABLE
+  LABEL                              TYPE        VALUE         VALUE          VALUE
+                                                 (hex)         (dec)          (text)
+
+__VECTOR_INT_HIGH                 CONSTANT      00000008              8
+__VECTOR_INT_LOW                  CONSTANT      00000018             24
+__VECTOR_RESET                    CONSTANT      00000000              0
+__WHILE_LOOP_COUNT_MAX            CONSTANT      000000FF            255
+__mulint                          EXTERNAL      00000000              0
+_alarmLevel_H                     STATIC        00000000              0
+_alarmLevel_L                     STATIC        00000000              0
+_delay2ms                         GLOBAL        00000000              0
+_delay40us                        GLOBAL        00000000              0
+_enableSenha                      GLOBAL        00000000              0
+_getAlarmLevel                    GLOBAL        00000000              0
+_getLanguage                      GLOBAL        00000000              0
+_getMult                          GLOBAL        00000000              0
+_getSenhaStatus                   GLOBAL        00000000              0
+_getSenha_i                       GLOBAL        00000000              0
+_getSenha_try                     GLOBAL        00000000              0
+_getState                         GLOBAL        00000000              0
+_getTestResult                    GLOBAL        00000000              0
+_getTime                          GLOBAL        00000000              0
+_language                         STATIC        00000000              0
+_multiplicador                    STATIC        00000000              0
+_senha_count                      STATIC        00000000              0
+_senha_enable                     STATIC        00000000              0
+_senha_i                          STATIC        00000000              0
+_senha_new                        STATIC        00000000              0
+_senha_result                     STATIC        00000000              0
+_senha_save                       STATIC        00000000              0
+_senha_try                        STATIC        00000000              0
+_setAlarmLevel                    GLOBAL        00000000              0
+_setLanguage                      GLOBAL        00000000              0
+_setMult                          GLOBAL        00000000              0
+_setSenha                         GLOBAL        00000000              0
+_setState                         GLOBAL        00000000              0
+_setTestResult                    GLOBAL        00000000              0
+_setTime                          GLOBAL        00000000              0
+_state                            STATIC        00000000              0
+_testSenha                        GLOBAL        00000000              0
+_time                             STATIC        00000000              0
+_varInit                          GLOBAL        00000000              0
+r0x00                             STATIC        00000000              0
+r0x01                             STATIC        00000001              1
+r0x02                             STATIC        00000002              2
+r0x03                             STATIC        00000003              3
+r0x04                             STATIC        00000004              4
+r0x05                             STATIC        00000005              5
+r0x06                             STATIC        00000006              6
+
+Errors   :     0
+Warnings :     0 reported,     0 suppressed
+Messages :     0 reported,     0 suppressed
+
+

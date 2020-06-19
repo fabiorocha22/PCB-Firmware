@@ -1,0 +1,270 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP6503SP
+D AP6503SP, 24V 3A, Synchronus DC/DC Buck Converter, 340kHz, SO-8+EP
+K 24V 3A Buck Converter
+F http://www.diodes.com/_files/datasheets/AP6503.pdf
+$ENDCMP
+#
+$CMP APE1707H-12-HF
+D APE1707H-12-HF, 12V 2A, 150KHz PWM Buck DC/DC Converter, TO252-5 (D-PAK)
+K 12V 2A 150KHz PWM Buck DC/DC
+$ENDCMP
+#
+$CMP APE1707H-33-HF
+D APE1707H-33-HF, 3.3V 2A, 150KHz PWM Buck DC/DC Converter, TO252-5 (D-PAK)
+K 3.3V 2A 150KHz PWM Buck DC/DC
+$ENDCMP
+#
+$CMP APE1707H-50-HF
+D APE1707H-50-HF, 5.0V 2A, 150KHz PWM Buck DC/DC Converter, TO252-5 (D-PAK)
+K 5V 2A 150KHz PWM Buck DC/DC
+$ENDCMP
+#
+$CMP APE1707H-HF
+D APE1707H-HF, Adjustable 2A, 150KHz PWM Buck DC/DC Converter, TO252-5 (D-PAK)
+K Adjustable 2A 150KHz PWM Buck DC/DC
+$ENDCMP
+#
+$CMP APE1707M-12-HF
+D APE1707M-33-HF, 12V 2A, 150KHz PWM Buck DC/DC Converter, SO8
+K 12V 2A 150KHz PWM Buck DC/DC
+$ENDCMP
+#
+$CMP APE1707M-33-HF
+D APE1707M-33-HF, 3.3V 2A, 150KHz PWM Buck DC/DC Converter, SO8
+K 3.3V 2A 150KHz PWM Buck DC/DC
+$ENDCMP
+#
+$CMP APE1707M-50-HF
+D APE1707M-50-HF, 5.0V 2A, 150KHz PWM Buck DC/DC Converter, SO8
+K 5V 2A 150KHz PWM Buck DC/DC
+$ENDCMP
+#
+$CMP APE1707M-HF
+D APE1707M-HF, Adjustable 2A, 150KHz PWM Buck DC/DC Converter, SO8
+K Adjustable 2A 150KHz PWM Buck DC/DC
+$ENDCMP
+#
+$CMP BD9001F
+D BD9001F, 48V 2A, Flexible Step-Down Switching Regulator, SO8
+K DC-DC Step-Down Switching Regulator
+F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd9778f-e.pdf
+$ENDCMP
+#
+$CMP BD9778F
+D BD9778F, 35V 2A, Flexible Step-Down Switching Regulator, SO8
+K DC-DC Step-Down Switching Regulator
+F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd9778f-e.pdf
+$ENDCMP
+#
+$CMP BD9778HFP
+D BD9778HFP, 35V 2A, Flexible Step-Down Switching Regulator, HRP7
+K DC-DC Step-Down Switching Regulator
+F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd9778f-e.pdf
+$ENDCMP
+#
+$CMP BD9781HFP
+D BD9781HFP, 35V 4A, Flexible Step-Down Switching Regulator, HRP7
+K DC-DC Step-Down Switching Regulator
+F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd9778f-e.pdf
+$ENDCMP
+#
+$CMP BD9G341EFJ
+D BD9G341EFJ, 12V-76V 3A Buck Converter with Integrated FET, SO8+EP
+F http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd9g341efj-e.pdf
+$ENDCMP
+#
+$CMP GL2576-12SF8DR
+D GL2576-12SF8DR, 12V 3A, 52KHz Step Down Converter, SO8
+K 12V 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-12TA5PR
+D GL2576-12TA5PR, 12V 3A, 52KHz Step Down Converter, TD2P-5
+K 12V 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-12TA5R
+D GL2576-12TA5R, 12V 3A, 52KHz Step Down Converter, TO263-5 (D2-PAK)
+K 12V 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-12TB5T
+D GL2576-12TB5T, 12V 3A, 52KHz Step Down Converter, TO220-5
+K 12V 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-15SF8DR
+D GL2576-15SF8DR, 15V 3A, 52KHz Step Down Converter, SO8
+K 15V 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-15TA5PR
+D GL2576-15TA5PR, 15V 3A, 52KHz Step Down Converter, TD2P-5
+K 15V 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-15TA5R
+D GL2576-15TA5R, 15V 3A, 52KHz Step Down Converter, TO263-5 (D2-PAK)
+K 15V 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-15TB5T
+D GL2576-15TB5T, 15V 3A, 52KHz Step Down Converter, TO220-5
+K 15V 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-3.3SF8DR
+D GL2576-3.3SF8DR, 3.3V 3A, 52KHz Step Down Converter, SO8
+K 3.3V 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-3.3TA5PR
+D GL2576-3.3TA5PR, 3.3V 3A, 52KHz Step Down Converter, TD2P-5
+K 3.3V 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-3.3TA5R
+D GL2576-3.3TA5R, 3.3V 3A, 52KHz Step Down Converter, TO263-5 (D2-PAK)
+K 3.3V 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-3.3TB5T
+D GL2576-3.3TB5T, 3.3V 3A, 52KHz Step Down Converter, TO220-5
+K 3.3V 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-5.0SF8DR
+D GL2576-5.0SF8DR, 5V 3A, 52KHz Step Down Converter, SO8
+K 5V 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-5.0TA5PR
+D GL2576-5.0TA5PR, 5V 3A, 52KHz Step Down Converter, TD2P-5
+K 5V 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-5.0TA5R
+D GL2576-5.0TA5R, 5V 3A, 52KHz Step Down Converter, TO263-5 (D2-PAK)
+K 5V 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-5.0TB5T
+D GL2576-5.0TB5T, 5V 3A, 52KHz Step Down Converter, TO220-5
+K 5V 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-ASF8DR
+D GL2576-ASF8DR, Adjustable 3A, 52KHz Step Down Converter, SO8
+K Adjustable 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-ATA5PR
+D GL2576-ATA5PR, Adjustable 3A, 52KHz Step Down Converter, TD2P-5
+K Adjustable 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-ATA5R
+D GL2576-ATA5R, Adjustable 3A, 52KHz Step Down Converter, TO263-5 (D2-PAK)
+K Adjustable 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP GL2576-ATB5T
+D GL2576-ATB5T, Adjustable 3A, 52KHz Step Down Converter, TO220-5
+K Adjustable 3A 52KHz Buck DC/DC
+F http://www.dianyuan.com/bbs/u/54/437861181916300.pdf
+$ENDCMP
+#
+$CMP ICL7660ACPA
+D ICL7660ACPA, Switched Capacitor Voltage Converter, DIP-8
+K DC-DC Converter Inverter
+F http://www.intersil.com/content/dam/Intersil/documents/icl7/icl7660.pdf
+$ENDCMP
+#
+$CMP ICL7660AIBA
+D ICL7660AIBA, Switched Capacitor Voltage Converter, SO-8
+K DC-DC Converter Inverter
+F http://www.intersil.com/content/dam/Intersil/documents/icl7/icl7660.pdf
+$ENDCMP
+#
+$CMP ICL7660CBA
+D ICL7660CBA, Switched Capacitor Voltage Converter, SO-8
+K DC-DC Converter Inverter
+F http://www.intersil.com/content/dam/Intersil/documents/icl7/icl7660.pdf
+$ENDCMP
+#
+$CMP ICL7660CPA
+D ICL7660CPA, Switched Capacitor Voltage Converter, DIP-8
+K DC-DC Converter Inverter
+F http://www.intersil.com/content/dam/Intersil/documents/icl7/icl7660.pdf
+$ENDCMP
+#
+$CMP ISL8117FRZ
+D ISL8117FRZ, Synchronus Step-Down PWM Controller, 60V, QFN-16 (4x4 P0.5mm)
+K Step-Down Controller DC-DC
+F https://www.intersil.com/content/dam/Intersil/documents/isl8/isl8117.pdf
+$ENDCMP
+#
+$CMP ISL8117FVEZ
+D ISL8117FVEZ, Synchronus Step-Down PWM Controller, 60V, HTSSOP-16
+K Step-Down Controller DC-DC
+F https://www.intersil.com/content/dam/Intersil/documents/isl8/isl8117.pdf
+$ENDCMP
+#
+$CMP MIC2177-3.3BWM
+D MIC2177-3.3BWM, 2.5A 3.3V Step-Down Swtching Regulator (Synchronous) , SOIC20 (Wide)
+K 2.5A 3.3V Synchronus Switching Regulator
+F http://www.micrel.com/_PDF/mic2177.pdf
+$ENDCMP
+#
+$CMP MIC2177-3.3YWM
+D MIC2177-3.3YWM, 2.5A 3.3V Step-Down Swtching Regulator (Synchronous) , SOIC20 (Wide)
+K 2.5A 3.3V Synchronus Switching Regulator
+F http://www.micrel.com/_PDF/mic2177.pdf
+$ENDCMP
+#
+$CMP MIC2177-5.0BWM
+D MIC2177-5.0BWM, 2.5A 5V Step-Down Swtching Regulator (Synchronous) , SOIC20 (Wide)
+K 2.5A 5V Synchronus Switching Regulator
+F http://www.micrel.com/_PDF/mic2177.pdf
+$ENDCMP
+#
+$CMP MIC2177BWM
+D MIC2177BWM, 2.5A Adjustable Step-Down Swtching Regulator (Synchronous) , SOIC20 (Wide)
+K 2.5A Adjustable Synchronus Switching Regulator
+F http://www.micrel.com/_PDF/mic2177.pdf
+$ENDCMP
+#
+$CMP MIC4690BM
+D MIC4690BM, 500kHz 1A SuperSwitcher Adjustable Buck Regulator, SO8
+K Buck Regulator 500kHz 1A Adjustable
+F http://www.micrel.com/_PDF/mic4690.pdf
+$ENDCMP
+#
+$CMP MIC4690YM
+D MIC4690YM, 500kHz 1A SuperSwitcher Adjustable Buck Regulator, SO8 Lead Free
+K Buck Regulator 500kHz 1A Adjustable
+F http://www.micrel.com/_PDF/mic4690.pdf
+$ENDCMP
+#
+#End Doc Library

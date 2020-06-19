@@ -1,0 +1,117 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FT200XD
+D FTDI200XD, Full Speed USB to I2C Bridge, DFN10
+K FTDI USB I2C interface converter
+F http://www.ftdichip.com/Products/ICs/FT200XD.html
+$ENDCMP
+#
+$CMP FT201XQ
+D FTDI201XQ, Full Speed USB to I2C Bridge, QFN16
+K FTDI USB I2C interface converter
+F http://www.ftdichip.com/Products/ICs/FT201X.html
+$ENDCMP
+#
+$CMP FT201XS
+D FT201XS, Full Speed USB to I2C Bridge, SSOP16
+K FTDI USB I2C interface converter
+F http://www.ftdichip.com/Products/ICs/FT201X.html
+$ENDCMP
+#
+$CMP FT220XQ
+D FT220XQ, Full Speed USB to 4-Bit SPI / FT1248 Bridge, QFN16
+K FTDI USB SPI FT1248 interface converter
+F http://www.ftdichip.com/Products/ICs/FT220X.html
+$ENDCMP
+#
+$CMP FT220XS
+D FT220XS, Full Speed USB to 4-Bit SPI / FT1248 Bridge, SSOP16
+K FTDI USB SPI FT1248 interface converter
+F http://www.ftdichip.com/Products/ICs/FT220X.html
+$ENDCMP
+#
+$CMP FT221XQ
+D FT221XQ, Full Speed USB to 8-Bit SPI / FT1248 Bridge, QFN20
+K FTDI USB SPI FT1248 interface converter
+F http://www.ftdichip.com/Products/ICs/FT221X.html
+$ENDCMP
+#
+$CMP FT221XS
+D FT221XS, Full Speed USB to 8-Bit SPI / FT1248 Bridge, SSOP20
+K FTDI USB SPI FT1248 interface converter
+F http://www.ftdichip.com/Products/ICs/FT221X.html
+$ENDCMP
+#
+$CMP FT2232H
+D FT2232H, Hi Speed Double Channel USB UART/FIFO, LQFP/QFN64
+K USB Double UART FIFO
+F http://www.ftdichip.com/Products/ICs/FT2232H.html
+$ENDCMP
+#
+$CMP FT230XQ
+D FT230XQ, Full Speed USB to Basic UART, QFN16
+K FTDI USB UART interface converter
+F http://www.ftdichip.com/Products/ICs/FT230X.html
+$ENDCMP
+#
+$CMP FT230XS
+D FT230XS, Full Speed USB to Basic UART, SSOP16
+K FTDI USB UART interface converter
+F http://www.ftdichip.com/Products/ICs/FT230X.html
+$ENDCMP
+#
+$CMP FT231XQ
+D FT231XQ, Full Speed USB to Full Handshake UART, QFN20
+K FTDI USB UART interface converter
+F http://www.ftdichip.com/Products/ICs/FT231X.html
+$ENDCMP
+#
+$CMP FT231XS
+D FT231XS, Full Speed USB to Full Handshake UART, SSOP20
+K FTDI USB UART interface converter
+F http://www.ftdichip.com/Products/ICs/FT231X.html
+$ENDCMP
+#
+$CMP FT232BM
+D FT232BM, USB UART Interface, LQFP32
+K USB UART INTERFACE
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232BM.pdf
+$ENDCMP
+#
+$CMP FT232H
+D FT232H, Hi Speed Single Channel USB UART/FIFO, LQFP/QFN48
+K USB Single UART FIFO
+F http://www.ftdichip.com/Products/ICs/FT232H.htm
+$ENDCMP
+#
+$CMP FT232RL
+D FT232RL, USB to Serial Interface, LDSSOP28
+K USB SERIAL INTERFACE
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
+$ENDCMP
+#
+$CMP FT240XQ
+D FT240XQ, Full Speed USB to 8-Bit FIFO, QFN24
+K FTDI USB FIFO interface converter
+F http://www.ftdichip.com/Products/ICs/FT240X.html
+$ENDCMP
+#
+$CMP FT240XS
+D FT240XS, Full Speed USB to 8-Bit FIFO, SSOP24
+K FTDI USB FIFO interface converter
+F http://www.ftdichip.com/Products/ICs/FT240X.html
+$ENDCMP
+#
+$CMP FT245BM
+D FT245BM, USB FIFO, USB to Parallel IC, LQFP32
+K USB FIFO Parallel
+F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT245BM.pdf
+$ENDCMP
+#
+$CMP FT4232H
+D FT4232H, Hi Speed Quad Channel USB UART/FIFO, LQFP/QFN64
+K USB Quad UART FIFO
+F http://www.ftdichip.com/Products/ICs/FT4232H.htm
+$ENDCMP
+#
+#End Doc Library

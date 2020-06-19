@@ -1,0 +1,435 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT1129CQ
+D LT1129CQ, 700 mA Low Dropout Voltage Regulator, Adjustable 3.75V-30V, TO263
+K 700mA LDO Regulator Adjustable Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129CQ-3.3
+D LT1129CQ-3.3, 700 mA Low Dropout Voltage Regulator, Fixed 3.3V, TO263
+K 700mA LDO Regulator 3.3V Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129CQ-5
+D LT1129CQ-5, 700 mA Low Dropout Voltage Regulator, Fixed 5V, TO263
+K 700mA LDO Regulator 5V Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129CS8
+D LT1129CS8, 700 mA Low Dropout Voltage Regulator, Adjustable 3.75V-30V, SO8
+K 700mA LDO Regulator Adjustable Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129CS8-3.3
+D LT1129CS8-3.3, 700 mA Low Dropout Voltage Regulator, Fixed 3.3V, SO8
+K 700mA LDO Regulator 3.3V Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129CS8-5
+D LT1129CS8-5, 700 mA Low Dropout Voltage Regulator, Fixed 5V, SO8
+K 700mA LDO Regulator 5V Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129CST-3.3
+D LT1129CST-3.3, 700 mA Low Dropout Voltage Regulator, Fixed 3.3V, SOT-223
+K 700mA LDO Regulator 3.3V Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129CST-5
+D LT1129CST-5, 700 mA Low Dropout Voltage Regulator, Fixed 5V, SOT-223
+K 700mA LDO Regulator 5V Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129CT
+D LT1129CT, 700 mA Low Dropout Voltage Regulator, Adjustable 3.75V-30V, TO220
+K 700mA LDO Regulator Adjustable Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129CT-3.3
+D LT1129CT-3.3, 700 mA Low Dropout Voltage Regulator, Fixed 3.3V, TO220
+K 700mA LDO Regulator 3.3V Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129CT-5
+D LT1129CT-5, 700 mA Low Dropout Voltage Regulator, Fixed 5V, TO220
+K 700mA LDO Regulator 5V Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129IQ
+D LT1129IQ, 700 mA Low Dropout Voltage Regulator, Adjustable 3.75V-30V, TO263
+K 700mA LDO Regulator Adjustable Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129IQ-3.3
+D LT1129IQ-3.3, 700 mA Low Dropout Voltage Regulator, Fixed 3.3V, TO263
+K 700mA LDO Regulator 3.3V Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129IQ-5
+D LT1129IQ-5, 700 mA Low Dropout Voltage Regulator, Fixed 5V, TO263
+K 700mA LDO Regulator 5V Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129IS8
+D LT1129IS8, 700 mA Low Dropout Voltage Regulator, Adjustable 3.75V-30V, SO8
+K 700mA LDO Regulator Adjustable Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129IS8-3.3
+D LT1129IS8-3.3, 700 mA Low Dropout Voltage Regulator, Fixed 3.3V, SO8
+K 700mA LDO Regulator 3.3V Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129IS8-5
+D LT1129IS8-5, 700 mA Low Dropout Voltage Regulator, Fixed 5V, SO8
+K 700mA LDO Regulator 5V Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129IST-3.3
+D LT1129IST-3.3, 700 mA Low Dropout Voltage Regulator, Fixed 3.3V, SOT-223
+K 700mA LDO Regulator 3.3V Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129IST-5
+D LT1129IST-5, 700 mA Low Dropout Voltage Regulator, Fixed 5V, SOT-223
+K 700mA LDO Regulator 5V Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129IT
+D LT1129IT, 700 mA Low Dropout Voltage Regulator, Adjustable 3.75V-30V, TO220
+K 700mA LDO Regulator Adjustable Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129IT-3.3
+D LT1129IT-3.3, 700 mA Low Dropout Voltage Regulator, Fixed 3.3V, TO220
+K 700mA LDO Regulator 3.3V Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129IT-5
+D LT1129IT-5, 700 mA Low Dropout Voltage Regulator, Fixed 5V, TO220
+K 700mA LDO Regulator 5V Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1129MPST-3.3
+D LT1129MSPT-3.3, 700 mA Low Dropout Voltage Regulator, Fixed 3.3V, SOT-223
+K 700mA LDO Regulator 3.3V Positive
+F http://cds.linear.com/docs/en/datasheet/112935ff.pdf
+$ENDCMP
+#
+$CMP LT1175CN8
+D LT1175CN8, Adjustable 500mA Negative Voltage Linear Regulator, DIP8
+K 500mA Negative Regulator
+F http://cds.linear.com/docs/en/datasheet/1175ff.pdf
+$ENDCMP
+#
+$CMP LT1175CN8-5
+D LT1175CN8-5, 5V 500mA Negative Voltage Linear Regulator, DIP8
+K 500mA Negative Regulator
+F http://cds.linear.com/docs/en/datasheet/1175ff.pdf
+$ENDCMP
+#
+$CMP LT1175CQ
+D LT1175CQ, Adjustable 500mA Negative Voltage Linear Regulator, TO263-5L
+K 500mA Negative Regulator
+F http://cds.linear.com/docs/en/datasheet/1175ff.pdf
+$ENDCMP
+#
+$CMP LT1175CQ-5
+D LT1175CQ-5, 5V 500mA Negative Voltage Linear Regulator, TO263-5L
+K 5V 500mA Negative Regulator
+F http://cds.linear.com/docs/en/datasheet/1175ff.pdf
+$ENDCMP
+#
+$CMP LT1175MPQ
+D LT1175MPQ, Adjustable 500mA Negative Voltage Linear Regulator, Hi Temp Range, TO263-5L
+K 500mA Negative Regulator
+F http://cds.linear.com/docs/en/datasheet/1175ff.pdf
+$ENDCMP
+#
+$CMP LT1175MPQ-5
+D LT1175MPQ-5, 5V 500mA Negative Voltage Linear Regulator, Hi Temp Range, TO263-5L
+K 5V 500mA Negative Regulator
+F http://cds.linear.com/docs/en/datasheet/1175ff.pdf
+$ENDCMP
+#
+$CMP LT1584CT
+D LT1584CT, 7A Low Dropout Voltage Regulator, Adjustable, TO-220
+K 7A LDO Regulator Adjustable Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1584CT-3.3
+D LT1584CT-3.3V, 7A Low Dropout Voltage Regulator, Fixed 3.3V, TO-220
+K 7A LDO Regulator 3.3V Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1584CT-3.38
+D LT1584CT-3.38V, 7A Low Dropout Voltage Regulator, Fixed 3.38V, TO-220
+K 7A LDO Regulator 3.38V Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1584CT-3.45
+D LT1584CT-3.45V, 7A Low Dropout Voltage Regulator, Fixed 3.45V, TO-220
+K 7A LDO Regulator 3.45V Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1584CT-3.6
+D LT1584CT-3.6V, 7A Low Dropout Voltage Regulator, Fixed 3.6V, TO-220
+K 7A LDO Regulator 3.6V Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1585CM
+D LT1585CM, 5A Low Dropout Voltage Regulator, Adjustable, TO-263-3L
+K 5A LDO Regulator Adjustable Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1585CM-3.3
+D LT1585CM-3.3, 5A Low Dropout Voltage Regulator, Fixed 3.3V, TO-263-3L
+K 5A LDO Regulator 3.3V Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1585CM-3.38
+D LT1585CM-3.38, 5A Low Dropout Voltage Regulator, Fixed 3.38V, TO-263-3L
+K 5A LDO Regulator 3.38V Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1585CM-3.45
+D LT1585CM-3.45, 5A Low Dropout Voltage Regulator, Fixed 3.45V, TO-263-3L
+K 5A LDO Regulator 3.45V Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1585CM-3.6
+D LT1585CM-3.6, 5A Low Dropout Voltage Regulator, Fixed 3.6V, TO-263-3L
+K 5A LDO Regulator 3.6V Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1585CT
+D LT1585CT, 5A Low Dropout Voltage Regulator, Adjustable, TO-220
+K 5A LDO Regulator Adjustable Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1585CT-3.3
+D LT1585CT-3.3V, 4A Low Dropout Voltage Regulator, Fixed 3.3V, TO-220
+K 4A LDO Regulator 3.3V Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1585CT-3.38
+D LT1585CT-3.38V, 4A Low Dropout Voltage Regulator, Fixed 3.38V, TO-220
+K 4A LDO Regulator 3.38V Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1585CT-3.45
+D LT1585CT-3.45V, 4A Low Dropout Voltage Regulator, Fixed 3.45V, TO-220
+K 4A LDO Regulator 3.45V Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1585CT-3.6
+D LT1585CT-3.6V, 4A Low Dropout Voltage Regulator, Fixed 3.6V, TO-220
+K 4A LDO Regulator 3.6V Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1587CM
+D LT1587CM, 3.75A Low Dropout Voltage Regulator, Adjustable, TO-263-3L
+K 5A LDO Regulator Adjustable Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1587CM-3.3
+D LT1587CM-3.3, 3A Low Dropout Voltage Regulator, Fixed 3.3V, TO-263-3L
+K 3A LDO Regulator 3.3V Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1587CM-3.45
+D LT1587CM-3.45, 3A Low Dropout Voltage Regulator, Fixed 3.45V, TO-263-3L
+K 3A LDO Regulator 3.45V Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1587CM-3.6
+D LT1585CM-3.6, 3A Low Dropout Voltage Regulator, Fixed 3.6V, TO-263-3L
+K 3A LDO Regulator 3.6V Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1587CT
+D LT1587CT, 3.75A Low Dropout Voltage Regulator, Adjustable, TO-220
+K 3.75A LDO Regulator Adjustable Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1587CT-3.3
+D LT1587CT-3.3V, 3A Low Dropout Voltage Regulator, Fixed 3.3V, TO-220
+K 3A LDO Regulator 3.3V Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1587CT-3.45
+D LT1587CT-3.45V, 3A Low Dropout Voltage Regulator, Fixed 3.45V, TO-220
+K 3A LDO Regulator 3.45V Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1587CT-3.6
+D LT1587CT-3.6V, 3A Low Dropout Voltage Regulator, Fixed 3.6V, TO-220
+K 3A LDO Regulator 3.6V Positive
+F http://cds.linear.com/docs/en/datasheet/158457a.pdf
+$ENDCMP
+#
+$CMP LT1761ES5-1.2
+D LT1761ES5-1.2, Low Noise 1.2V 100mA LDO Regulator w/ Shutdown, SOT-23-5
+K 1.2V 100mA Adjustable LDO Regulator
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761ES5-1.5
+D LT1761ES5-1.5, Low Noise 1.5V 100mA LDO Regulator w/ Shutdown, SOT-23-5
+K 1.5V 100mA Adjustable LDO Regulator
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761ES5-1.8
+D LT1761ES5-1.8, Low Noise 1.8V 100mA LDO Regulator w/ Shutdown, SOT-23-5
+K 1.8V 100mA Adjustable LDO Regulator
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761ES5-2
+D LT1761ES5-2, Low Noise 2V 100mA LDO Regulator w/ Shutdown, SOT-23-5
+K 2V 100mA Adjustable LDO Regulator
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761ES5-2.5
+D LT1761ES5-2.5, Low Noise 2.5V 100mA LDO Regulator w/ Shutdown, SOT-23-5
+K 2.5V 100mA Adjustable LDO Regulator
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761ES5-2.8
+D LT1761ES5-2.8, Low Noise 2.8V 100mA LDO Regulator w/ Shutdown, SOT-23-5
+K 2.8V 100mA Adjustable LDO Regulator
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761ES5-3
+D LT1761ES5-3, Low Noise 3V 100mA LDO Regulator w/ Shutdown, SOT-23-5
+K 3V 100mA Adjustable LDO Regulator
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761ES5-3.3
+D LT1761ES5-3.3, Low Noise 3.3V 100mA LDO Regulator w/ Shutdown, SOT-23-5
+K 3.3V 100mA Adjustable LDO Regulator
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761ES5-5
+D LT1761ES5-5, Low Noise 5V 100mA LDO Regulator w/ Shutdown, SOT-23-5
+K 5V 100mA Adjustable LDO Regulator
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761ES5-BYP
+D LT1761ES5-BYP, Low Noise 100mA Adjustable LDO Regulator, SOT-23-5
+K 100mA Adjustable LDO Regulator
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761ES5-SD
+D LT1761ES5-SD, Low Noise 100mA Adjustable LDO Regulator w/ Shutdown, SOT-23-5
+K 100mA Adjustable LDO Regulator
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761MPS5-1.8
+D LT1761MPS5-1.8, Low Noise 1.8V 100mA LDO Regulator w/ Shutdown, SOT-23-5
+K 1.8V 100mA Adjustable LDO Regulator
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761MPS5-3.3
+D LT1761MPS5-3.3, Low Noise 3.3V 100mA LDO Regulator w/ Shutdown, SOT-23-5
+K 3.3V 100mA Adjustable LDO Regulator
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1761MPS5-5
+D LT1761MPS5-5, Low Noise 5V 100mA LDO Regulator w/ Shutdown, SOT-23-5
+K 5V 100mA Adjustable LDO Regulator
+F http://cds.linear.com/docs/en/datasheet/1761sff.pdf
+$ENDCMP
+#
+$CMP LT1964EDD
+D LT1964EDD, Low Noise Adjustable 200mA Negative LDO Regulator w/ Shutdown, DFN-8 (3x3mm)
+K 200mA Adjustable Negative LDO Regulator
+F http://cds.linear.com/docs/en/datasheet/1964fb.pdf
+$ENDCMP
+#
+$CMP LT1964ES5-5
+D LT1964ES5-5, Low Noise -5V 200mA Negative LDO Regulator w/ Shutdown, SOT-23-5
+K -5V 200mA Negative LDO Regulator
+F http://cds.linear.com/docs/en/datasheet/1964fb.pdf
+$ENDCMP
+#
+$CMP LT1964ES5-BYP
+D LT1964ES5-SD, Low Noise Adjustable 200mA Negative LDO Regulator w/ Shutdown, SOT-23-5
+K 200mA Adjustable Negative LDO Regulator
+F http://cds.linear.com/docs/en/datasheet/1964fb.pdf
+$ENDCMP
+#
+$CMP LT1964ES5-SD
+D LT1964ES5-SD, Low Noise Adjustable 200mA Negative LDO Regulator w/ Shutdown, SOT-23-5
+K 200mA Adjustable Negative LDO Regulator
+F http://cds.linear.com/docs/en/datasheet/1964fb.pdf
+$ENDCMP
+#
+$CMP LT3010EMS8E
+D LT3010EMS8E, 50mA High Voltage Adjustable LDO Regulator, MSOP8 w/ PowerPad
+K High Voltage LDO 50mA
+F http://cds.linear.com/docs/en/datasheet/30105fe.pdf
+$ENDCMP
+#
+$CMP LT3010EMS8E-5
+D LT3010EMS8E-5, 5V 50mA High Voltage LDO Regulator, MSOP8 w/ PowerPad
+K High Voltage LDO 50mA 5V
+F http://cds.linear.com/docs/en/datasheet/30105fe.pdf
+$ENDCMP
+#
+#End Doc Library

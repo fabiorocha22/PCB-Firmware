@@ -1,0 +1,147 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD9834BRU
+D AD9834BRU, 10 bit 50 MHz Complete Direct Digital Synthesizer, 2.3 V to 5.5 V, 20 mW, TSSOP20
+K Direct Digital Synthesizer DDS
+F http://www.analog.com/static/imported-files/data_sheets/AD9834.pdf
+$ENDCMP
+#
+$CMP AD9834BRUZ
+D AD9834BRUZ, 10 bit 50 MHz Complete Direct Digital Synthesizer, 2.3 V to 5.5 V, 20 mW, TSSOP20
+K Direct Digital Synthesizer DDS
+F http://www.analog.com/static/imported-files/data_sheets/AD9834.pdf
+$ENDCMP
+#
+$CMP AD9834CRUZ
+D AD9834CRUZ, 10 bit 75 MHz Complete Direct Digital Synthesizer, 2.3 V to 5.5 V, 20 mW, TSSOP20
+K Direct Digital Synthesizer DDS
+F http://www.analog.com/static/imported-files/data_sheets/AD9834.pdf
+$ENDCMP
+#
+$CMP AD9910BSVZ
+D AD9910BSVZ, 1GS/s, 14-Bit, Direct Digital Synthesizer, 3.3V CMOS, TQFP-100
+K Direct Digital Synthesizer DDS
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD9910.pdf
+$ENDCMP
+#
+$CMP AD9951YSV
+D AD9951YSV, 14-Bit Direct Digital Synthesizer with 400MSPS DAC, 1.8V, TQFP48
+K Direct Digital Synthesizer DDS
+F http://www.analog.com/static/imported-files/data_sheets/AD9951.pdf
+$ENDCMP
+#
+$CMP AD9951YSVZ
+D AD9951YSVZ, 14-Bit Direct Digital Synthesizer with 400MSPS DAC, 1.8V, RoHS, TQFP48
+K Direct Digital Synthesizer DDS RoHS
+F http://www.analog.com/static/imported-files/data_sheets/AD9951.pdf
+$ENDCMP
+#
+$CMP ADM101EARM
+D ADM101EARM, Tiny RS232 Transciever, MSOP-10
+K RS232 Interface
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM101E.pdf
+$ENDCMP
+#
+$CMP ADM101EARMZ
+D ADM101EARMZ, Tiny RS232 Transciever, MSOP-10
+K RS232 Interface
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADM101E.pdf
+$ENDCMP
+#
+$CMP ADUM1200AR
+D ADuM1200AR, Dual-Channel Digital Isolator, 1Mbps 150ns, SO8
+K 2Ch Dual Digital Isolator 1Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1200BR
+D ADuM1200BR, Dual-Channel Digital Isolator, 10Mbps 50ns, SO8
+K 2Ch Dual Digital Isolator 10Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1200CR
+D ADuM1200CR, Dual-Channel Digital Isolator, 25Mbps 45ns, SO8
+K 2Ch Dual Digital Isolator 25Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1200WS
+D ADuM1200WS, Dual-Channel Digital Isolator, 1Mbps 150ns, Highest Tem. Grade, SO8
+K 2Ch Dual Digital Isolator 1Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1200WT
+D ADuM1200WT, Dual-Channel Digital Isolator, 10Mbps 50ns, Highest Tem. Grade, SO8
+K 2Ch Dual Digital Isolator 10Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1200WU
+D ADuM1200WU, Dual-Channel Digital Isolator, 25Mbps 45ns, Highest Tem. Grade, SO8
+K 2Ch Dual Digital Isolator 25Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADUM1201AR
+D ADuM1201AR, Dual-Channel Digital Isolator, 1Mbps 150ns, SO8
+K 2Ch Dual Digital Isolator 1Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1201BR
+D ADuM1201BR, Dual-Channel Digital Isolator, 10Mbps 50ns, SO8
+K 2Ch Dual Digital Isolator 10Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1201CR
+D ADuM1201CR, Dual-Channel Digital Isolator, 25Mbps 45ns, SO8
+K 2Ch Dual Digital Isolator 25Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1201WS
+D ADuM1201WS, Dual-Channel Digital Isolator, 1Mbps 150ns, Highest Temp. Grade, SO8
+K 2Ch Dual Digital Isolator 1Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1201WT
+D ADuM1201WT, Dual-Channel Digital Isolator, 10Mbps 50ns, Hihgest Temp. Grade, SO8
+K 2Ch Dual Digital Isolator 10Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADuM1201WU
+D ADuM1201WU, Dual-Channel Digital Isolator, 25Mbps 45ns, Highest Temp. Grade, SO8
+K 2Ch Dual Digital Isolator 25Mbps
+F http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf
+$ENDCMP
+#
+$CMP ADUM4160BRIZ
+D ADuM4160BRIZ, Full/Low USB Digital Isolator 5kV, SOIC-16 Increased Creepage
+K USB Isolation
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf
+$ENDCMP
+#
+$CMP ADUM4160BRWZ
+D ADuM4160BRWZ, Full/Low USB Digital Isolator 5kV, SOIC-16
+K USB Isolation
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM4160.pdf
+$ENDCMP
+#
+$CMP ADUM6000ARIZ
+D ADuM6000ARIZ, Isolated 5kV DC-DC Converter, SOIC-16 Increased Creepage
+K DC-DC Isolation
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM6000.PDF
+$ENDCMP
+#
+$CMP ADUM6000ARWZ
+D ADuM6000ARWZ, Isolated 5kV DC-DC Converter, SOIC-16
+K DC-DC Isolation
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADuM6000.PDF
+$ENDCMP
+#
+#End Doc Library

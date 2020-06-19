@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BMP085
+D BMP085, 19-Bit Digital Barometer, LCC-8
+K Digital Barometer
+F https://www.sparkfun.com/datasheets/Components/General/BST-BMP085-DS000-05.pdf
+$ENDCMP
+#
+$CMP MPL3115A2
+D MPL3115A2, Precision Altimeter (Pressure) Sensor, I2C Interface, LGA-8
+K Precision Altimeter Pressure Sensor
+F http://www.nxp.com/files/sensors/doc/data_sheet/MPL3115A2.pdf
+$ENDCMP
+#
+$CMP ZXCT1009F-7
+D ZXCT1009F-7, High Side Current Monitor, SOT-23
+K Current Monitor
+F http://www.diodes.com/_files/datasheets/ZXCT1009.pdf
+$ENDCMP
+#
+$CMP ZXCT1009FTA
+D ZXCT1009FTA, High Side Current Monitor, SOT-23
+K Current Monitor
+F http://www.diodes.com/_files/datasheets/ZXCT1009.pdf
+$ENDCMP
+#
+$CMP ZXCT1009T8TA
+D ZXCT1009T8TA, High Side Current Monitor, SM-8
+K Current Monitor
+F http://www.diodes.com/_files/datasheets/ZXCT1009.pdf
+$ENDCMP
+#
+#End Doc Library

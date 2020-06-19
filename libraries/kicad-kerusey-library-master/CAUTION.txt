@@ -1,0 +1,6 @@
+
+    Kerusey Karyu KiCad Libraries
+
+    These libraries are in working phase. 
+    Included symbols may be altered, removed or moved without any notice!
+

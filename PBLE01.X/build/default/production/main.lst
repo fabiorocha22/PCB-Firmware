@@ -1,0 +1,271 @@
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  18:14:54          PAGE  1
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+                      00001 ;--------------------------------------------------------
+                      00002 ; File Created by SDCC : free open source ANSI-C Compiler
+                      00003 ; Version 3.6.0 #9615 (MINGW64)
+                      00004 ;--------------------------------------------------------
+                      00005 ; PIC16 port for the Microchip 16-bit core micros
+                      00006 ;--------------------------------------------------------
+                      00007         list    p=18f4520
+                      00008         radix   dec
+                      00009         CONFIG  MCLRE=ON
+                      00010         CONFIG  OSC=HS
+                      00011         CONFIG  WDT=OFF
+                      00012         CONFIG  LVP=OFF
+                      00013         CONFIG  DEBUG=OFF
+                      00014         CONFIG  WDTPS=1
+                      00015 
+                      00016 
+                      00017 ;--------------------------------------------------------
+                      00018 ; public variables in this module
+                      00019 ;--------------------------------------------------------
+  0000                00020         global  _main
+                      00021 
+                      00022 ;--------------------------------------------------------
+                      00023 ; extern variables in this module
+                      00024 ;--------------------------------------------------------
+  0000                00025         extern  _timerWait
+  0000                00026         extern  _timerReset
+  0000                00027         extern  _timerInit
+  0000                00028         extern  _lcdInit
+  0000                00029         extern  _kpDebounce
+  0000                00030         extern  _kpInit
+  0000                00031         extern  _eventInit
+  0000                00032         extern  _varInit
+  0000                00033         extern  _getTime
+  0000                00034         extern  _smLoop
+  0000                00035         extern  _outputInit
+  0000                00036         extern  _ht1380write
+  0000                00037         extern  _rtcPutSeconds
+  0000                00038         extern  _rtcPutMinutes
+  0000                00039         extern  _rtcPutHours
+  0000                00040         extern  _rtcPutDate
+  0000                00041         extern  _rtcPutMonth
+  0000                00042         extern  _rtcPutDay
+  0000                00043         extern  _rtcPutYear
+  0000                00044         extern  _rtcInit
+                      00045 
+                      00046 ;--------------------------------------------------------
+                      00047 ;       Equates to used internal registers
+                      00048 ;--------------------------------------------------------
+  00000FE6            00049 POSTINC1        equ     0xfe6
+  00000FE5            00050 POSTDEC1        equ     0xfe5
+  00000FF3            00051 PRODL   equ     0xff3
+                      00052 
+                      00053 
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  18:14:54          PAGE  2
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+                      00054 ; Internal registers
+                      00055 .registers      udata_ovr       0x0000
+000000                00056 r0x00   res     1
+000001                00057 r0x01   res     1
+                      00058 
+                      00059 ;--------------------------------------------------------
+                      00060 ; interrupt vector
+                      00061 ;--------------------------------------------------------
+                      00062 
+                      00063 ;--------------------------------------------------------
+                      00064 ; global & static initialisations
+                      00065 ;--------------------------------------------------------
+                      00066 ; I code from now on!
+                      00067 ; ; Starting pCode block
+                      00068 S_main__main    code
+000000                00069 _main:
+                      00070 ;       .line   17; main.c      kpInit();
+000000 EC?? F0??      00071         CALL    _kpInit
+                      00072 ;       .line   18; main.c      lcdInit();
+000004 EC?? F0??      00073         CALL    _lcdInit
+                      00074 ;       .line   19; main.c      timerInit();
+000008 EC?? F0??      00075         CALL    _timerInit
+                      00076 ;       .line   20; main.c      varInit();
+00000C EC?? F0??      00077         CALL    _varInit
+                      00078 ;       .line   21; main.c      eventInit();
+000010 EC?? F0??      00079         CALL    _eventInit
+                      00080 ;       .line   22; main.c      outputInit();
+000014 EC?? F0??      00081         CALL    _outputInit
+                      00082 ;       .line   23; main.c      rtcInit();
+000018 EC?? F0??      00083         CALL    _rtcInit
+                      00084 ;       .line   25; main.c      ht1380write(7, 0); //liga relógio do RTC
+00001C 0E00           00085         MOVLW   0x00
+00001E 6EE5           00086         MOVWF   POSTDEC1
+000020 0E07           00087         MOVLW   0x07
+000022 6EE5           00088         MOVWF   POSTDEC1
+000024 EC?? F0??      00089         CALL    _ht1380write
+000028 52E6           00090         MOVF    POSTINC1, F
+00002A 52E6           00091         MOVF    POSTINC1, F
+                      00092 ;       .line   26; main.c      rtcPutSeconds(0);
+00002C 0E00           00093         MOVLW   0x00
+00002E 6EE5           00094         MOVWF   POSTDEC1
+000030 EC?? F0??      00095         CALL    _rtcPutSeconds
+000034 52E6           00096         MOVF    POSTINC1, F
+                      00097 ;       .line   27; main.c      rtcPutMinutes(0);
+000036 0E00           00098         MOVLW   0x00
+000038 6EE5           00099         MOVWF   POSTDEC1
+00003A EC?? F0??      00100         CALL    _rtcPutMinutes
+00003E 52E6           00101         MOVF    POSTINC1, F
+                      00102 ;       .line   28; main.c      rtcPutHours(0);
+000040 0E00           00103         MOVLW   0x00
+000042 6EE5           00104         MOVWF   POSTDEC1
+000044 EC?? F0??      00105         CALL    _rtcPutHours
+000048 52E6           00106         MOVF    POSTINC1, F
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  18:14:54          PAGE  3
+
+
+LOC    OBJECT CODE    LINE  SOURCE TEXT
+  VALUE
+
+                      00107 ;       .line   29; main.c      rtcPutDate(1);
+00004A 0E01           00108         MOVLW   0x01
+00004C 6EE5           00109         MOVWF   POSTDEC1
+00004E EC?? F0??      00110         CALL    _rtcPutDate
+000052 52E6           00111         MOVF    POSTINC1, F
+                      00112 ;       .line   30; main.c      rtcPutMonth(1);
+000054 0E01           00113         MOVLW   0x01
+000056 6EE5           00114         MOVWF   POSTDEC1
+000058 EC?? F0??      00115         CALL    _rtcPutMonth
+00005C 52E6           00116         MOVF    POSTINC1, F
+                      00117 ;       .line   31; main.c      rtcPutYear(17);
+00005E 0E11           00118         MOVLW   0x11
+000060 6EE5           00119         MOVWF   POSTDEC1
+000062 EC?? F0??      00120         CALL    _rtcPutYear
+000066 52E6           00121         MOVF    POSTINC1, F
+                      00122 ;       .line   32; main.c      rtcPutDay(4);
+000068 0E04           00123         MOVLW   0x04
+00006A 6EE5           00124         MOVWF   POSTDEC1
+00006C EC?? F0??      00125         CALL    _rtcPutDay
+000070 52E6           00126         MOVF    POSTINC1, F
+000072                00127 _00106_DS_:
+                      00128 ;       .line   35; main.c      timerReset(getTime());
+000072 EC?? F0??      00129         CALL    _getTime
+000076 6E??           00130         MOVWF   r0x00
+000078 CFF3 F000      00131         MOVFF   PRODL, r0x01
+00007C 50??           00132         MOVF    r0x01, W
+00007E 6EE5           00133         MOVWF   POSTDEC1
+000080 50??           00134         MOVF    r0x00, W
+000082 6EE5           00135         MOVWF   POSTDEC1
+000084 EC?? F0??      00136         CALL    _timerReset
+000088 52E6           00137         MOVF    POSTINC1, F
+00008A 52E6           00138         MOVF    POSTINC1, F
+                      00139 ;       .line   39; main.c      kpDebounce();
+00008C EC?? F0??      00140         CALL    _kpDebounce
+                      00141 ;       .line   42; main.c      smLoop();
+000090 EC?? F0??      00142         CALL    _smLoop
+                      00143 ;       .line   44; main.c      timerWait();
+000094 EC?? F0??      00144         CALL    _timerWait
+000098 D???           00145         BRA     _00106_DS_
+00009A 0012           00146         RETURN  
+                      00147 
+                      00148 
+                      00149 
+                      00150 ; Statistics:
+                      00151 ; code size:      156 (0x009c) bytes ( 0.12%)
+                      00152 ;                  78 (0x004e) words
+                      00153 ; udata size:       0 (0x0000) bytes ( 0.00%)
+                      00154 ; access size:      2 (0x0002) bytes
+                      00155 
+                      00156 
+                      00157         end
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  18:14:54          PAGE  4
+
+
+SYMBOL TABLE
+  LABEL                              TYPE        VALUE         VALUE          VALUE
+                                                 (hex)         (dec)          (text)
+
+POSTDEC1                          CONSTANT      00000FE5           4069
+POSTINC1                          CONSTANT      00000FE6           4070
+PRODL                             CONSTANT      00000FF3           4083
+_00106_DS_                        ADDRESS       00000072            114
+__16_BIT                          CONSTANT      00000001              1
+__18F4520                         CONSTANT      00000001              1
+__ACC_RAM_LOW_END                 CONSTANT      0000007F            127
+__ACC_RAM_LOW_START               CONSTANT      00000000              0
+__ACTIVE_BANK_ADDR                VARIABLE      FFFFFFFF             -1
+__ASSUMED_BANK_ADDR               VARIABLE      FFFFFFFF             -1
+__BANK_0                          CONSTANT      00000000              0
+__BANK_1                          CONSTANT      00000100            256
+__BANK_2                          CONSTANT      00000200            512
+__BANK_3                          CONSTANT      00000300            768
+__BANK_4                          CONSTANT      00000400           1024
+__BANK_5                          CONSTANT      00000500           1280
+__BANK_6                          CONSTANT      00000600           1536
+__BANK_7                          CONSTANT      00000700           1792
+__BANK_8                          CONSTANT      00000800           2048
+__BANK_9                          CONSTANT      00000900           2304
+__BANK_10                         CONSTANT      00000A00           2560
+__BANK_11                         CONSTANT      00000B00           2816
+__BANK_12                         CONSTANT      00000C00           3072
+__BANK_13                         CONSTANT      00000D00           3328
+__BANK_14                         CONSTANT      00000E00           3584
+__BANK_15                         CONSTANT      00000F00           3840
+__BANK_BITS                       CONSTANT      00000F00           3840
+__BANK_FIRST                      CONSTANT      00000000              0
+__BANK_INV                        CONSTANT      FFFFFFFF             -1
+__BANK_LAST                       CONSTANT      00000F00           3840
+__BANK_MASK                       CONSTANT      000000FF            255
+__BANK_SHIFT                      CONSTANT      00000008              8
+__BANK_SIZE                       CONSTANT      00000100            256
+__CODE_END                        CONSTANT      00007FFF          32767
+__CODE_START                      CONSTANT      00000000              0
+__COMMON_RAM_END                  CONSTANT      0000007F            127
+__COMMON_RAM_START                CONSTANT      00000000              0
+__CONFIG_END                      CONSTANT      0030000D        3145741
+__CONFIG_START                    CONSTANT      00300000        3145728
+__EEPROM_END                      CONSTANT      00F000FF       15728895
+__EEPROM_START                    CONSTANT      00F00000       15728640
+__EXTENDED                        CONSTANT      00000001              1
+__GPUTILS_SVN_VERSION             CONSTANT      00000505           1285
+__GPUTILS_VERSION_MAJOR           CONSTANT      00000001              1
+__GPUTILS_VERSION_MICRO           CONSTANT      00000000              0
+__GPUTILS_VERSION_MINOR           CONSTANT      00000005              5
+__IDLOCS_END                      CONSTANT      00200007        2097159
+__IDLOCS_START                    CONSTANT      00200000        2097152
+__NUM_BANKS                       CONSTANT      00000010             16
+__VECTOR_INT_HIGH                 CONSTANT      00000008              8
+__VECTOR_INT_LOW                  CONSTANT      00000018             24
+__VECTOR_RESET                    CONSTANT      00000000              0
+gpasm-1.5.0 #1285 (Sep 12 2016) build/default   7-4-2017  18:14:54          PAGE  5
+
+
+SYMBOL TABLE
+  LABEL                              TYPE        VALUE         VALUE          VALUE
+                                                 (hex)         (dec)          (text)
+
+__WHILE_LOOP_COUNT_MAX            CONSTANT      000000FF            255
+_eventInit                        EXTERNAL      00000000              0
+_getTime                          EXTERNAL      00000000              0
+_ht1380write                      EXTERNAL      00000000              0
+_kpDebounce                       EXTERNAL      00000000              0
+_kpInit                           EXTERNAL      00000000              0
+_lcdInit                          EXTERNAL      00000000              0
+_main                             GLOBAL        00000000              0
+_outputInit                       EXTERNAL      00000000              0
+_rtcInit                          EXTERNAL      00000000              0
+_rtcPutDate                       EXTERNAL      00000000              0
+_rtcPutDay                        EXTERNAL      00000000              0
+_rtcPutHours                      EXTERNAL      00000000              0
+_rtcPutMinutes                    EXTERNAL      00000000              0
+_rtcPutMonth                      EXTERNAL      00000000              0
+_rtcPutSeconds                    EXTERNAL      00000000              0
+_rtcPutYear                       EXTERNAL      00000000              0
+_smLoop                           EXTERNAL      00000000              0
+_timerInit                        EXTERNAL      00000000              0
+_timerReset                       EXTERNAL      00000000              0
+_timerWait                        EXTERNAL      00000000              0
+_varInit                          EXTERNAL      00000000              0
+r0x00                             STATIC        00000000              0
+r0x01                             STATIC        00000001              1
+
+Errors   :     0
+Warnings :     0 reported,     0 suppressed
+Messages :     0 reported,     0 suppressed
+
+

@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FSA3157L6X
+D FSA3157L6X, Low Voltage Analog/Digial SPTD Switch, 250MHz, MicroPak6
+K Analog Digital SPDT Switch 250MHz
+F https://www.fairchildsemi.com/datasheets/FS/FSA3157.pdf
+$ENDCMP
+#
+$CMP FSA3157P6X
+D FSA3157P6X, Low Voltage Analog/Digial SPTD Switch, 250MHz, SC70-6
+K Analog Digital SPDT Switch 250MHz
+F https://www.fairchildsemi.com/datasheets/FS/FSA3157.pdf
+$ENDCMP
+#
+$CMP NC7SB3157L6X
+D NC7SB3157L6X, Low Voltage Analog/Digial SPTD Switch, 250MHz, MicroPak6
+K Analog Digital SPDT Switch 250MHz
+F https://www.fairchildsemi.com/datasheets/FS/FSA3157.pdf
+$ENDCMP
+#
+$CMP NC7SB3157P6X
+D NC7SB3157P6X, Low Voltage Analog/Digial SPTD Switch, 250MHz, SC70-6
+K Analog Digital SPDT Switch 250MHz
+F https://www.fairchildsemi.com/datasheets/FS/FSA3157.pdf
+$ENDCMP
+#
+#End Doc Library

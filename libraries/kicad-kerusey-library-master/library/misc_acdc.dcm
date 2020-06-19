@@ -1,0 +1,14 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT3798
+D LT3798EMSE, AC-DC Isolated Flyback Converter with Active PFC, 86% Eff, MSOP-16EP
+K AC-DC Flyback Converter PFC High Eff
+F http://cds.linear.com/docs/en/datasheet/3798fa.pdf
+$ENDCMP
+#
+$CMP UC3846X-D08-T
+D UC3846x-DO8-T, SMPS Flyback PWM Controller, DIP8
+K SMPS PWM Controller
+$ENDCMP
+#
+#End Doc Library

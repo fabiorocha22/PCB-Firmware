@@ -1,0 +1,29 @@
+﻿
+    Kerusey Karyu KiCad Libraries
+    Copyright (C) 2016  Kerusey Karyu
+
+    This libraries are free software; you can redistribute them and/or
+    modify them under the terms of the GNU Library General Public
+    License as published by the Free Software Foundation; either
+    version 2 of the License, or (at your option) any later version.
+
+    These libraries are distributed in the hope that they will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Library General Public License for more details.
+
+    You should have received a copy of the GNU Library General Public
+    License along with these libraries; if not, write to the Free
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+
+
+    Some symbols were created based upon work of KiCad library contributors.
+    Special acknowledge to:
+     
+      Žiga Stegu          ObKo
+      Jason Work          Pablo Andrés
+      Arun Isaac          Mateusz Krawczuk
+      Ricardo Crudo       Tahiro Hashizume
+      Trorogohan          Joel Guittet
+
+    and members of KiCad Library Committers

@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A4950ELJTR-T
+D A4950ELJTR-T, Full Bridge PWM Motor Driver, SO-8+EP
+K Motor Driver PWM
+F http://www.allegromicro.com/~/media/Files/Datasheets/A4950-Datasheet.ashx
+$ENDCMP
+#
+$CMP A4950KLJTR-T
+D A4950KLJTR-T, Full Bridge PWM Motor Driver, SO-8+EP
+K Motor Driver PWM
+F http://www.allegromicro.com/~/media/Files/Datasheets/A4950-Datasheet.ashx
+$ENDCMP
+#
+$CMP PG001M
+D PG001M, Parallel to serial data converter for SLA7042M/SLA7044M, PDIP-16
+K Support IC SLA7042M/SLA7044M
+F http://www.allegromicro.com/~/media/Files/Sanken/Datasheets/PG001M-Datasheet.ashx
+$ENDCMP
+#
+#End Doc Library

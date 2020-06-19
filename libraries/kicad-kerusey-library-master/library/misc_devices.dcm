@@ -1,0 +1,288 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BNC
+D BNC Connector
+K BNC Coaxial Connector Device
+$ENDCMP
+#
+$CMP BRIDGE
+D Bridge Rectifier
+K Bridge Rectifier Graetz Device
+$ENDCMP
+#
+$CMP C
+D Unipolar Capacitor
+K C CAP Capacitor Device
+$ENDCMP
+#
+$CMP C_VAR
+D Variable Capacitor
+K C CAP Capacitor Trimmer Device
+$ENDCMP
+#
+$CMP CONN_10
+D Connector 10 pin
+K Connector Device
+$ENDCMP
+#
+$CMP CONN_12
+D Connector 12 pin
+K Connector Device
+$ENDCMP
+#
+$CMP CONN_13X2
+D Standard IDC26 Male Connector
+K IDC26 Male Connector Device
+$ENDCMP
+#
+$CMP CONN_2
+D Connector 2 pin
+K Connector Device
+$ENDCMP
+#
+$CMP CONN_3
+D Connector 3 pin
+K Connector Device
+$ENDCMP
+#
+$CMP CONN_4
+D Connector 5 pin
+K Connector Device
+$ENDCMP
+#
+$CMP CONN_5
+D Connector 5 pin
+K Connector Device
+$ENDCMP
+#
+$CMP CONN_5X2
+D Standard IDC10 Male Connector
+K IDC10 Male Connector Device
+$ENDCMP
+#
+$CMP CONN_6
+D Connector 6 pin
+K Connector Device
+$ENDCMP
+#
+$CMP CONN_7
+D Connector 7 pin
+K Connector Device
+$ENDCMP
+#
+$CMP CONN_8
+D Connector 8 pin
+K Connector Device
+$ENDCMP
+#
+$CMP CONN_8X2
+D Standard IDC16 Male Connector
+K IDC16 Male Connector Device
+$ENDCMP
+#
+$CMP CONN_9
+D Connector 9 pin
+K Connector Device
+$ENDCMP
+#
+$CMP DIAC
+D Diac
+K Diac Device
+$ENDCMP
+#
+$CMP DIODE
+D Diode
+K Diode Rectifier Device
+$ENDCMP
+#
+$CMP EC
+D Electrolitic Polarised Capacitor
+K Electrolitic EC Polarised Capacitor Device
+$ENDCMP
+#
+$CMP EMI
+D EMI Filter
+K Filter EMI Device
+$ENDCMP
+#
+$CMP FILTER
+D Filter
+K L Filter Device
+$ENDCMP
+#
+$CMP FUSE
+D Fuse
+K F Fuse Circuit Breaker Device
+$ENDCMP
+#
+$CMP L
+D Inductor
+K L CORE Inductor Device
+$ENDCMP
+#
+$CMP LED
+D LED Light Emmiting Diode
+K Diode LED Device
+$ENDCMP
+#
+$CMP LED_DUAL_CC
+D LED Dual Common Cathode
+K Diode LED Device Dual-LED
+$ENDCMP
+#
+$CMP LEDRGB
+D LED RGB Light Emmiting Diode
+K Diode LED Tri-Colour Device
+$ENDCMP
+#
+$CMP MICROSW
+D Push Button
+K PB Push-Button Microswitch TACT Device
+$ENDCMP
+#
+$CMP NPN
+D NPN Universal Transistor
+$ENDCMP
+#
+$CMP NPN-PHOTO
+D NPN Light Detector Transistor
+$ENDCMP
+#
+$CMP OPAMP
+D Operational Amplifier
+K Amplifier OpAmp Device
+$ENDCMP
+#
+$CMP PNP
+D PNP Universal Transistor
+$ENDCMP
+#
+$CMP POT
+D Variable Resistor Trimmer
+K R RES Resistor Device
+$ENDCMP
+#
+$CMP POT_DUAL
+D Dual Variable Resistor Trimmer
+K PR POT Variable Resistor Device
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R RES Resistor Device
+$ENDCMP
+#
+$CMP R_PACK4
+D 4 Resistors Pack
+K R Device
+$ENDCMP
+#
+$CMP R_PACK8
+D 8 Resistors Pack
+K R Device
+$ENDCMP
+#
+$CMP RELAY_1P
+D 1-pole Relay
+K Relay Device
+$ENDCMP
+#
+$CMP RELAY_2P
+D 2-pole Relay
+K Relay Device
+$ENDCMP
+#
+$CMP RP4
+D Resistor Pack
+K R RES Resistor Device
+$ENDCMP
+#
+$CMP RR8
+D 8 Resistors with Common
+K R Device
+$ENDCMP
+#
+$CMP RR9
+D 8 Resistors with Common
+K R Device
+$ENDCMP
+#
+$CMP RVAR
+D Variable Resistor
+K R RES Resistor Device
+$ENDCMP
+#
+$CMP SCR
+D Scr Thyristor
+K SCR Device
+$ENDCMP
+#
+$CMP SHOTTKY
+D Diode Shottky
+K Diode Rectifier Shottky Device
+$ENDCMP
+#
+$CMP SPARK_GAP
+D Spark Gap
+K V Spark Gap Protection Device
+$ENDCMP
+#
+$CMP SPST
+D Single Button Switch
+K Switch Device
+$ENDCMP
+#
+$CMP THERMISTOR
+D Resistor
+K R RES Resistor Device
+$ENDCMP
+#
+$CMP TPAD
+D Test Point Pad
+$ENDCMP
+#
+$CMP TRANSIL
+D Diode Clamp Zener
+K Diode Rectifier Zener Device
+$ENDCMP
+#
+$CMP TRIAC
+D Triac Full Wave SCR
+K TRIAC Device
+$ENDCMP
+#
+$CMP VAR
+D Varistor
+K VR VOLTRES Varistor device
+$ENDCMP
+#
+$CMP VARICAP
+D Diode Varicap
+K Viode Varicap Rectifier Device
+$ENDCMP
+#
+$CMP WJ
+D Wire Jumper
+$ENDCMP
+#
+$CMP XTAL
+D Crystal Oscillator Quartz
+K XTAL Crystal Resonator Quartz Device
+$ENDCMP
+#
+$CMP XTAL3PIN
+D Crystal Oscillator Quartz
+K XTAL Crystal Resonator Quartz Device
+$ENDCMP
+#
+$CMP XTAL4PIN
+D Crystal Oscillator Quartz
+K XTAL Crystal Resonator Quartz Device
+$ENDCMP
+#
+$CMP ZENER
+D Diode Zener
+K Diode Device Rectifier Zener Device
+$ENDCMP
+#
+#End Doc Library

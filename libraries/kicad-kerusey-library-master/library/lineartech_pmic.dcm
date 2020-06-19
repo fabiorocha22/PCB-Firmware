@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT1641-1CS8
+D LT1641-1, Hot Swap High Side Voltage Controller, SO-8
+K  Voltage Controller
+F http://cds.linear.com/docs/en/datasheet/164112fc.pdf
+$ENDCMP
+#
+$CMP LT1641-2CS8
+D LT1641-2, Hot Swap High Side Voltage Controller, SO-8
+K Voltage Controller
+F http://cds.linear.com/docs/en/datasheet/164112fc.pdf
+$ENDCMP
+#
+#End Doc Library

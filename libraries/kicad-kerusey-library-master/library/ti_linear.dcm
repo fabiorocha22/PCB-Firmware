@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BUF634F-500
+D BUF634F/500, 250mA High Speed Buffer/Driver, TO-263 (D2PAK)
+K Buffer Driver
+F http://www.ti.com/lit/ds/symlink/buf634.pdf
+$ENDCMP
+#
+$CMP BUF634P
+D BUF634P, 250mA High Speed Buffer/Driver, 30-180MHz BW, PDIP-8
+K Buffer Driver 250mA 30MHz 180MHz
+F http://www.ti.com/lit/ds/symlink/buf634.pdf
+$ENDCMP
+#
+$CMP BUF634T
+D BUF634T, 250mA High Speed Buffer/Driver, 30-180MHz BW, TO-220-5
+K Buffer Driver 250mA 30MHz 180MHz
+F http://www.ti.com/lit/ds/symlink/buf634.pdf
+$ENDCMP
+#
+$CMP BUF634U
+D BUF634U, 250mA High Speed Buffer/Driver, 30-180MHz BW, SO-8
+K Buffer Driver 250mA 30MHz 180MHz
+F http://www.ti.com/lit/ds/symlink/buf634.pdf
+$ENDCMP
+#
+#End Doc Library

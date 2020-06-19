@@ -1,0 +1,284 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD390JD
+D AD390JD, Quad 12bit DAC, 4LSB Gain Error, DH-28
+K Quad DAC 12bit
+F http://www.analog.com/static/imported-files/data_sheets/AD390MIL.pdf
+$ENDCMP
+#
+$CMP AD390KD
+D AD390KD, Quad 12bit DAC, 2LSB Gain Error, DH-28
+K Quad DAC 12bit
+F http://www.analog.com/static/imported-files/data_sheets/AD390MIL.pdf
+$ENDCMP
+#
+$CMP AD558JN
+D AD558JN, Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, DIP-16
+K 8bit DAC Reference Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
+$ENDCMP
+#
+$CMP AD558JP
+D AD558JP, Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, PLCC-20
+K 8bit DAC Reference Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
+$ENDCMP
+#
+$CMP AD558KN
+D AD558KN, Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, DIP-16
+K 8bit DAC Reference Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
+$ENDCMP
+#
+$CMP AD558KP
+D AD558KP, Single 8-bit DAC, Internal Reference, Output Amp, Single Supply, PLCC-20
+K 8bit DAC Reference Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD558.pdf
+$ENDCMP
+#
+$CMP AD5593RBCBZ
+D AD5593RBCBZ, 8-channel 12bit Configurable ADC/DAC/GPIO, Internal Reference, I2C interface, Integrated Temperature Sensor, Single Supply, WLCFP-16
+K 8ch 12bit ADC DAC GPIO I2C
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5593R.pdf
+$ENDCMP
+#
+$CMP AD5593RBCPZ
+D AD5593RBCPZ, 8-channel 12bit Configurable ADC/DAC/GPIO, Internal Reference, I2C interface, Integrated Temperature Sensor, Single Supply, LFCSP-16
+K 8ch 12bit ADC DAC GPIO I2C
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5593R.pdf
+$ENDCMP
+#
+$CMP AD5593RBRUZ
+D AD5593RBRUZ, 8-channel 12bit Configurable ADC/DAC/GPIO, Internal Reference, I2C interface, Integrated Temperature Sensor, Single Supply, TSSOP-16
+K 8ch 12bit ADC DAC GPIO I2C
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD5593R.pdf
+$ENDCMP
+#
+$CMP AD7171BCPZ
+D AD7171BCPZ, 16bit Sigma-Delta ADC, LFCSP-10
+K ADC 16bit
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD7171.pdf
+$ENDCMP
+#
+$CMP AD7224KN
+D AD7224KN, 8bit DAC, Dual or Single Supply, DIP-18
+K 8bit DAC Dual Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD7224.pdf
+$ENDCMP
+#
+$CMP AD7224KP
+D AD7224KP, 8bit DAC, Dual or Single Supply, PLCC-20
+K 8bit DAC Dual Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD7224.pdf
+$ENDCMP
+#
+$CMP AD7224KR-1
+D AD7224KR-1, 8bit DAC, Dual or Single Supply, SO-20
+K 8bit DAC Dual Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD7224.pdf
+$ENDCMP
+#
+$CMP AD7224KR-18
+D AD7224KR-18, 8bit DAC, Dual or Single Supply, SO-18
+K 8bit DAC Dual Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD7224.pdf
+$ENDCMP
+#
+$CMP AD7224LN
+D AD7224LN, 8bit DAC, Dual or Single Supply, DIP-18
+K 8bit DAC Dual Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD7224.pdf
+$ENDCMP
+#
+$CMP AD7224LP
+D AD7224LP, 8bit DAC, Dual or Single Supply, PLCC-20
+K 8bit DAC Dual Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD7224.pdf
+$ENDCMP
+#
+$CMP AD7224LR-1
+D AD7224LR-1, 8bit DAC, Dual or Single Supply, SO-20
+K 8bit DAC Dual Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD7224.pdf
+$ENDCMP
+#
+$CMP AD7224LR-18
+D AD7224LR-18, 8bit DAC, Dual or Single Supply, SO-18
+K 8bit DAC Dual Single Supply
+F http://www.analog.com/static/imported-files/data_sheets/AD7224.pdf
+$ENDCMP
+#
+$CMP AD7225BRS
+D AD7225BRS, Quad 8bit DAC, Separate Reference Voltage, SSOP-24
+K 8bit DAC 4CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7225.pdf
+$ENDCMP
+#
+$CMP AD7225CRS
+D AD7225CRS, Quad 8bit DAC, Separate Reference Voltage, SSOP-24
+K 8bit DAC 4CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7225.pdf
+$ENDCMP
+#
+$CMP AD7225KN
+D AD7225KN, Quad 8bit DAC, Separate Reference Voltage, PDIP-24
+K 8bit DAC 4CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7225.pdf
+$ENDCMP
+#
+$CMP AD7225KP
+D AD7225KP, Quad 8bit DAC, Separate Reference Voltage, PLCC-28
+K 8bit DAC 4CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7225.pdf
+$ENDCMP
+#
+$CMP AD7225KR
+D AD7225KR, Quad 8bit DAC, Separate Reference Voltage, SO-24
+K 8bit DAC 4CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7225.pdf
+$ENDCMP
+#
+$CMP AD7225LN
+D AD7225LN, Quad 8bit DAC, Separate Reference Voltage, PDIP-24
+K 8bit DAC 4CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7225.pdf
+$ENDCMP
+#
+$CMP AD7225LP
+D AD7225LP, Quad 8bit DAC, Separate Reference Voltage, PLCC-28
+K 8bit DAC 4CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7225.pdf
+$ENDCMP
+#
+$CMP AD7225LR
+D AD7225LR, Quad 8bit DAC, Separate Reference Voltage, SO-24
+K 8bit DAC 4CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7225.pdf
+$ENDCMP
+#
+$CMP AD7226BRSZ
+D AD7226BRSZ, Quad 8bit DAC, 4 Channel, Single Reference Voltage, SSOP-20
+K 4CH DAC 8bit
+F http://www.analog.com/static/imported-files/data_sheets/AD7226.pdf
+$ENDCMP
+#
+$CMP AD7226KN
+D AD7226KN, Quad 8bit DAC, 4 Channel, Single Reference Voltage, DIP-20
+K 4CH DAC 8bit
+F http://www.analog.com/static/imported-files/data_sheets/AD7226.pdf
+$ENDCMP
+#
+$CMP AD7226KP
+D AD7226KP, Quad 8bit DAC, 4 Channel, Single Reference Voltage, PLCC-20
+K 4CH DAC 8bit
+F http://www.analog.com/static/imported-files/data_sheets/AD7226.pdf
+$ENDCMP
+#
+$CMP AD7226KR
+D AD7226KR, Quad 8bit DAC, 4 Channel, Single Reference Voltage, SO-20
+K 4CH DAC 8bit
+F http://www.analog.com/static/imported-files/data_sheets/AD7226.pdf
+$ENDCMP
+#
+$CMP AD7228ABN
+D AD7228ABN, 8bit DAC 8 Channel, Single Reference, DIP-24
+K 8bit DAC 8CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7228.pdf
+$ENDCMP
+#
+$CMP AD7228ABP
+D AD7228ABP, 8bit DAC 8 Channel, Single Reference, PLCC-28
+K 8bit DAC 8CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7228.pdf
+$ENDCMP
+#
+$CMP AD7228ABR
+D AD7228ABR, 8bit DAC 8 Channel, Single Reference, SO-24
+K 8bit DAC 8CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7228.pdf
+$ENDCMP
+#
+$CMP AD7228ACN
+D AD7228ACN, 8bit DAC 8 Channel, Single Reference, DIP-24
+K 8bit DAC 8CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7228.pdf
+$ENDCMP
+#
+$CMP AD7228ACR
+D AD7228ACR, 8bit DAC 8 Channel, Single Reference, SO-24
+K 8bit DAC 8CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7228.pdf
+$ENDCMP
+#
+$CMP AD7533JN
+D AD7533JN, 10bit Multiplying DAC, 1 Channel, DIP-16
+K 10bit DAC 1CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7533.pdf
+$ENDCMP
+#
+$CMP AD7533JP
+D AD7533JP, 10bit Multiplying DAC, 1 Channel, PLCC-20
+K 10bit DAC 1CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7533.pdf
+$ENDCMP
+#
+$CMP AD7533KN
+D AD7533KN, 10bit Multiplying DAC, 1 Channel, DIP-16
+K 10bit DAC 1CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7533.pdf
+$ENDCMP
+#
+$CMP AD7533KP
+D AD7533KP, 10bit Multiplying DAC, 1 Channel, PLCC-20
+K 10bit DAC 1CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7533.pdf
+$ENDCMP
+#
+$CMP AD7533KR
+D AD7533KR, 10bit Multiplying DAC, 1 Channel, SO-16
+K 10bit DAC 1CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7533.pdf
+$ENDCMP
+#
+$CMP AD7533LN
+D AD7533LN, 10bit Multiplying DAC, 1 Channel, DIP-16
+K 10bit DAC 1CH
+F http://www.analog.com/static/imported-files/data_sheets/AD7533.pdf
+$ENDCMP
+#
+$CMP AD775
+D DA Converter 8 bits -20MHz
+K DAC CNA
+F adc-dac/ad775.pdf
+$ENDCMP
+#
+$CMP AD7819
+D Analog to Digital 8 bits converter
+K CAD
+F adc-dac/ad7819.pdf
+$ENDCMP
+#
+$CMP AD9280ARS
+D Video ADC  (32 Mhz)
+K ADC CAN VIDEO
+F analog-dev/ad9280.pdf
+$ENDCMP
+#
+$CMP AD9283
+D ADC 50MHz 8 bits
+K ADC 
+F analog-dev/AD9283.pdf
+$ENDCMP
+#
+$CMP AD9708AR
+D Video DAC (32 MHz)
+K DAC CNA VIDEO
+F analog-dev/ad9708.pdf
+$ENDCMP
+#
+$CMP DAC08
+D DA Converter 8 bits
+K DAC CNA
+$ENDCMP
+#
+#End Doc Library

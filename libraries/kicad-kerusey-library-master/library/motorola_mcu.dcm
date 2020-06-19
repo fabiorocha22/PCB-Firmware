@@ -1,0 +1,82 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAC7101CPV
+D MAC7101CPV, ARM7TDMI-S Microcontroller, 512KB Flash, 32KB DataFlash, 32KB SRAM, LQFP-144
+K ARM7TDMI-S
+F http://www.nxp.com/assets/documents/data/en/data-sheets/MAC7100EC.pdf
+$ENDCMP
+#
+$CMP MAC7106CPV
+D MAC7106CPV, ARM7TDMI-S Microcontroller, 1MB Flash, 32KB DataFlash, 48KB SRAM, LQFP-144
+K ARM7TDMI-S
+F http://www.nxp.com/assets/documents/data/en/data-sheets/MAC7100EC.pdf
+$ENDCMP
+#
+$CMP MAC7111CPV
+D MAC7111CPV, ARM7TDMI-S Microcontroller, TQFP-144
+K ARM7TDMI-S
+$ENDCMP
+#
+$CMP MAC7116CPV
+D MAC7116CPV, ARM7TDMI-S Microcontroller, TQFP-144
+K ARM7TDMI-S
+$ENDCMP
+#
+$CMP MC68332CFC
+D MC68332, 32bit Modular Microcontroller, PQFP-132
+K 32bit MCU Modular
+F http://www.nxp.com/assets/documents/data/en/data-sheets/MC68332TS.pdf
+$ENDCMP
+#
+$CMP MC68HC12BE32
+D MC68HC12BE32, Motorola Flash HC12 Microcontroller, 
+$ENDCMP
+#
+$CMP MC68HC812A4
+D MC68HC812A4, Motorola Flash HC12 Microcontroller, LQFP-112
+F http://www.nxp.com/assets/documents/data/en/data-sheets/MC68HC812A4.pdf
+$ENDCMP
+#
+$CMP MC68HC912B32
+D HCMC68HC912, Motorola Flash HC12 Microcontroller, PQFP-80
+$ENDCMP
+#
+$CMP MC9S12DT256BCPV
+D MC9S12DT256BCPV, HCS12 Microcontroller, 256KB Flash, 12KB RAM, 4KB EEPROM, LQFP-112
+K HCS12 MCU
+F http://www.nxp.com/assets/documents/data/en/fact-sheets/MC9S12DT256FS.pdf
+$ENDCMP
+#
+$CMP MC9S12DT256BMPV
+D MC9S12DT256BMPV, HCS12 Microcontroller, 256KB Flash, 12KB RAM, 4KB EEPROM, LQFP-112
+K HCS12 MCU
+F http://www.nxp.com/assets/documents/data/en/fact-sheets/MC9S12DT256FS.pdf
+$ENDCMP
+#
+$CMP MC9S12DT256BVPV
+D MC9S12DT256BVPV, HCS12 Microcontroller, 256KB Flash, 12KB RAM, 4KB EEPROM, LQFP-112
+K HCS12 MCU
+F http://www.nxp.com/assets/documents/data/en/fact-sheets/MC9S12DT256FS.pdf
+$ENDCMP
+#
+$CMP MCF5212_LQFP64
+D MCF5212, Coldfire with SRAM and Flash Eprom, LQFP-64
+K COLDFIRE
+$ENDCMP
+#
+$CMP MCF5213_LQFP100
+D MCF5213, Coldfire with SRAM and Flash Eprom, LQFP-100
+K COLDFIRE
+$ENDCMP
+#
+$CMP MCF5282
+D MCF5282, Coldfire with SRAM and Flash Eprom, 
+K COLDFIRE
+$ENDCMP
+#
+$CMP MCF5407
+D MCF5407, Coldfire with SRAM and Flash Eprom, 
+K COLDFIRE
+$ENDCMP
+#
+#End Doc Library

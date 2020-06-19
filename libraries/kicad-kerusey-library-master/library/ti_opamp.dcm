@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OPA1641AID
+D OPA1641AID, Hi-Performance JFET Audio Operational Amplifier, SOIC-8
+K Audio OA
+F http://www.ti.com.cn/cn/lit/ds/symlink/opa1642.pdf
+$ENDCMP
+#
+$CMP OPA1641AIDGK
+D OPA1641AIDGK, Hi-Performance JFET Audio Operational Amplifier, VSSOP-8
+K Audio OA
+F http://www.ti.com.cn/cn/lit/ds/symlink/opa1642.pdf
+$ENDCMP
+#
+$CMP OPA1642AID
+D OPA1642AID, Hi-Performance JFET Dual Audio Operational Amplifier, SOIC-8
+K Dual Audio OA
+F http://www.ti.com.cn/cn/lit/ds/symlink/opa1642.pdf
+$ENDCMP
+#
+$CMP OPA1642AIDGK
+D OPA1642AIDGK, Hi-Performance JFET Dual Audio Operational Amplifier, VSSOP-8
+K Dual Audio OA
+F http://www.ti.com.cn/cn/lit/ds/symlink/opa1642.pdf
+$ENDCMP
+#
+$CMP OPA1644AID
+D OPA1644AID, Hi-Performance JFET Quad Audio Operational Amplifier, SOIC-14
+K Quad Audio OA
+F http://www.ti.com.cn/cn/lit/ds/symlink/opa1642.pdf
+$ENDCMP
+#
+$CMP OPA1644AIPW
+D OPA1644AIPW, Hi-Performance JFET Quad Audio Operational Amplifier, TSSOP-14
+K Quad Audio OA
+F http://www.ti.com.cn/cn/lit/ds/symlink/opa1642.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMS470R1B768
+D TMS470R1B768, 32bit RISC ARM7TDM MCU, 768K Flash, 48K SRAM, SPI, ADC, DMA, LQFP144
+K TMS470 MCU ARM7TDM 768K 
+F http://www.ti.com/lit/ds/symlink/tms470r1b768.pdf
+$ENDCMP
+#
+#End Doc Library

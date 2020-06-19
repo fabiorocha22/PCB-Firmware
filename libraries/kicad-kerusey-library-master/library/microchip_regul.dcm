@@ -1,0 +1,117 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP1754-1802E/DC
+D MCP1754-1802E, 1.8V 150mA LDO Regulator, SOT-223-5
+K REGULATOR LDO 1.8V 150mA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754-1802E/MC
+D MCP1754-1802E, 1.8V 150mA LDO Regulator, DNF-8 2x3mm
+K REGULATOR LDO 1.8V 150mA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754-1802E/OT
+D MCP1754-1802E, 1.8V 150mA LDO Regulator, SOT-23-5
+K REGULATOR LDO 1.8V 150mA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754-3302E/DC
+D MCP1754-3302E, 3.3V 150mA LDO Regulator, SOT-223-5
+K REGULATOR LDO 3.3V 150mA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754-3302E/MC
+D MCP1754-3302E, 3.3V 150mA LDO Regulator, DNF-8 2x3mm
+K REGULATOR LDO 3.3V 150mA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754-3302E/OT
+D MCP1754-3302E, 3.3V 150mA LDO Regulator, SOT-23-5
+K REGULATOR LDO 3.3V 150mA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754-5002E/DC
+D MCP1754-5002E, 5V 150mA LDO Regulator, SOT-223-5
+K REGULATOR LDO 5V 150mA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754-5002E/MC
+D MCP1754-5002E, 5V 150mA LDO Regulator, DNF-8 2x3mm
+K REGULATOR LDO 5V 150mA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754-5002E/OT
+D MCP1754-5002E, 5V 150mA LDO Regulator, SOT-23-5
+K REGULATOR LDO 5V 150mA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754S-1802E/CB
+D MCP1754S-1802E, 1.8V 150mA LDO Regulator, SOT-23
+K REGULATOR LDO 1.8V 150mA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754S-1802E/DB
+D MCP1754S-1802E, 1.8V 150mA LDO Regulator, SOT-223
+K REGULATOR LDO 5V 150mA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754S-1802E/MB
+D MCP1754S-1802E, 1.8V 150mA LDO Regulator, SOT-89
+K REGULATOR LDO 1.8V 150mA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754S-1802E/MC
+D MCP1754S-1802E, 1.8V 150mA LDO Regulator, DNF-8 2x3mm
+K REGULATOR LDO 5V 150mA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754S-3302E/CB
+D MCP1754S-3302E, 3.3V 150mA LDO Regulator, SOT-23
+K REGULATOR LDO 3.3V 150mA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754S-3302E/MB
+D MCP1754S-3302E, 3.3V 150mA LDO Regulator, SOT-89
+K REGULATOR LDO 3.3V 150mA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754S-5002E/CB
+D MCP1754S-5002E, 5V 150mA LDO Regulator, SOT-23
+K REGULATOR LDO 5V 150mA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754S-5002E/DB
+D MCP1754S-5002E, 5V 150mA LDO Regulator, SOT-223
+K REGULATOR LDO 5V 150mA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754S-5002E/MB
+D MCP1754S-5002E, 5V 150mA LDO Regulator, SOT-89
+K REGULATOR LDO 5V 150mA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+$CMP MCP1754S-5002E/MC
+D MCP1754S-5002E, 5V 150mA LDO Regulator, DNF-8 2x3mm
+K REGULATOR LDO 5V 150mA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf
+$ENDCMP
+#
+#End Doc Library

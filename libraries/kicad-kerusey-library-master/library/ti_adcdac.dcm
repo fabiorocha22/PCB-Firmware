@@ -1,0 +1,63 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS1118IDGS
+D ADS1118IDGS, 16-bit ADC with integrated MUX, PGA and temperature sensor, SPI, MSOP-10
+K Low Power ADC 16bit SPI
+F http://www.ti.com/lit/ds/symlink/ads1118.pdf
+$ENDCMP
+#
+$CMP ADS1118IRUG
+D ADS1118IRUG, 16-bit ADC with integrated MUX, PGA and temperature sensor, SPI, X2QFN-10
+K Low Power ADC 16bit SPI
+F http://www.ti.com/lit/ds/symlink/ads1118.pdf
+$ENDCMP
+#
+$CMP ADS1120IPW
+D ADS1120IPW, Low Power Low Noise Small Signal 16bit ADC, TSSOP-16
+K Low Power Low Noise 16bit ADC
+F http://www.ti.com/lit/ds/symlink/ads1120.pdf
+$ENDCMP
+#
+$CMP ADS1120RVA
+D ADS1120RVA, Low Power Low Noise Small Signal 16bit ADC, VQFP-16 (3.6 x 3.6 mm)
+K Low Power Low Noise 16bit ADC
+F http://www.ti.com/lit/ds/symlink/ads1120.pdf
+$ENDCMP
+#
+$CMP ADS1220IPW
+D ADS1220IPW, Low Power Low Noise Small Signal 24bit ADC, TSSOP-16
+K Low Power Low Noise 24bit ADC
+F http://www.ti.com/lit/ds/symlink/ads1220.pdf
+$ENDCMP
+#
+$CMP ADS1220RVA
+D ADS1220RVA, Low Power Low Noise Small Signal 24bit ADC, VQFP-16 (3.6 x 3.6 mm)
+K Low Power Low Noise 24bit ADC
+F http://www.ti.com/lit/ds/symlink/ads1220.pdf
+$ENDCMP
+#
+$CMP ADS1232IPW
+D ADS1232, Single Bridge 24bit ADC for Sensors, TSSOP24
+K ADC 24bit Sensors Dual Channel
+F http://www.ti.com/lit/ds/symlink/ads1232.pdf
+$ENDCMP
+#
+$CMP ADS1234IPW
+D ADS1234, Dual Bridge 24bit ADC for Sensors, TSSOP28
+K ADC 24bit Sensors Quad Channel
+F http://www.ti.com/lit/ds/symlink/ads1232.pdf
+$ENDCMP
+#
+$CMP TLV5627CD
+D TLV5627, 4-Channel DAC, 8bit, w/ Power Down, SO-16
+K DAC 4CH 8bit
+F http://www.ti.com/lit/ds/symlink/tlv5627.pdf
+$ENDCMP
+#
+$CMP TLV5627CPW
+D TLV5627, 4-Channel DAC, 8bit, w/ Power Down, TSSOP-16
+K DAC 4CH 8bit
+F http://www.ti.com/lit/ds/symlink/tlv5627.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TDA8702
+D TDA8702, 8bit Video DAC (32 MHz), DIP16
+K DAC CNA VIDEO
+F philips/tda8702.pdf
+$ENDCMP
+#
+$CMP TDA8702T
+D TDA8702T, 8bit Video DAC (32 MHz), SO16
+K DAC CNA VIDEO
+F philips/tda8702.pdf
+$ENDCMP
+#
+#End Doc Library

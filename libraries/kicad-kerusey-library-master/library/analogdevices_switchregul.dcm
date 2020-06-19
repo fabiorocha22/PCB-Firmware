@@ -1,0 +1,117 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADP1108AN
+D ADP1108AN, Adjustable Micropower Switching Regulator, DIP8
+K Micropower DC-DC Converter
+F http://www.analog.com/static/imported-files/data_sheets/ADP1108.pdf
+$ENDCMP
+#
+$CMP ADP1108AN-12
+D ADP1108AN-12, Fixed 12V Micropower Switching Regulator, DIP8
+K Micropower DC-DC Converter 12V
+F http://www.analog.com/static/imported-files/data_sheets/ADP1108.pdf
+$ENDCMP
+#
+$CMP ADP1108AN-3.3
+D ADP1108AN-3.3, Fixed 3.3V Micropower Switching Regulator, DIP8
+K Micropower DC-DC Converter 5V
+F http://www.analog.com/static/imported-files/data_sheets/ADP1108.pdf
+$ENDCMP
+#
+$CMP ADP1108AN-5
+D ADP1108AN-5, Fixed 5V Micropower Switching Regulator, DIP8
+K Micropower DC-DC Converter 5V
+F http://www.analog.com/static/imported-files/data_sheets/ADP1108.pdf
+$ENDCMP
+#
+$CMP ADP1108AR
+D ADP1108AR, Adjustable Micropower Switching Regulator, SO8
+K Micropower DC-DC Converter
+F http://www.analog.com/static/imported-files/data_sheets/ADP1108.pdf
+$ENDCMP
+#
+$CMP ADP1108AR-12
+D ADP1108AR-12, Fixed 12V Micropower Switching Regulator, SO8
+K Micropower DC-DC Converter 12V
+F http://www.analog.com/static/imported-files/data_sheets/ADP1108.pdf
+$ENDCMP
+#
+$CMP ADP1108AR-3.3
+D ADP1108AR-3.3, Fixed 3.3V Micropower Switching Regulator, SO8
+K Micropower DC-DC Converter 5V
+F http://www.analog.com/static/imported-files/data_sheets/ADP1108.pdf
+$ENDCMP
+#
+$CMP ADP1108AR-5
+D ADP1108AR-5, Fixed 5V Micropower Switching Regulator, SO8
+K Micropower DC-DC Converter 5V
+F http://www.analog.com/static/imported-files/data_sheets/ADP1108.pdf
+$ENDCMP
+#
+$CMP ADP2108AUJZ-1.0
+D ADP2108AUJZ-1.0, 5.5V, 600mA Step-Down Voltage Regulator, SOT-23-5
+K Step-Down Voltage Regulator 5.5V 600mA
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP ADP2108AUJZ-1.1
+D ADP2108AUJZ-1.1, 5.5V, 600mA Step-Down Voltage Regulator, SOT-23-5
+K Step-Down Voltage Regulator 5.5V 600mA
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP ADP2108AUJZ-1.2
+D ADP2108AUJZ-1.2, 5.5V, 600mA Step-Down Voltage Regulator, SOT-23-5
+K Step-Down Voltage Regulator 5.5V 600mA
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP ADP2108AUJZ-1.3
+D ADP2108AUJZ-1.3, 5.5V, 600mA Step-Down Voltage Regulator, SOT-23-5
+K Step-Down Voltage Regulator 5.5V 600mA
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP ADP2108AUJZ-1.5
+D ADP2108AUJZ-1.5, 5.5V, 600mA Step-Down Voltage Regulator, SOT-23-5
+K Step-Down Voltage Regulator 5.5V 600mA
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP ADP2108AUJZ-1.8
+D ADP2108AUJZ-1.8, 5.5V, 600mA Step-Down Voltage Regulator, SOT-23-5
+K Step-Down Voltage Regulator 5.5V 600mA
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP ADP2108AUJZ-1.82
+D ADP2108AUJZ-1.82, 5.5V, 600mA Step-Down Voltage Regulator, SOT-23-5
+K Step-Down Voltage Regulator 5.5V 600mA
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP ADP2108AUJZ-2.3
+D ADP2108AUJZ-2.3, 5.5V, 600mA Step-Down Voltage Regulator, SOT-23-5
+K Step-Down Voltage Regulator 5.5V 600mA
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP ADP2108AUJZ-2.5
+D ADP2108AUJZ-2.5, 5.5V, 600mA Step-Down Voltage Regulator, SOT-23-5
+K Step-Down Voltage Regulator 5.5V 600mA
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP ADP2108AUJZ-3.0
+D ADP2108AUJZ-3.0, 5.5V, 600mA Step-Down Voltage Regulator, SOT-23-5
+K Step-Down Voltage Regulator 5.5V 600mA
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+$CMP ADP2108AUJZ-3.3
+D ADP2108AUJZ-3.3, 5.5V, 600mA Step-Down Voltage Regulator, SOT-23-5
+K Step-Down Voltage Regulator 5.5V 600mA
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2108.pdf
+$ENDCMP
+#
+#End Doc Library

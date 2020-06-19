@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADL5391ACPZ
+D ADL5391ACPZ, DC to 2.0GHz RF Signal Multiplier, LFCSP_VQ-16
+K RF Signal Multiplier
+F http://www.analog.com/media/en/technical-documentation/evaluation-documentation/ADL5391.pdf
+$ENDCMP
+#
+#End Doc Library

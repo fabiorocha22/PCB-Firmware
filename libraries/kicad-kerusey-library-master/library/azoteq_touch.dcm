@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IQS127D-00000TSR
+D IQS127D-00000, Touch and Proximity Sensor, Single Channel, SOT-23-6
+K TOUCH SENSOR PROXIMITY SINGLE
+F http://www.azoteq.com/images/stories/pdf/iqs127_datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

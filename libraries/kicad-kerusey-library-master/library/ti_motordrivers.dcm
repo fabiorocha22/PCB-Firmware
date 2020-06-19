@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV8302DCA
+D DRV8302DCA, 8-60V Three Phase Gate Driver, Buck Regulator, HTSSOP-56+EP
+K Three Phase Gate Driver
+F http://www.ti.com/lit/ds/symlink/drv8302.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,93 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SST39SF010A-55-4C-NHE
+D SST39SF010A-55-4C-NHE, 128Kx8bit Flash ROM, 55ns, 4KB sector, PLCC-32
+K 128K Flash ROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+$ENDCMP
+#
+$CMP SST39SF010A-55-4C-WHE
+D SST39SF010A-55-4C-WHE, 128Kx8bit Flash ROM, 55ns, 4KB sector, TSSOP-32
+K 128K Flash ROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+$ENDCMP
+#
+$CMP SST39SF010A-70-4C-NHE
+D SST39SF010A-70-4C-NHE, 128Kx8bit Flash ROM, 70ns, 4KB sector, PLCC-32
+K 128K Flash ROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+$ENDCMP
+#
+$CMP SST39SF010A-70-4C-PHE
+D SST39SF010A-70-4C-PHE, 128Kx8bit Flash ROM, 70ns, 4KB sector, PDIP-32
+K 128K Flash ROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+$ENDCMP
+#
+$CMP SST39SF010A-70-4C-WHE
+D SST39SF010A-70-4C-WHE, 128Kx8bit Flash ROM, 70ns, 4KB sector, TSSOP-32
+K 128K Flash ROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+$ENDCMP
+#
+$CMP SST39SF020A-55-4C-NHE
+D SST39SF020A-55-4C-NHE, 256Kx8bit Flash ROM, 55ns, 4KB sector, PLCC-32
+K 256K Flash ROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+$ENDCMP
+#
+$CMP SST39SF020A-55-4C-WHE
+D SST39SF020A-55-4C-WHE, 256Kx8bit Flash ROM, 55ns, 4KB sector, TSSOP-32
+K 256K Flash ROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+$ENDCMP
+#
+$CMP SST39SF020A-70-4C-NHE
+D SST39SF020A-70-4C-NHE, 256Kx8bit Flash ROM, 70ns, 4KB sector, PLCC-32
+K 256K Flash ROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+$ENDCMP
+#
+$CMP SST39SF020A-70-4C-PHE
+D SST39SF020A-70-4C-PHE, 256Kx8bit Flash ROM, 70ns, 4KB sector, PDIP-32
+K 256K Flash ROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+$ENDCMP
+#
+$CMP SST39SF020A-70-4C-WHE
+D SST39SF020A-70-4C-WHE, 256Kx8bit Flash ROM, 70ns, 4KB sector, TSSOP-32
+K 256K Flash ROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+$ENDCMP
+#
+$CMP SST39SF040-55-4C-NHE
+D SST39SF040-55-4C-NHE, 512Kx8bit Flash ROM, 55ns, 4KB sector, PLCC-32
+K 512K Flash ROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+$ENDCMP
+#
+$CMP SST39SF040-55-4C-WHE
+D SST39SF040-55-4C-WHE, 512Kx8bit Flash ROM, 55ns, 4KB sector, TSSOP-32
+K 512K Flash ROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+$ENDCMP
+#
+$CMP SST39SF040-70-4C-NHE
+D SST39SF040-70-4C-NHE, 512Kx8bit Flash ROM, 70ns, 4KB sector, PLCC-32
+K 512K Flash ROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+$ENDCMP
+#
+$CMP SST39SF040-70-4C-PHE
+D SST39SF040-70-4C-PHE, 512Kx8bit Flash ROM, 70ns, 4KB sector, PDIP-32
+K 512K Flash ROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+$ENDCMP
+#
+$CMP SST39SF040-70-4C-WHE
+D SST39SF040-70-4C-WHE, 512Kx8bit Flash ROM, 70ns, 4KB sector, TSSOP-32
+K 512K Flash ROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/25022B.pdf
+$ENDCMP
+#
+#End Doc Library

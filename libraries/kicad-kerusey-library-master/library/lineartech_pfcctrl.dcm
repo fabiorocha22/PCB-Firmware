@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT1248CN
+D LT1248CN, Power Factor Controller, DIP-16
+K PFC Power Factor Corection Controller
+F http://cds.linear.com/docs/en/datasheet/1248fd.pdf
+$ENDCMP
+#
+$CMP LT1248CS
+D LT1248CS, Power Factor Controller, SO-16
+K PFC Power Factor Corection Controller
+F http://cds.linear.com/docs/en/datasheet/1248fd.pdf
+$ENDCMP
+#
+$CMP LT1249CN8
+D LT1249CN8, Power Factor Controller, PDIP-8
+K PFC Power Factor Corection Controller
+F http://cds.linear.com/docs/en/datasheet/1249fbs.pdf
+$ENDCMP
+#
+$CMP LT1249CS8
+D LT1249CS8, Power Factor Controller, SO-8
+K PFC Power Factor Corection Controller
+F http://cds.linear.com/docs/en/datasheet/1249fbs.pdf
+$ENDCMP
+#
+$CMP LT1509CN
+D LT1509CN, Power Factor Controller, DIP-20
+K PFC Power Factor
+F http://cds.linear.com/docs/en/datasheet/lt1509.pdf
+$ENDCMP
+#
+$CMP LT1509CSW
+D LT1509CSW, Power Factor Controller, SOIC-20
+K PFC Power Factor
+F http://cds.linear.com/docs/en/datasheet/lt1509.pdf
+$ENDCMP
+#
+#End Doc Library

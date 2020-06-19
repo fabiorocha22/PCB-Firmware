@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NRF51422-QFAC
+D nRF51422-QFAC, Multiprotocol ANT/Bluetooth Low Energy SoC, QFN-48-EP (6 x 6mm
+K ANT Bluetooth ARM M0 SoC
+F http://infocenter.nordicsemi.com/pdf/nRF51422_PS_v3.1.pdf
+$ENDCMP
+#
+$CMP NRF51822-QFAC
+D nRF51822-QFAC, Multiprotocol ANT/Bluetooth Low Energy SoC, QFN-48-EP (6 x 6mm
+K ANT Bluetooth ARM M0 SoC
+F http://infocenter.nordicsemi.com/pdf/nRF51422_PS_v3.1.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,87 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX11612EUA
+D MAX11612EUA, 4ch 12-bit ADC, I2C Interface, uMAX-8
+K 4ch 12bit ADC I2C
+F https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf
+$ENDCMP
+#
+$CMP MAX11613EUA
+D MAX11613EUA, 4ch 12-bit ADC, I2C Interface, uMAX-8
+K 4ch 12bit ADC I2C
+F https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf
+$ENDCMP
+#
+$CMP MAX11614EEE
+D MAX11614EEE, 8ch 12-bit ADC, I2C Interface, QSOP-16
+K 8ch 12bit ADC I2C
+F https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf
+$ENDCMP
+#
+$CMP MAX11615EEE
+D MAX11615EEE, 8ch 12-bit ADC, I2C Interface, QSOP-16
+K 8ch 12bit ADC I2C
+F https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf
+$ENDCMP
+#
+$CMP MAX11616EEE
+D MAX11616EEE, 12ch 12-bit ADC, I2C Interface, QSOP-16
+K 12ch 12bit ADC I2C
+F https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf
+$ENDCMP
+#
+$CMP MAX11617EEE
+D MAX11617EEE, 12ch 12-bit ADC, I2C Interface, QSOP-16
+K 12ch 12bit ADC I2C
+F https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf
+$ENDCMP
+#
+$CMP MAX1248ACEE
+D MAX1248ACEE, 4ch 10-Bit ADC SPI Interface, QSOP-16
+K 10-Bit ADC Internal Reference Serial 4-Channel Maxim
+F https://datasheets.maximintegrated.com/en/ds/MAX1248-MAX1249.pdf
+$ENDCMP
+#
+$CMP MAX1248ACPE
+D MAX1248ACPE, 4ch 10-Bit ADC SPI Interface, DIP-16
+K 10-Bit ADC Internal Reference Serial 4-Channel Maxim
+F https://datasheets.maximintegrated.com/en/ds/MAX1248-MAX1249.pdf
+$ENDCMP
+#
+$CMP MAX1248BCEE
+D MAX1248BCEE, 4ch 10-Bit ADC SPI Interface, QSOP-16
+K 10-Bit ADC Internal Reference Serial 4-Channel Maxim
+F https://datasheets.maximintegrated.com/en/ds/MAX1248-MAX1249.pdf
+$ENDCMP
+#
+$CMP MAX1248BCPE
+D MAX1248BCPE, 4ch 10-Bit ADC SPI Interface, DIP-16
+K 10-Bit ADC Internal Reference Serial 4-Channel Maxim
+F https://datasheets.maximintegrated.com/en/ds/MAX1248-MAX1249.pdf
+$ENDCMP
+#
+$CMP MAX1249ACEE
+D MAX1249ACEE, 4ch 10-Bit ADC SPI Interface, QSOP-16
+K 10-Bit ADC Internal Reference Serial 4-Channel Maxim
+F https://datasheets.maximintegrated.com/en/ds/MAX1248-MAX1249.pdf
+$ENDCMP
+#
+$CMP MAX1249ACPE
+D MAX1249ACPE, 4ch 10-Bit ADC SPI Interface, DIP-16
+K 10-Bit ADC Internal Reference Serial 4-Channel Maxim
+F https://datasheets.maximintegrated.com/en/ds/MAX1248-MAX1249.pdf
+$ENDCMP
+#
+$CMP MAX1249BCEE
+D MAX1249BCEE, 4ch 10-Bit ADC SPI Interface, QSOP-16
+K 10-Bit ADC Internal Reference Serial 4-Channel Maxim
+F https://datasheets.maximintegrated.com/en/ds/MAX1248-MAX1249.pdf
+$ENDCMP
+#
+$CMP MAX1249BCPE
+D MAX1249BCPE, 4ch 10-Bit ADC SPI Interface, DIP-16
+K 10-Bit ADC Internal Reference Serial 4-Channel Maxim
+F https://datasheets.maximintegrated.com/en/ds/MAX1248-MAX1249.pdf
+$ENDCMP
+#
+#End Doc Library

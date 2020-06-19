@@ -1,0 +1,113 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A1230LK-T
+D A1301KUA-T, Ultra-Sensitive Dual-Channel Quadrature Hall Effect Switch, SIP 3pin
+K Hall Sensor
+F http://www.allegromicro.com/~/media/Files/Datasheets/A1230-Datasheet.ashx
+$ENDCMP
+#
+$CMP A1230LLTR-T
+D A1230LLTR-T, Ultra-Sensitive Dual-Channel Quadrature Hall Effect Switch, SOIC-8
+K Hall Sensor
+F http://www.allegromicro.com/~/media/Files/Datasheets/A1230-Datasheet.ashx
+$ENDCMP
+#
+$CMP A1301EUA-T
+D A1301EUA-T, Linear Hall Effect Sensor, SIP 3pin
+K Hall Sensor
+F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
+$ENDCMP
+#
+$CMP A1301KLHLT-T
+D A1301KLHLT-T, Linear Hall Effect Sensor, SOT-23W
+K Hall Sensor
+F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
+$ENDCMP
+#
+$CMP A1301KUA-T
+D A1301KUA-T, Linear Hall Effect Sensor, SIP 3pin
+K Hall Sensor
+F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
+$ENDCMP
+#
+$CMP A1302ELHLT-T
+D A1302ELHLT-T, Linear Hall Effect Sensor, SOT-23W
+K Hall Sensor
+F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
+$ENDCMP
+#
+$CMP A1302KLHLT-T
+D A1302KLHLT-T, Linear Hall Effect Sensor, SOT-23W
+K Hall Sensor
+F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
+$ENDCMP
+#
+$CMP A1302KUA-T
+D A1302KUA-T, Linear Hall Effect Sensor, SIP 3pin
+K Hall Sensor
+F http://www.allegromicro.com/~/media/Files/Datasheets/A1301-2-Datasheet.ashx
+$ENDCMP
+#
+$CMP ACS706ELC-05C
+D ACS706ELC-05C, 15A, Hall Effect Linear Current Sensor, SO-8
+K Hall Effect Current Monitor
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS706ELC-05C-Datasheet.ashx
+$ENDCMP
+#
+$CMP ACS711ELCTR-12AB
+D ACS711ELCTR-12AB, 12.5A, Hall Effect Linear Current Sensor w/ Overcurrent, SO-8
+K Hall Effect Current Monitor
+F http://www.allegromicro.com/~/Media/Files/Datasheets/ACS711-Datasheet.ashx
+$ENDCMP
+#
+$CMP ACS711ELCTR-25AB
+D ACS711ELCTR-25AB, 25A, Hall Effect Linear Current Sensor w/ Overcurrent, SO-8
+K Hall Effect Current Monitor
+F http://www.allegromicro.com/~/Media/Files/Datasheets/ACS711-Datasheet.ashx
+$ENDCMP
+#
+$CMP ACS712ELCTR-05B-T
+D ACS712ELCTR-05B-T, 5A Current Sensor with Hall Sensor, SO-8
+K Hall Effect Current Sensor
+F sensors/AC712_current_sensor.pdf
+$ENDCMP
+#
+$CMP ACS712ELCTR-20A-T
+D ACS712ELCTR-20A-T, 5A Current Sensor with Hall Sensor, SO-8
+K Hall Effect Current Sensor
+F sensors/AC712_current_sensor.pdf
+$ENDCMP
+#
+$CMP ACS712ELCTR-30A-T
+D ACS712ELCTR-30A-T, 30A Current Sensor with Hall Sensor, SO-8
+K Hall Effect Current Sensor
+F sensors/AC712_current_sensor.pdf
+$ENDCMP
+#
+$CMP ACS715ELCTR-20A-T
+D ACS715ELCTR-20A-T, 20A, Hall Effect Linear Current Sensor , SOIC-8
+K Hall Effect Current Monitor
+$ENDCMP
+#
+$CMP ACS715ELCTR-30A-T
+D ACS715ELCTR-30A-T, 30A, Hall Effect Linear Current Sensor , SOIC-8
+K Hall Effect Current Monitor
+$ENDCMP
+#
+$CMP ACS715LLCTR-20A-T
+D ACS715LLCTR-20A-T, 20A, Hall Effect Linear Current Sensor , SOIC-8
+K Hall Effect Current Monitor
+$ENDCMP
+#
+$CMP ACS715LLCTR-30A-T
+D ACS715LLCTR-30A-T, 30A, Hall Effect Linear Current Sensor , SOIC-8
+K Hall Effect Current Monitor
+$ENDCMP
+#
+$CMP ACS754SCB-200
+D ACS754SCB-200, 200A Hall Effect Linear Current Sensor, 5pin CB package
+K Hall Current Sensor
+F http://www.allegromicro.com/~/media/Files/Datasheets/ACS754-200-Datasheet.ashx
+$ENDCMP
+#
+#End Doc Library

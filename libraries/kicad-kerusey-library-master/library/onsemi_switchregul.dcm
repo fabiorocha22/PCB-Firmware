@@ -1,0 +1,57 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC33063AD
+D MC33063AD, 1.5 A, Step-Up/Down/Inverting Switching Regulators, SO-8
+K Buck Boost Inverter Regulator
+F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
+$ENDCMP
+#
+$CMP MC33063AP
+D MC33063AP, 1.5 A, Step-Up/Down/Inverting Switching Regulators, PDIP-8
+K Buck Boost Inverter Regulator
+F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
+$ENDCMP
+#
+$CMP MC33063AV
+D MC33063AV, 1.5 A, Step-Up/Down/Inverting Switching Regulators, SO-8
+K Buck Boost Inverter Regulator
+F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
+$ENDCMP
+#
+$CMP MC33063AVP
+D MC33063AVP, 1.5 A, Step-Up/Down/Inverting Switching Regulators, PDIP-8
+K Buck Boost Inverter Regulator
+F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
+$ENDCMP
+#
+$CMP MC33063MNTXG
+D MC33063MNTXG, 1.5 A, Step-Up/Down/Inverting Switching Regulators, DFN-8 4x4mm
+K Buck Boost Inverter Regulator
+F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
+$ENDCMP
+#
+$CMP MC34063AD
+D MC34063AD, 1.5 A, Step-Up/Down/Inverting Switching Regulators, SO-8
+K Buck Boost Inverter Regulator
+F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
+$ENDCMP
+#
+$CMP MC34063AP
+D MC34063AP, 1.5 A, Step-Up/Down/Inverting Switching Regulators, PDIP-8
+K Buck Boost Inverter Regulator
+F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
+$ENDCMP
+#
+$CMP SC33063AD
+D SC33063AD, 1.5 A, Step-Up/Down/Inverting Switching Regulators, SO-8
+K Buck Boost Inverter Regulator
+F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
+$ENDCMP
+#
+$CMP SC34063AD
+D SC34063AD, 1.5 A, Step-Up/Down/Inverting Switching Regulators, SO-8
+K Buck Boost Inverter Regulator
+F http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
+$ENDCMP
+#
+#End Doc Library

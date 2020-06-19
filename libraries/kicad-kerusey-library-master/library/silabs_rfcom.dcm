@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SI4362-BXX-FM
+D Si4362-Bxx-FM, EZRadioPRO Low Current Receiver, QFN20 (4x4mm) +EP
+K RF Receiver EZRadioPRO SPI
+F http://www.silabs.com/Support%20Documents/TechnicalDocs/Si4362.pdf
+$ENDCMP
+#
+#End Doc Library

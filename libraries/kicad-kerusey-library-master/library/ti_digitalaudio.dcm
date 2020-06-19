@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV320AIC23BPW
+D TLV320AIC23BPW, 8-96kHz Stero Audio CODEC w/ Headphone Amp, TSSOP28
+K Stero Audio CODEC 96kHz Headphone
+F www.ti.com/lit/ds/symlink/tlv320aic23b.pdf
+$ENDCMP
+#
+$CMP TLV320AIC23BRHD
+D TLV320AIC23BRHD, 8-96kHz Stero Audio CODEC w/ Headphone Amp, QFN28
+K Stero Audio CODEC 96kHz Headphone
+F www.ti.com/lit/ds/symlink/tlv320aic23b.pdf
+$ENDCMP
+#
+$CMP TPA5050RSA
+D TPA505, Stereo Digital Audio Delay Processor With I2C Control, QFN-16 (4x4mm)
+K Digital Audio Delay I2C
+F http://www.ti.com/lit/ds/symlink/tpa5050.pdf
+$ENDCMP
+#
+#End Doc Library

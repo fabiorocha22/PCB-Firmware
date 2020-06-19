@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BQ2003PN
+D BQ2003PN, Fast Battery Charger Controller, PDIP-16
+K Battery Charger
+F http://www.ti.com.cn/cn/lit/ds/symlink/bq2003.pdf
+$ENDCMP
+#
+$CMP BQ2003S
+D BQ2003S, Fast Battery Charger Controller, SOIC-16
+K Battery Charger
+F http://www.ti.com.cn/cn/lit/ds/symlink/bq2003.pdf
+$ENDCMP
+#
+$CMP BQ24072RGT
+D BQ24072RGT, USB-Friendly Li-Ion Battery Charger and Power-Path Management, VSON-16
+K USB Battery Charger
+F http://www.ti.com/lit/ds/symlink/bq24075.pdf
+$ENDCMP
+#
+$CMP BQ24073RGT
+D BQ24073RGT, USB-Friendly Li-Ion Battery Charger and Power-Path Management, VSON-16
+K USB Battery Charger
+F http://www.ti.com/lit/ds/symlink/bq24075.pdf
+$ENDCMP
+#
+$CMP BQ24074RGT
+D BQ24074RGT, USB-Friendly Li-Ion Battery Charger and Power-Path Management, VSON-16
+K USB Battery Charger
+F http://www.ti.com/lit/ds/symlink/bq24075.pdf
+$ENDCMP
+#
+$CMP BQ24075RGT
+D BQ24075RGT, USB-Friendly Li-Ion Battery Charger and Power-Path Management, VSON-16
+K USB Battery Charger
+F http://www.ti.com/lit/ds/symlink/bq24075.pdf
+$ENDCMP
+#
+$CMP BQ24079RGT
+D BQ24079RGT, USB-Friendly Li-Ion Battery Charger and Power-Path Management, VSON-16
+K USB Battery Charger
+F http://www.ti.com/lit/ds/symlink/bq24075.pdf
+$ENDCMP
+#
+#End Doc Library

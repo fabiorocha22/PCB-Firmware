@@ -1,0 +1,93 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CNY17-1
+D CNY17-1, DIP6, DC Optocoupler Base Connected, Vce 70V, CTR 40-80%, Viso 5000V (RMS)
+K NPN DC Optocoupler Base Connected
+F http://www.vishay.com/docs/83606/cny17.pdf
+$ENDCMP
+#
+$CMP CNY17-2
+D CNY17-2, DIP6, DC Optocoupler Base Connected, Vce 70V, CTR 63-125%, Viso 5000V (RMS)
+K NPN DC Optocoupler Base Connected
+F http://www.vishay.com/docs/83606/cny17.pdf
+$ENDCMP
+#
+$CMP CNY17-3
+D CNY17-3, DIP6, DC Optocoupler Base Connected, Vce 70V, CTR 100-200%, Viso 5000V (RMS)
+K NPN DC Optocoupler Base Connected
+F http://www.vishay.com/docs/83606/cny17.pdf
+$ENDCMP
+#
+$CMP CNY17-4
+D CNY17-4, DIP6, DC Optocoupler Base Connected, Vce 70V, CTR 160-320%, Viso 5000V (RMS)
+K NPN DC Optocoupler Base Connected
+F http://www.vishay.com/docs/83606/cny17.pdf
+$ENDCMP
+#
+$CMP IL300
+D IL300, Isolated Linear Photocoupler, High Gain, Wideband, DIP8/SMD8
+K Isolated Linear Photocoupler
+F http://www.vishay.com/docs/83622/il300.pdf
+$ENDCMP
+#
+$CMP VO615A
+D VO615A, DIP4, DC Optocoupler, Vce 70V, Id 5mA, CTR 50-600%, DIP-4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-1
+D VO615A-1, DIP4, DC Optocoupler, Vce 70V, Id 10mA, CTR 40-80%, DIP-4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-2
+D VO615A-2, DIP4, DC Optocoupler, Vce 70V, Id 10mA, CTR 63-125%, DIP-4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-3
+D VO615A-3, DIP4, DC Optocoupler, Vce 70V, Id 10mA, CTR 100-200%, DIP-4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-4
+D VO615A-4, DIP4, DC Optocoupler, Vce 70V, Id 10mA, CTR 160-320%, DIP-4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-5
+D VO615A-5, DIP4, DC Optocoupler, Vce 70V, Id 5mA, CTR 50-150%, DIP-4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-6
+D VO615A-6, DIP4, DC Optocoupler, Vce 70V, Id 5mA, CTR 100-300%, DIP-4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-7
+D VO615A-7, DIP4, DC Optocoupler, Vce 70V, Id 5mA, CTR 80-160%, DIP-4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-8
+D VO615A-8, DIP4, DC Optocoupler, Vce 70V, Id 5mA, CTR 130-260%, DIP-4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+$CMP VO615A-9
+D VO615A-9, DIP4, DC Optocoupler, Vce 70V, Id 5mA, CTR 200-400%, DIP-4
+K NPN DC Optocoupler
+F http://www.vishay.com/docs/81753/vo615a.pdf
+$ENDCMP
+#
+#End Doc Library

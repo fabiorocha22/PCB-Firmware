@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0  Date: 2013-01-17 06:33:01
+#
+$CMP RM50-xx11
+D RM50-xx11, Single Pole Relay, Sugar Cube, 15A
+K Single Pole Relay Sugar Cube
+F http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf
+$ENDCMP
+#
+$CMP RM50-xx21
+D RELPOL RM50-xx21, Single Pole Relay SPST-NO, 6A
+K Single Pole Relay SPST-NO
+F http://www.relpol.pl/en/content/download/13683/165953/file/e_RM50.pdf
+$ENDCMP
+#
+$CMP RM84
+D RELPOL RM84, Dual Pole Relay, 5mm Pitch, 8A
+K Dual Pole Relay
+F http://www.relpol.pl/en/content/download/13766/168095/file/e_RM84.pdf
+$ENDCMP
+#
+$CMP RSM822
+D RELPOL RSM822, Dual Pole Relay, 5mm Pitch, 2A
+K Dual Pole Relay
+F http://www.relpol.pl/en/content/download/14975/202519/file/e_RSM822.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,435 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ARM-JTAG-20
+D Standard IDC20 Male Connector, ARM legacy JTAG interface
+K IDC20 Male Connector ARM JTAG
+F http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf
+$ENDCMP
+#
+$CMP MKE02Z16VFM4
+D MKE02Z16VFM4, 16KB FLASH, 2KB SRAM, EEPROM, 40MHz ARM Cortex-M0+ Microcontroller, QFN-32
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.freescale.com/files/microcontrollers/doc/data_sheet/MKE02P64M40SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z16VLC2
+D MKE02Z16VLC2, 16KB FLASH, 2KB SRAM, EEPROM, 20MHz ARM Cortex-M0+ Microcontroller, LQFP-32
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.nxp.com/files/32bit/doc/data_sheet/MKE02P64M20SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z16VLC4
+D MKE02Z16VLC4, 16KB FLASH, 2KB SRAM, EEPROM, 40MHz ARM Cortex-M0+ Microcontroller, LQFP-32
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.freescale.com/files/microcontrollers/doc/data_sheet/MKE02P64M40SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z16VLD2
+D MKE02Z16VLD2, 16KB FLASH, 2KB SRAM, EEPROM, 20MHz ARM Cortex-M0+ Microcontroller, LQFP-44
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.nxp.com/files/32bit/doc/data_sheet/MKE02P64M20SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z16VLD4
+D MKE02Z16VLD4, 16KB FLASH, 2KB SRAM, EEPROM, 40MHz ARM Cortex-M0+ Microcontroller, LQFP-44
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.freescale.com/files/microcontrollers/doc/data_sheet/MKE02P64M40SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z32VFM4
+D MKE02Z32VFM4, 16KB FLASH, 4KB SRAM, EEPROM, 40MHz ARM Cortex-M0+ Microcontroller, QFN-32
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.freescale.com/files/microcontrollers/doc/data_sheet/MKE02P64M40SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z32VLC2
+D MKE02Z32VLC2, 32KB FLASH, 4KB SRAM, EEPROM, 20MHz ARM Cortex-M0+ Microcontroller, LQFP-32
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.nxp.com/files/32bit/doc/data_sheet/MKE02P64M20SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z32VLC4
+D MKE02Z32VLC4, 32KB FLASH, 4KB SRAM, EEPROM, 40MHz ARM Cortex-M0+ Microcontroller, LQFP-32
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.freescale.com/files/microcontrollers/doc/data_sheet/MKE02P64M40SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z32VLD2
+D MKE02Z32VLD2, 32KB FLASH, 4KB SRAM, EEPROM, 20MHz ARM Cortex-M0+ Microcontroller, LQFP-44
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.nxp.com/files/32bit/doc/data_sheet/MKE02P64M20SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z32VLD4
+D MKE02Z32VLD4, 32KB FLASH, 4KB SRAM, EEPROM, 40MHz ARM Cortex-M0+ Microcontroller, LQFP-44
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.freescale.com/files/microcontrollers/doc/data_sheet/MKE02P64M40SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z32VLH2
+D MKE02Z32VLH2, 32KB FLASH, 4KB SRAM, EEPROM, 20MHz ARM Cortex-M0+ Microcontroller, LQFP-64
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.nxp.com/files/32bit/doc/data_sheet/MKE02P64M20SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z32VLH4
+D MKE02Z32VLH4, 32KB FLASH, 4KB SRAM, EEPROM, 40MHz ARM Cortex-M0+ Microcontroller, LQFP-64
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.freescale.com/files/microcontrollers/doc/data_sheet/MKE02P64M40SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z32VQH2
+D MKE02Z32VQH2, 32KB FLASH, 4KB SRAM, EEPROM, 20MHz ARM Cortex-M0+ Microcontroller, TQFP-64
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.nxp.com/files/32bit/doc/data_sheet/MKE02P64M20SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z32VQH4
+D MKE02Z32VQH4, 32KB FLASH, 4KB SRAM, EEPROM, 40MHz ARM Cortex-M0+ Microcontroller, TQFP-64
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.freescale.com/files/microcontrollers/doc/data_sheet/MKE02P64M40SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z64VFM4
+D MKE02Z64VFM4, 64KB FLASH, 4KB SRAM, EEPROM, 40MHz ARM Cortex-M0+ Microcontroller, QFN-32
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.freescale.com/files/microcontrollers/doc/data_sheet/MKE02P64M40SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z64VLC2
+D MKE02Z64VLC2, 64KB FLASH, 4KB SRAM, EEPROM, 20MHz ARM Cortex-M0+ Microcontroller, LQFP-32
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.nxp.com/files/32bit/doc/data_sheet/MKE02P64M20SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z64VLC4
+D MKE02Z64VLC4, 64KB FLASH, 4KB SRAM, EEPROM, 40MHz ARM Cortex-M0+ Microcontroller, LQFP-32
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.freescale.com/files/microcontrollers/doc/data_sheet/MKE02P64M40SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z64VLD2
+D MKE02Z64VLD2, 64KB FLASH, 4KB SRAM, EEPROM, 20MHz ARM Cortex-M0+ Microcontroller, LQFP-44
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.nxp.com/files/32bit/doc/data_sheet/MKE02P64M20SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z64VLD4
+D MKE02Z64VLD4, 64KB FLASH, 4KB SRAM, EEPROM, 40MHz ARM Cortex-M0+ Microcontroller, LQFP-44
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.freescale.com/files/microcontrollers/doc/data_sheet/MKE02P64M40SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z64VLH2
+D MKE02Z64VLD2, 64KB FLASH, 4KB SRAM, EEPROM, 20MHz ARM Cortex-M0+ Microcontroller, LQFP-64
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.nxp.com/files/32bit/doc/data_sheet/MKE02P64M20SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z64VLH4
+D MKE02Z64VLD4, 64KB FLASH, 4KB SRAM, EEPROM, 40MHz ARM Cortex-M0+ Microcontroller, LQFP-64
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.freescale.com/files/microcontrollers/doc/data_sheet/MKE02P64M40SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z64VQH2
+D MKE02Z64VLD2, 64KB FLASH, 4KB SRAM, EEPROM, 20MHz ARM Cortex-M0+ Microcontroller, TQFP-64
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.nxp.com/files/32bit/doc/data_sheet/MKE02P64M20SF0.pdf
+$ENDCMP
+#
+$CMP MKE02Z64VQH4
+D MKE02Z64VLD4, 64KB FLASH, 4KB SRAM, EEPROM, 40MHz ARM Cortex-M0+ Microcontroller, TQFP-64
+K ARM Cortex-M0+ MCU Kinetis KE02
+F http://cache.freescale.com/files/microcontrollers/doc/data_sheet/MKE02P64M40SF0.pdf
+$ENDCMP
+#
+$CMP MKL02Z16VFG4
+D MKL02Z16VFG4, 16KB Flash, 2KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-16
+K ARM Cortex-M0+ MCU Kinetis KL02
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL02P32M48SF0.pdf
+$ENDCMP
+#
+$CMP MKL02Z16VFG4R
+D MKL02Z16VFG4R, 16KB Flash, 2KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-16
+K ARM Cortex-M0+ MCU Kinetis KL02
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL02P32M48SF0.pdf
+$ENDCMP
+#
+$CMP MKL02Z16VFK4
+D MKL02Z16VFK4, 16KB Flash, 2KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-24
+K ARM Cortex-M0+ MCU Kinetis KL02
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL02P32M48SF0.pdf
+$ENDCMP
+#
+$CMP MKL02Z32CAF4R
+D MKL02Z32CAF4R, 32KB Flash, 4KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, WLCSP-20
+K ARM Cortex-M0+ MCU Kinetis KL02
+F http://cache.nxp.com/files/32bit/doc/data_sheet/KL02P20M48SF0.pdf
+$ENDCMP
+#
+$CMP MKL02Z32VFG4
+D MKL02Z32VFG4, 32KB Flash, 4KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-16
+K ARM Cortex-M0+ MCU Kinetis KL02
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL02P32M48SF0.pdf
+$ENDCMP
+#
+$CMP MKL02Z32VFG4R
+D MKL02Z32VFG4R, 32KB Flash, 4KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-16
+K ARM Cortex-M0+ MCU Kinetis KL02
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL02P32M48SF0.pdf
+$ENDCMP
+#
+$CMP MKL02Z32VFK4
+D MKL02Z32VFK4, 32KB Flash, 4KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-24
+K ARM Cortex-M0+ MCU Kinetis KL02
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL02P32M48SF0.pdf
+$ENDCMP
+#
+$CMP MKL02Z32VFK4R
+D MKL02Z32VFK4R, 32KB Flash, 4KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-24
+K ARM Cortex-M0+ MCU Kinetis KL02
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL02P32M48SF0.pdf
+$ENDCMP
+#
+$CMP MKL02Z8VFG4
+D MKL02Z8VFG4, 8KB Flash, 1KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-16
+K ARM Cortex-M0+ MCU Kinetis KL02
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL02P32M48SF0.pdf
+$ENDCMP
+#
+$CMP MKL02Z8VFG4R
+D MKL02Z8VFG4R, 8KB Flash, 1KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-16
+K ARM Cortex-M0+ MCU Kinetis KL02
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL02P32M48SF0.pdf
+$ENDCMP
+#
+$CMP MKL03Z16VFG4
+D MKL03Z16VFG4, 16KB Flash, 2KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-16
+K ARM Cortex-M0+ MCU Kinetis KL03
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL03P24M48SF0.pdf
+$ENDCMP
+#
+$CMP MKL03Z16VFK4
+D MKL03Z16VFK4, 16KB Flash, 2KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-24
+K ARM Cortex-M0+ MCU Kinetis KL03
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL03P24M48SF0.pdf
+$ENDCMP
+#
+$CMP MKL03Z32VFG4
+D MKL03Z32VFG4, 32KB Flash, 2KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-16
+K ARM Cortex-M0+ MCU Kinetis KL03
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL03P24M48SF0.pdf
+$ENDCMP
+#
+$CMP MKL03Z32VFK4
+D MKL03Z32VFK4, 32KB Flash, 2KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-24
+K ARM Cortex-M0+ MCU Kinetis KL03
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL03P24M48SF0.pdf
+$ENDCMP
+#
+$CMP MKL03Z8VFG4
+D MKL03Z8VFG4, 8KB Flash, 2KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-16
+K ARM Cortex-M0+ MCU Kinetis KL03
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL03P24M48SF0.pdf
+$ENDCMP
+#
+$CMP MKL03Z8VFG4R
+D MKL03Z8VFG4R, 8KB Flash, 2KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-16
+K ARM Cortex-M0+ MCU Kinetis KL03
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL03P24M48SF0.pdf
+$ENDCMP
+#
+$CMP MKL03Z8VFK4
+D MKL03Z8VFK4, 8KB Flash, 2KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-24
+K ARM Cortex-M0+ MCU Kinetis KL03
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL03P24M48SF0.pdf
+$ENDCMP
+#
+$CMP MKL04Z16VFK4
+D MKL04Z16VFK4, 16KB Flash, 2KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-24
+K ARM Cortex-M0+ MCU Kinetis KL04
+F http://cache.nxp.com/files/32bit/doc/data_sheet/KL04P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL04Z16VFM4
+D MKL04Z16VFM4, 16KB Flash, 2KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-32
+K ARM Cortex-M0+ MCU Kinetis KL04
+F http://cache.nxp.com/files/32bit/doc/data_sheet/KL04P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL04Z16VLC4
+D MKL04Z16VLC4, 16KB Flash, 2KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, LQFP-32
+K ARM Cortex-M0+ MCU Kinetis KL04
+F http://cache.nxp.com/files/32bit/doc/data_sheet/KL04P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL04Z16VLC4R
+D MKL04Z16VLC4R, 16KB Flash, 2KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, LQFP-32
+K ARM Cortex-M0+ MCU Kinetis KL04
+F http://cache.nxp.com/files/32bit/doc/data_sheet/KL04P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL04Z16VLF4
+D MKL04Z16VLF4, 16KB Flash, 2KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, LQFP-48
+K ARM Cortex-M0+ MCU Kinetis KL04
+F http://cache.nxp.com/files/32bit/doc/data_sheet/KL04P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL04Z32VFK4
+D MKL04Z32VFK4, 32KB Flash, 4KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-24
+K ARM Cortex-M0+ MCU Kinetis KL04
+F http://cache.nxp.com/files/32bit/doc/data_sheet/KL04P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL04Z32VFK4R
+D MKL04Z32VFK4R, 32KB Flash, 4KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-24
+K ARM Cortex-M0+ MCU Kinetis KL04
+F http://cache.nxp.com/files/32bit/doc/data_sheet/KL04P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL04Z32VFM4
+D MKL04Z32VFM4, 32KB Flash, 4KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-32
+K ARM Cortex-M0+ MCU Kinetis KL04
+F http://cache.nxp.com/files/32bit/doc/data_sheet/KL04P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL04Z32VFM4R
+D MKL04Z32VFM4R, 32KB Flash, 4KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-32
+K ARM Cortex-M0+ MCU Kinetis KL04
+F http://cache.nxp.com/files/32bit/doc/data_sheet/KL04P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL04Z32VLC4
+D MKL04Z32VLC4, 32KB Flash, 4KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, LQFP-32
+K ARM Cortex-M0+ MCU Kinetis KL04
+F http://cache.nxp.com/files/32bit/doc/data_sheet/KL04P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL04Z32VLC4R
+D MKL04Z32VLC4R, 32KB Flash, 4KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, LQFP-32
+K ARM Cortex-M0+ MCU Kinetis KL04
+F http://cache.nxp.com/files/32bit/doc/data_sheet/KL04P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL04Z32VLF4
+D MKL04Z32VLF4, 32KB Flash, 4KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, LQFP-48
+K ARM Cortex-M0+ MCU Kinetis KL04
+F http://cache.nxp.com/files/32bit/doc/data_sheet/KL04P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL04Z32VLF4R
+D MKL04Z32VLF4R, 32KB Flash, 4KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, LQFP-48
+K ARM Cortex-M0+ MCU Kinetis KL04
+F http://cache.nxp.com/files/32bit/doc/data_sheet/KL04P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL04Z8VFK4
+D MKL04Z8VFK4, 8KB Flash, 1KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-24
+K ARM Cortex-M0+ MCU Kinetis KL04
+F http://cache.nxp.com/files/32bit/doc/data_sheet/KL04P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL04Z8VFM4
+D MKL04Z8VFM4, 8KB Flash, 1KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-32
+K ARM Cortex-M0+ MCU Kinetis KL04
+F http://cache.nxp.com/files/32bit/doc/data_sheet/KL04P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL04Z8VLC4
+D MKL04Z8VLC4, 8KB Flash, 1KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, LQFP-32
+K ARM Cortex-M0+ MCU Kinetis KL04
+F http://cache.nxp.com/files/32bit/doc/data_sheet/KL04P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL04Z8VLC4R
+D MKL04Z8VLC4R, 8KB Flash, 1KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, LQFP-32
+K ARM Cortex-M0+ MCU Kinetis KL04
+F http://cache.nxp.com/files/32bit/doc/data_sheet/KL04P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL05Z16VFK4
+D MKL05Z16VFK4, 16KB Flash, 2KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-24
+K ARM Cortex-M0+ MCU Kinetis KL05
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL05P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL05Z16VFM4
+D MKL05Z16VFM4, 16KB Flash, 2KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-32
+K ARM Cortex-M0+ MCU Kinetis KL05
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL05P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL05Z16VLC4
+D MKL05Z16VLC4, 16KB Flash, 2KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, LQFP-32
+K ARM Cortex-M0+ MCU Kinetis KL05
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL05P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL05Z16VLF4
+D MKL05Z16VLF4, 16KB Flash, 2KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, LQFP-48
+K ARM Cortex-M0+ MCU Kinetis KL05
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL05P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL05Z32VFK4
+D MKL05Z32VFK4, 32KB Flash, 4KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-24
+K ARM Cortex-M0+ MCU Kinetis KL05
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL05P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL05Z32VFM4
+D MKL05Z32VFM4, 32KB Flash, 4KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-32
+K ARM Cortex-M0+ MCU Kinetis KL05
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL05P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL05Z32VFM4R
+D MKL05Z32VFM4R, 32KB Flash, 4KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-32
+K ARM Cortex-M0+ MCU Kinetis KL05
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL05P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL05Z32VLC4
+D MKL05Z32VLC4, 32KB Flash, 4KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, LQFP-32
+K ARM Cortex-M0+ MCU Kinetis KL05
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL05P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL05Z32VLC4R
+D MKL05Z32VLC4R, 32KB Flash, 4KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, LQFP-32
+K ARM Cortex-M0+ MCU Kinetis KL05
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL05P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL05Z32VLF4
+D MKL05Z32VLF4, 32KB Flash, 4KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, LQFP-48
+K ARM Cortex-M0+ MCU Kinetis KL05
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL05P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL05Z32VLF4R
+D MKL05Z32VLF4R, 32KB Flash, 4KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, LQFP-48
+K ARM Cortex-M0+ MCU Kinetis KL05
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL05P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL05Z8VFK4
+D MKL05Z8VFK4, 8KB Flash, 1KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-24
+K ARM Cortex-M0+ MCU Kinetis KL05
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL05P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL05Z8VFM4
+D MKL05Z8VFK4, 8KB Flash, 1KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, QFN-32
+K ARM Cortex-M0+ MCU Kinetis KL05
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL05P48M48SF1.pdf
+$ENDCMP
+#
+$CMP MKL05Z8VLC4
+D MKL05Z8VFK4, 8KB Flash, 1KB SRAM, 48MHz ARM Cortex-M0+ Microcontroller, LQFP-32
+K ARM Cortex-M0+ MCU Kinetis KL05
+F http://cache.freescale.com/files/32bit/doc/data_sheet/KL05P48M48SF1.pdf
+$ENDCMP
+#
+#End Doc Library

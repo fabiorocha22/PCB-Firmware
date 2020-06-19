@@ -1,0 +1,327 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX13450EAUD
+D MAX13450EAUD+, 20Mbps RS485 Full-Duplex Transceiver with Integrated Switchable Termination, TSSOP-14 w/ EP
+K RS485 Full Duplex
+F http://datasheets.maximintegrated.com/en/ds/MAX13450E-MAX13451E.pdf
+$ENDCMP
+#
+$CMP MAX13451EAUD
+D MAX13451EAUD+, 20Mbps RS485 Half-Duplex Transceiver with Integrated Switchable Termination, TSSOP-14 w/ EP
+K RS485 Half Duplex
+F http://datasheets.maximintegrated.com/en/ds/MAX13450E-MAX13451E.pdf
+$ENDCMP
+#
+$CMP MAX1487CPA
+D MAX1487CPA, RS-485/RS-422 Transciever, Half Duplex, 2.5Mb/s, PDIP-8
+K RS-485 RS-422 Half Duplex
+F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX1487CSA
+D MAX1487CSA, RS-485/RS-422 Transciever, Half Duplex, 2.5Mb/s, SO-8
+K RS-485 RS-422 Half Duplex
+F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX202
+D MAX202, Level Shifter for RS232 (EIA/TIA-232E), 64kB/s Throughput, DIP16/SO16
+K EIA/TIA-232E LEVEL SHIFTER 64kB/s
+F http://pdfserv.maximintegrated.com/en/ds/MAX220-MAX249.pdf
+$ENDCMP
+#
+$CMP MAX220
+D MAX220, Level Shifter for RS232 (EIA/TIA-232E), 120kB/s Throughput, Ultra-Low Power, DIP16/SO16
+K EIA/TIA-232E LEVEL SHIFTER 120kB/s ULP LOW POWER
+F http://pdfserv.maximintegrated.com/en/ds/MAX220-MAX249.pdf
+$ENDCMP
+#
+$CMP MAX222
+D MAX222, Level Shifter for RS232 (EIA/TIA-232E), 200kB/s Throughput, DIP18/SO18
+K EIA/TIA-232E LEVEL SHIFTER 200kB/s
+F http://pdfserv.maximintegrated.com/en/ds/MAX220-MAX249.pdf
+$ENDCMP
+#
+$CMP MAX225CWI
+D MAX225, Level Shifter for RS232 (EIA/TIA-232E), 120kB/s Throughput, SO28
+K EIA/TIA-232E LEVEL SHIFTER 120kB/s
+F http://pdfserv.maximintegrated.com/en/ds/MAX220-MAX249.pdf
+$ENDCMP
+#
+$CMP MAX232
+D MAX232, Level Shifter for RS232 (EIA/TIA-232E), 120kB/s Throughput, DIP16/SO16
+K EIA/TIA-232E LEVEL SHIFTER 120kB/s
+F http://pdfserv.maximintegrated.com/en/ds/MAX220-MAX249.pdf
+$ENDCMP
+#
+$CMP MAX232A
+D MAX232A, Level Shifter for RS232 (EIA/TIA-232E), 200kB/s Throughput, DIP16/SO16
+K EIA/TIA-232E LEVEL SHIFTER 200kB/s
+F http://pdfserv.maximintegrated.com/en/ds/MAX220-MAX249.pdf
+$ENDCMP
+#
+$CMP MAX242
+D MAX242, Level Shifter for RS232 (EIA/TIA-232E), 200kB/s Throughput, DIP18/SO18
+K EIA/TIA-232E LEVEL SHIFTER 200kB/s
+F http://pdfserv.maximintegrated.com/en/ds/MAX220-MAX249.pdf
+$ENDCMP
+#
+$CMP MAX242CAP
+D MAX242CAP, Level Shifter for RS232 (EIA/TIA-232E), 200kB/s Throughput, SSOP20
+K EIA/TIA-232E LEVEL SHIFTER 200kB/s
+F http://pdfserv.maximintegrated.com/en/ds/MAX220-MAX249.pdf
+$ENDCMP
+#
+$CMP MAX31855EASA
+D MAX31855EASA, Cold Junction E-type Termocouple Interface, SPI, SO8
+K Cold Junction Termocouple Interface SPI
+F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
+$ENDCMP
+#
+$CMP MAX31855JASA
+D MAX31855JASA, Cold Junction J-type Termocouple Interface, SPI, SO8
+K Cold Junction Termocouple Interface SPI
+F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
+$ENDCMP
+#
+$CMP MAX31855KASA
+D MAX31855KASA, Cold Junction K-type Termocouple Interface, SPI, SO8
+K Cold Junction Termocouple Interface SPI
+F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
+$ENDCMP
+#
+$CMP MAX31855NASA
+D MAX31855NASA, Cold Junction N-type Termocouple Interface, SPI, SO8
+K Cold Junction Termocouple Interface SPI
+F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
+$ENDCMP
+#
+$CMP MAX31855RASA
+D MAX31855RASA, Cold Junction R-type Termocouple Interface, SPI, SO8
+K Cold Junction Termocouple Interface SPI
+F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
+$ENDCMP
+#
+$CMP MAX31855SASA
+D MAX31855SASA, Cold Junction S-type Termocouple Interface, SPI, SO8
+K Cold Junction Termocouple Interface SPI
+F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
+$ENDCMP
+#
+$CMP MAX31855TASA
+D MAX31855TASA, Cold Junction T-type Termocouple Interface, SPI, SO8
+K Cold Junction Termocouple Interface SPI
+F http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf
+$ENDCMP
+#
+$CMP MAX3221CAE
+D MAX3221CAE, RS232 Full-Duplex Transceiver with 15kV ESD protection, SSOP-16
+K RS232 Level Shifter Full Duplex
+F http://pdfserv.maximintegrated.com/en/ds/MAX3221-MAX3243.pdf
+$ENDCMP
+#
+$CMP MAX3223CAP
+D MAX3223CAP, RS232 Full-Duplex Transceiver with 15kV ESD protection, SSOP-16
+K RS232 Level Shifter Full Duplex
+F http://pdfserv.maximintegrated.com/en/ds/MAX3221-MAX3243.pdf
+$ENDCMP
+#
+$CMP MAX3223CPP
+D MAX3223CPP, RS232 Full-Duplex Transceiver with 15kV ESD protection, PDIP-16
+K RS232 Level Shifter Full Duplex
+F http://pdfserv.maximintegrated.com/en/ds/MAX3221-MAX3243.pdf
+$ENDCMP
+#
+$CMP MAX3223CUP
+D MAX3223CUP, RS232 Full-Duplex Transceiver with 15kV ESD protection, TSSOP-16
+K RS232 Level Shifter Full Duplex
+F http://pdfserv.maximintegrated.com/en/ds/MAX3221-MAX3243.pdf
+$ENDCMP
+#
+$CMP MAX3223EAP
+D MAX3223EAP, RS232 Full-Duplex Transceiver with 15kV ESD protection, SSOP-16
+K RS232 Level Shifter Full Duplex
+F http://pdfserv.maximintegrated.com/en/ds/MAX3221-MAX3243.pdf
+$ENDCMP
+#
+$CMP MAX3223EPP
+D MAX3223EPP, RS232 Full-Duplex Transceiver with 15kV ESD protection, PDIP-16
+K RS232 Level Shifter Full Duplex
+F http://pdfserv.maximintegrated.com/en/ds/MAX3221-MAX3243.pdf
+$ENDCMP
+#
+$CMP MAX3223EUP
+D MAX3223EUP, RS232 Full-Duplex Transceiver with 15kV ESD protection, TSSOP-16
+K RS232 Level Shifter Full Duplex
+F http://pdfserv.maximintegrated.com/en/ds/MAX3221-MAX3243.pdf
+$ENDCMP
+#
+$CMP MAX3243CAI
+D MAX3243CAI, RS232 Full-Duplex Transceiver with 15kV ESD protection, SSOP-28
+K RS232 Level Shifter Full Duplex
+F http://pdfserv.maximintegrated.com/en/ds/MAX3221-MAX3243.pdf
+$ENDCMP
+#
+$CMP MAX3243CUI
+D MAX3243CUI, RS232 Full-Duplex Transceiver with 15kV ESD protection, TSSOP-28
+K RS232 Level Shifter Full Duplex
+F http://pdfserv.maximintegrated.com/en/ds/MAX3221-MAX3243.pdf
+$ENDCMP
+#
+$CMP MAX3243CWI
+D MAX3243CWI, RS232 Full-Duplex Transceiver with 15kV ESD protection, SOIC-28
+K RS232 Level Shifter Full Duplex
+F http://pdfserv.maximintegrated.com/en/ds/MAX3221-MAX3243.pdf
+$ENDCMP
+#
+$CMP MAX3243EAI
+D MAX3243EAI, RS232 Full-Duplex Transceiver with 15kV ESD protection, SSOP-28
+K RS232 Level Shifter Full Duplex
+F http://pdfserv.maximintegrated.com/en/ds/MAX3221-MAX3243.pdf
+$ENDCMP
+#
+$CMP MAX3243EUI
+D MAX3243EUI, RS232 Full-Duplex Transceiver with 15kV ESD protection, TSSOP-28
+K RS232 Level Shifter Full Duplex
+F http://pdfserv.maximintegrated.com/en/ds/MAX3221-MAX3243.pdf
+$ENDCMP
+#
+$CMP MAX3243EWI
+D MAX3243EWI, RS232 Full-Duplex Transceiver with 15kV ESD protection, SOIC-28
+K RS232 Level Shifter Full Duplex
+F http://pdfserv.maximintegrated.com/en/ds/MAX3221-MAX3243.pdf
+$ENDCMP
+#
+$CMP MAX481CPA
+D MAX481CPA, RS-485/RS-422 Transciever, Half Duplex, 2.5Mb/s, PDIP-8
+K RS-485 RS-422 Half Duplex
+F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX481CSA
+D MAX481CSA, RS-485/RS-422 Transciever, Half Duplex, 2.5Mb/s, SO-8
+K RS-485 RS-422 Half Duplex
+F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX483CPA
+D MAX483CPA, RS-485/RS-422 Transciever, Half Duplex, 0.25Mb/s, PDIP-8
+K RS-485 RS-422 Half Duplex
+F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX483CSA
+D MAX483CSA, RS-485/RS-422 Transciever, Half Duplex, 0.25Mb/s, SO-8
+K RS-485 RS-422 Half Duplex
+F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX485CPA
+D MAX485CPA, RS-485/RS-422 Transciever, Half Duplex, 2.5Mb/s, PDIP-8
+K RS-485 RS-422 Half Duplex
+F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX485CSA
+D MAX485CSA, RS-485/RS-422 Transciever, Half Duplex, 2.5Mb/s, SO-8
+K RS-485 RS-422 Half Duplex
+F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX487CPA
+D MAX487CPA, RS-485/RS-422 Transciever, Half Duplex, 0.25Mb/s, PDIP-8
+K RS-485 RS-422 Half Duplex
+F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX487CSA
+D MAX487CSA, RS-485/RS-422 Transciever, Half Duplex, 0.25Mb/s, SO-8
+K RS-485 RS-422 Half Duplex
+F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX488CPA
+D MAX488CPA, RS-485/RS-422 Transciever, Full Duplex, 0.25Mb/s, PDIP-8
+K RS-485 RS-422 Full Duplex
+F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX488CSA
+D MAX488CSA, RS-485/RS-422 Transciever, Full Duplex, 0.25Mb/s, SO-8
+K RS-485 RS-422 Full Duplex
+F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX489CPA
+D MAX489CPA, RS-485/RS-422 Transciever, Full Duplex, 0.25Mb/s, PDIP-14
+K RS-485 RS-422 Full Duplex
+F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX489CSA
+D MAX489CSA, RS-485/RS-422 Transciever, Full Duplex, 0.25Mb/s, SO-14
+K RS-485 RS-422 Full Duplex
+F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX490CPA
+D MAX490CPA, RS-485/RS-422 Transciever, Full Duplex, 2.5Mb/s, PDIP-8
+K RS-485 RS-422 Full Duplex
+F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX490CSA
+D MAX490CSA, RS-485/RS-422 Transciever, Full Duplex, 2.5Mb/s, SO-8
+K RS-485 RS-422 Full Duplex
+F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX491CPA
+D MAX491CPA, RS-485/RS-422 Transciever, Full Duplex, 2.5Mb/s, PDIP-14
+K RS-485 RS-422 Full Duplex
+F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX491CSA
+D MAX491CSA, RS-485/RS-422 Transciever, Full Duplex, 2.5Mb/s, SO-14
+K RS-485 RS-422 Full Duplex
+F http://datasheets.maximintegrated.com/en/ds/MAX1487-MAX491.pdf
+$ENDCMP
+#
+$CMP MAX5160LEUA
+D MAX5160LEUA, 50k Low Level Digital Potentiometer, uMAX
+K DIGITAL POT POTENTNIOMETER
+F http://datasheets.maximintegrated.com/en/ds/MAX5160-MAX5161.pdf
+$ENDCMP
+#
+$CMP MAX5160MEUA
+D MAX5160MEUA, 100k Low Level Digital Potentiometer, uMAX
+K DIGITAL POT POTENTNIOMETER
+F http://datasheets.maximintegrated.com/en/ds/MAX5160-MAX5161.pdf
+$ENDCMP
+#
+$CMP MAX5160NEUA
+D MAX5160NEUA, 200k Low Level Digital Potentiometer, uMAX
+K DIGITAL POT POTENTNIOMETER
+F http://datasheets.maximintegrated.com/en/ds/MAX5160-MAX5161.pdf
+$ENDCMP
+#
+$CMP MAX5161LEZT
+D MAX5161LEZT, 50k Low Level Digital Potentiometer, SOT-23-6
+K DIGITAL POT POTENTNIOMETER
+F http://datasheets.maximintegrated.com/en/ds/MAX5160-MAX5161.pdf
+$ENDCMP
+#
+$CMP MAX5161MEZT
+D MAX5161MEZT, 100k Low Level Digital Potentiometer, SOT-23-6
+K DIGITAL POT POTENTNIOMETER
+F http://datasheets.maximintegrated.com/en/ds/MAX5160-MAX5161.pdf
+$ENDCMP
+#
+$CMP MAX5161NEZT
+D MAX5161NEZT, 200k Low Level Digital Potentiometer, SOT-23-6
+K DIGITAL POT POTENTNIOMETER
+F http://datasheets.maximintegrated.com/en/ds/MAX5160-MAX5161.pdf
+$ENDCMP
+#
+#End Doc Library

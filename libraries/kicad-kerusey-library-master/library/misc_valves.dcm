@@ -1,0 +1,48 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 6AK8
+D EABC80, Tripple Diode and Triode
+K Tripple Diode Triode Valve
+$ENDCMP
+#
+$CMP CK548DX
+D CK548DX, Subminiature Pentode
+K Single Pentode Valve
+$ENDCMP
+#
+$CMP CK6418
+D CK6418, Subminiature Pentode
+K Single Pentode Valve
+$ENDCMP
+#
+$CMP EABC80
+D EABC80, Tripple Diode and Triode
+K Tripple Diode Triode Valve
+$ENDCMP
+#
+$CMP EC92
+D EC92, Single Triode
+K Single Triode Valve
+$ENDCMP
+#
+$CMP ECC81
+D ECC81, Dual Triode
+K Dual Triode Valve
+$ENDCMP
+#
+$CMP ECC83
+D ECC83, High Impendance Dual Triode
+K High Impedance Dual Triode Valve
+$ENDCMP
+#
+$CMP ECC88
+D ECC88, Double Triode
+K Double Triode Valve
+$ENDCMP
+#
+$CMP ECH81
+D ECH81, Triode and Heptode
+K Triode Heptode Valve
+$ENDCMP
+#
+#End Doc Library

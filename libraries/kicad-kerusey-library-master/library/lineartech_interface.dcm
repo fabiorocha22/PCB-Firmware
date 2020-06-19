@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC2861CGN
+D 20Mbps RS485 transceiver with tntegrated switchable termination
+K RS485
+F linear-tec\ltc2859-2861.pdf
+$ENDCMP
+#
+$CMP LTC2983CLX
+D LTC2983CLX, Multi-Sensor Temperature Measurement System, High Accuracy, LQFP-48 (7x7mm)
+K Flexible Temperature Measurement RTD NTC Cold Junction Termocouple
+F http://cds.linear.com/docs/en/datasheet/2983fb.pdf
+$ENDCMP
+#
+$CMP LTC2983ILX
+D LTC2983ILX, Multi-Sensor Temperature Measurement System, High Accuracy, LQFP-48 (7x7mm)
+K Flexible Temperature Measurement RTD NTC Cold Junction Termocouple
+F http://cds.linear.com/docs/en/datasheet/2983f.pdf
+$ENDCMP
+#
+$CMP LTC2990CMS
+D LTC2990CMS, Temperature Voltage and Current Monitor, I2C Interface, MSOP-10
+K Temperature Voltage Current Monitor I2C AFE
+F http://cds.linear.com/docs/en/datasheet/2990fd.pdf
+$ENDCMP
+#
+$CMP LTC2990IMS
+D LTC2990IMS, Temperature Voltage and Current Monitor, I2C Interface, MSOP-10
+K Temperature Voltage Current Monitor I2C AFE
+F http://cds.linear.com/docs/en/datasheet/2990fd.pdf
+$ENDCMP
+#
+#End Doc Library

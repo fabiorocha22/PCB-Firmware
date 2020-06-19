@@ -1,0 +1,51 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX872CPA
+D MAX872CPA, 2.5V 10uA Precision Voltage Reference, DIP8
+K 2.5V 10uA Voltage Reference NRND
+F http://datasheets.maximintegrated.com/en/ds/MAX872-MAX874.pdf
+$ENDCMP
+#
+$CMP MAX872EPA
+D MAX872EPA, 2.5V 10uA Precision Voltage Reference, Wide Temp Range, DIP8
+K 2.5V 10uA Voltage Reference NRND
+F http://datasheets.maximintegrated.com/en/ds/MAX872-MAX874.pdf
+$ENDCMP
+#
+$CMP MAX874CPA
+D MAX874CPA, 4.096V 10uA Precision Voltage Reference, DIP8
+K 4.096V 10uA Voltage Reference NRND
+F http://datasheets.maximintegrated.com/en/ds/MAX872-MAX874.pdf
+$ENDCMP
+#
+$CMP MAX874EPA
+D MAX874EPA, 4.096V 10uA Precision Voltage Reference, Wide Temp Range, DIP8
+K 4.096V 10uA Voltage Reference NRND
+F http://datasheets.maximintegrated.com/en/ds/MAX872-MAX874.pdf
+$ENDCMP
+#
+$CMP MAX872CSA
+D MAX872CSA, 2.5V 10uA Precision Voltage Reference, SO8
+K 2.5V 10uA Voltage Reference NRND
+F http://datasheets.maximintegrated.com/en/ds/MAX872-MAX874.pdf
+$ENDCMP
+#
+$CMP MAX872ESA
+D MAX872ESA, 2.5V 10uA Precision Voltage Reference, Wide Temp Range, SO8
+K 2.5V 10uA Voltage Reference NRND
+F http://datasheets.maximintegrated.com/en/ds/MAX872-MAX874.pdf
+$ENDCMP
+#
+$CMP MAX874CSA
+D MAX874CSA, 4.096V 10uA Precision Voltage Reference, SO8
+K 4.096V 10uA Voltage Reference NRND
+F http://datasheets.maximintegrated.com/en/ds/MAX872-MAX874.pdf
+$ENDCMP
+#
+$CMP MAX874ESA
+D MAX874ESA, 4.096V 10uA Precision Voltage Reference, Wide Temp Range, SO8
+K 4.096V 10uA Voltage Reference NRND
+F http://datasheets.maximintegrated.com/en/ds/MAX872-MAX874.pdf
+$ENDCMP
+#
+#End Doc Library

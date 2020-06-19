@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SLA7042M
+D SLA7042M, Unipolar PWM High-Current Motor Driver, ZIP-18
+K Stepper driver
+F http://www.sumzi.com/upload/files/2007/07/2007073114282034189.PDF
+$ENDCMP
+#
+$CMP SLA7044M
+D SLA7044M, Unipolar PWM High-Current Motor Driver, ZIP-18
+K Stepper driver
+F http://www.sumzi.com/upload/files/2007/07/2007073114282034189.PDF
+$ENDCMP
+#
+#End Doc Library

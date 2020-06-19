@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP9700-E/LT
+D MCP9700-E/LT, Linear Active Thermistor, Accuracy 4 Deg, SC-70-5
+K Thermistor Temperature Sensor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001942F.pdf
+$ENDCMP
+#
+$CMP MCP9700-E/TT
+D MCP9700-E/TT, Linear Active Thermistor, Accuracy 4 Deg, SOT-23
+K Thermistor Temperature Sensor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001942F.pdf
+$ENDCMP
+#
+$CMP MCP9701A-H/LT
+D MCP9701A-H/LT, Linear Active Thermistor, Accuracy 2 Deg, SC-70-5
+K Thermistor Temperature Sensor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001942F.pdf
+$ENDCMP
+#
+$CMP MCP9701A-H/TT
+D MCP9701A-H/TT, Linear Active Thermistor, Accuracy 2 Deg, SOT-23
+K Thermistor Temperature Sensor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20001942F.pdf
+$ENDCMP
+#
+#End Doc Library

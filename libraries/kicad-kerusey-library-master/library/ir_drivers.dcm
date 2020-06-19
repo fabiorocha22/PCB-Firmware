@@ -1,0 +1,75 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IR2104PBF
+D IR2104PbF, High and Low Side Driver, PDIP-8
+K High Low Side MOSFET Driver
+F http://www.irf.com/product-info/datasheets/data/ir2104.pdf
+$ENDCMP
+#
+$CMP IR2104SPBF
+D IR2104SPbF, High and Low Side Driver, SO-8
+K High Low Side MOSFET Driver
+F http://www.irf.com/product-info/datasheets/data/ir2104.pdf
+$ENDCMP
+#
+$CMP IR2110-1PbF
+D IR2110-1Pbf, High and Low Side Driver, Voff 500V, 10ns match, PDIP-14 w/o pin 4
+K High Low Side MOSFET Driver
+F http://www.irf.com/product-info/datasheets/data/ir2110.pdf
+$ENDCMP
+#
+$CMP IR2110-2PBF
+D IR2110-2Pbf, High and Low Side Driver, Voff 500V, 10ns match, PDIP-16
+K High Low Side MOSFET Driver
+F http://www.irf.com/product-info/datasheets/data/ir2110.pdf
+$ENDCMP
+#
+$CMP IR2110PBF
+D IR2110Pbf, High and Low Side Driver, Voff 500V, 10ns match, PDIP-14
+K High Low Side MOSFET Driver
+F http://www.irf.com/product-info/datasheets/data/ir2110.pdf
+$ENDCMP
+#
+$CMP IR2110SPBF
+D IR2110SPbF, High and Low Side Driver, Voff 500V, 10ns match, SOIC16 Wide
+K High Low Side MOSFET Driver
+F http://www.irf.com/product-info/datasheets/data/ir2110.pdf
+$ENDCMP
+#
+$CMP IR2113-1PbF
+D IR2113-1Pbf, High and Low Side Driver, Voff 600V, 20ns match, PDIP-14 w/o pin 4
+K High Low Side MOSFET Driver
+F http://www.irf.com/product-info/datasheets/data/ir2110.pdf
+$ENDCMP
+#
+$CMP IR2113-2PbF
+D IR2113-2Pbf, High and Low Side Driver, Voff 600V, 20ns match, PDIP-16 w/o pins 4&5
+K High Low Side MOSFET Driver
+F http://www.irf.com/product-info/datasheets/data/ir2110.pdf
+$ENDCMP
+#
+$CMP IR2113PbF
+D IR2113Pbf, High and Low Side Driver, Voff 600V, 20ns match, PDIP-14
+K High Low Side MOSFET Driver
+F http://www.irf.com/product-info/datasheets/data/ir2110.pdf
+$ENDCMP
+#
+$CMP IR2113SPbF
+D IR2113SPbF, High and Low Side Driver, Voff 600V, 20ns match, SOIC16 Wide
+K High Low Side MOSFET Driver
+F http://www.irf.com/product-info/datasheets/data/ir2110.pdf
+$ENDCMP
+#
+$CMP IRS2103PBF
+D IRS2103PbF, High and Low Side Gate Driver, Output Current 130/270 mA, PDIP-8
+K High Low Side MOSFET Driver
+F http://www.irf.com/product-info/datasheets/data/irs2103.pdf
+$ENDCMP
+#
+$CMP IRS2103SPBF
+D IRS2103SPbF, High and Low Side Gate Driver, Output Current 130/270 mA, SO-8
+K High Low Side MOSFET Driver
+F http://www.irf.com/product-info/datasheets/data/irs2103.pdf
+$ENDCMP
+#
+#End Doc Library

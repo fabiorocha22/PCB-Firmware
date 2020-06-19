@@ -1,0 +1,402 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FAN2518S25X
+D FAN2518S25X, Positive 50mA 7V LDO, Fixed Output 2.5V, SOT-23-5
+K Voltage Regulator 2.5V 50mA Positive LDO
+$ENDCMP
+#
+$CMP FAN2518S26X
+D FAN2518S26X, Positive 50mA 7V LDO, Fixed Output 2.6V, SOT-23-5
+K Voltage Regulator 2.6V 50mA Positive LDO
+$ENDCMP
+#
+$CMP FAN2518S27X
+D FAN2518S27X, Positive 50mA 7V LDO, Fixed Output 2.7V, SOT-23-5
+K Voltage Regulator 2.7V 50mA Positive LDO
+$ENDCMP
+#
+$CMP FAN2518S285X
+D FAN2518S285X, Positive 50mA 7V LDO, Fixed Output 2.85V, SOT-23-5
+K Voltage Regulator 2.85V 50mA Positive LDO
+$ENDCMP
+#
+$CMP FAN2518S28X
+D FAN2518S28X, Positive 50mA 7V LDO, Fixed Output 2.8V, SOT-23-5
+K Voltage Regulator 2.8V 50mA Positive LDO
+$ENDCMP
+#
+$CMP FAN2518S30X
+D FAN2518S30X, Positive 50mA 7V LDO, Fixed Output 3.0V, SOT-23-5
+K Voltage Regulator 3.0V 50mA Positive LDO
+$ENDCMP
+#
+$CMP FAN2518S33X
+D FAN2518S33X, Positive 50mA 7V LDO, Fixed Output 3.3V, SOT-23-5
+K Voltage Regulator 3.3V 50mA Positive LDO
+$ENDCMP
+#
+$CMP FAN2518SX
+D FAN2518SX, Positive 50mA 7V LDO, Adjustable Output, SOT-23-5
+K Adjustable Voltage Regulator 50mA Positive LDO
+$ENDCMP
+#
+$CMP FAN2519S25X
+D FAN2519S25X, Positive 50mA 7V LDO, Fixed Output 2.5V, SOT-23-5
+K Voltage Regulator 2.5V 50mA Positive LDO
+$ENDCMP
+#
+$CMP FAN2519S26X
+D FAN2519S26X, Positive 50mA 7V LDO, Fixed Output 2.6V, SOT-23-5
+K Voltage Regulator 2.6V 50mA Positive LDO
+$ENDCMP
+#
+$CMP FAN2519S27X
+D FAN2519S27X, Positive 50mA 7V LDO, Fixed Output 2.7V, SOT-23-5
+K Voltage Regulator 2.7V 50mA Positive LDO
+$ENDCMP
+#
+$CMP FAN2519S285X
+D FAN2519S285X, Positive 50mA 7V LDO, Fixed Output 2.85V, SOT-23-5
+K Voltage Regulator 2.85V 50mA Positive LDO
+$ENDCMP
+#
+$CMP FAN2519S28X
+D FAN2519S28X, Positive 50mA 7V LDO, Fixed Output 2.8V, SOT-23-5
+K Voltage Regulator 2.8V 50mA Positive LDO
+$ENDCMP
+#
+$CMP FAN2519S30X
+D FAN2519S30X, Positive 50mA 7V LDO, Fixed Output 3.0V, SOT-23-5
+K Voltage Regulator 3.0V 50mA Positive LDO
+$ENDCMP
+#
+$CMP FAN2519S33X
+D FAN2519S33X, Positive 50mA 7V LDO, Fixed Output 3.3V, SOT-23-5
+K Voltage Regulator 3.3V 50mA Positive LDO
+$ENDCMP
+#
+$CMP KA378R05
+D KA378R05, Positive 3A 35V Linear Regulator with Disable Pin, LDO, Fixed Output 5V, TO-220F-4L
+K Voltage Regulator 3A Positive LDO Disable Pin
+F http://www.fairchildsemi.com/ds/KA/KA378R05.pdf
+$ENDCMP
+#
+$CMP KA378R12C
+D KA378R12C, Positive 3A 35V Linear Regulator with Disable Pin, LDO, Fixed Output 12V, TO-220F-4L
+K Voltage Regulator 3A Positive LDO Disable Pin
+F http://www.fairchildsemi.com/ds/KA/KA378R12CTU.pdf
+$ENDCMP
+#
+$CMP KA378R33
+D KA378R33, Positive 3A 35V Linear Regulator with Disable Pin, LDO, Fixed Output 3.3V, TO-220F-4L
+K Voltage Regulator 3A Positive LDO Disable Pin
+F http://www.fairchildsemi.com/ds/KA/KA378R33.pdf
+$ENDCMP
+#
+$CMP KA79M05RTF
+D KA79M05RTF, Negative 0.5A 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)
+K Voltage Regulator 0.5A Negative
+F http://www.fairchildsemi.com/ds/LM/LM79M05.pdf
+$ENDCMP
+#
+$CMP KA79M05RTM
+D KA79M05RTM, Negative 0.5A 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)
+K Voltage Regulator 0.5A Negative
+F http://www.fairchildsemi.com/ds/LM/LM79M05.pdf
+$ENDCMP
+#
+$CMP KA79M05TU
+D KA79M05TU, Negative 0.5A 35V Linear Regulator, Fixed Output 5V, TO-220
+K Voltage Regulator 0.5A Negative
+F http://www.fairchildsemi.com/ds/LM/LM79M05.pdf
+$ENDCMP
+#
+$CMP KA79M12RTF
+D KA79M12RTF, Negative 0.5A 35V Linear Regulator, Fixed Output 12V, TO-252 (D-PAK)
+K Voltage Regulator 0.5A Negative
+F http://www.fairchildsemi.com/ds/LM/LM79M05.pdf
+$ENDCMP
+#
+$CMP KA79M12RTM
+D KA79M12RTM, Negative 0.5A 35V Linear Regulator, Fixed Output 12V, TO-252 (D-PAK)
+K Voltage Regulator 0.5A Negative
+F http://www.fairchildsemi.com/ds/LM/LM79M05.pdf
+$ENDCMP
+#
+$CMP LM350T
+D LM350T, 3A 33V Adjustable Linear Regulator, TO-220
+K Adjustable Voltage Regulator 3A Positive
+F http://www.fairchildsemi.com/ds/LM/LM350.pdf
+$ENDCMP
+#
+$CMP LM7805CT
+D LM7805CT, Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7806ACT
+D LM7806ACT, Positive 1A 35V Linear Regulator, Fixed Output 6V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7806CT
+D LM7806CT, Positive 1A 35V Linear Regulator, Fixed Output 6V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7808ACT
+D LM7808ACT, Positive 1A 35V Linear Regulator, Fixed Output 8V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7808CT
+D LM7808CT, Positive 1A 35V Linear Regulator, Fixed Output 8V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7809ACT
+D LM7809ACT, Positive 1A 35V Linear Regulator, Fixed Output 9V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7809CT
+D LM7809CT, Positive 1A 35V Linear Regulator, Fixed Output 9V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7810ACT
+D LM7810ACT, Positive 1A 35V Linear Regulator, Fixed Output 10V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7810CT
+D LM7810CT, Positive 1A 35V Linear Regulator, Fixed Output 10V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7812ACT
+D LM7812ACT, Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7812CT
+D LM7812CT, Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7815ACT
+D LM7815ACT, Positive 1A 35V Linear Regulator, Fixed Output 15V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7815CT
+D LM7815CT, Positive 1A 35V Linear Regulator, Fixed Output 15V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7818ACT
+D LM7818ACT, Positive 1A 35V Linear Regulator, Fixed Output 18V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7818CT
+D LM7818CT, Positive 1A 35V Linear Regulator, Fixed Output 18V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7824ACT
+D LM7824ACT, Positive 1A 35V Linear Regulator, Fixed Output 24V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM7824CT
+D LM7824CT, Positive 1A 35V Linear Regulator, Fixed Output 24V, TO-220
+K Voltage Regulator 1A Positive
+F http://www.fairchildsemi.com/ds/LM/LM7805.pdf
+$ENDCMP
+#
+$CMP LM78L05ACZ
+D LM78L05ACZ, Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP LM78L12ACZ
+D LM78L12ACZ, Positive 100mA 30V Linear Regulator, Fixed Output 12V, TO-92
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP LM78M05CT
+D LM78M05CT, Positive 0.5A 35V Linear Regulator, Fixed Output 5V, TO-220
+K Voltage Regulator 0.5A Positive
+F http://www.fairchildsemi.com/ds/LM/LM78M05.pdf
+$ENDCMP
+#
+$CMP LM7905CT
+D LM7905CT, Negative 1A 35V Linear Regulator, Fixed Output 5V, TO-220
+K Voltage Regulator 1A Negative
+F http://www.fairchildsemi.com/ds/LM/LM7905.pdf
+$ENDCMP
+#
+$CMP LM7906CT
+D LM7906CT, Negative 1A 35V Linear Regulator, Fixed Output 6V, TO-220
+K Voltage Regulator 1A Negative
+F http://www.fairchildsemi.com/ds/LM/LM7905.pdf
+$ENDCMP
+#
+$CMP LM7908CT
+D LM7908CT, Negative 1A 35V Linear Regulator, Fixed Output 8V, TO-220
+K Voltage Regulator 1A Negative
+F http://www.fairchildsemi.com/ds/LM/LM7905.pdf
+$ENDCMP
+#
+$CMP LM7909CT
+D LM7909CT, Negative 1A 35V Linear Regulator, Fixed Output 9V, TO-220
+K Voltage Regulator 1A Negative
+F http://www.fairchildsemi.com/ds/LM/LM7905.pdf
+$ENDCMP
+#
+$CMP LM7910CT
+D LM7910CT, Negative 1A 35V Linear Regulator, Fixed Output 10V, TO-220
+K Voltage Regulator 1A Negative
+F http://www.fairchildsemi.com/ds/LM/LM7905.pdf
+$ENDCMP
+#
+$CMP LM7912CT
+D LM7912CT, Negative 1A 35V Linear Regulator, Fixed Output 12V, TO-220
+K Voltage Regulator 1A Negative
+F http://www.fairchildsemi.com/ds/LM/LM7905.pdf
+$ENDCMP
+#
+$CMP LM7915CT
+D LM7915CT, Negative 1A 35V Linear Regulator, Fixed Output 15V, TO-220
+K Voltage Regulator 1A Negative
+F http://www.fairchildsemi.com/ds/LM/LM7905.pdf
+$ENDCMP
+#
+$CMP LM7918CT
+D LM7918CT, Negative 1A 35V Linear Regulator, Fixed Output 18V, TO-220
+K Voltage Regulator 1A Negative
+F http://www.fairchildsemi.com/ds/LM/LM7905.pdf
+$ENDCMP
+#
+$CMP LM7924CT
+D LM7924CT, Negative 1A 35V Linear Regulator, Fixed Output 24V, TO-220
+K Voltage Regulator 1A Negative
+F http://www.fairchildsemi.com/ds/LM/LM7905.pdf
+$ENDCMP
+#
+$CMP LM79M05CT
+D LM79M05CT, Negative 0.5A 35V Linear Regulator, Fixed Output 5V, TO-220
+K Voltage Regulator 0.5A Negative
+F http://www.fairchildsemi.com/ds/LM/LM79M05.pdf
+$ENDCMP
+#
+$CMP MC78L05AACP
+D MC78L05AACP, Positive 100mA 30V Linear Regulator, Fixed Output 5V, Highest Accurate, TO-92
+K Voltage Regulator 100mA Positive Highest Accurate
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP MC78L05ACD
+D MC78L05ACD, Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP MC78L05ACH
+D MC78L05ACH, Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP MC78L05ACP
+D MC78L05ACP, Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP MC78L06ACP
+D MC78L06ACP, Positive 100mA 30V Linear Regulator, Fixed Output 6V, TO-92
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP MC78L08ACD
+D MC78L08ACD, Positive 100mA 30V Linear Regulator, Fixed Output 8V, SO-8
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP MC78L08ACH
+D MC78L08ACH, Positive 100mA 30V Linear Regulator, Fixed Output 8V, SOT-89
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP MC78L08ACP
+D MC78L08ACP, Positive 100mA 30V Linear Regulator, Fixed Output 8V, TO-92
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP MC78L12ACD
+D MC78L12ACD, Positive 100mA 30V Linear Regulator, Fixed Output 12V, SO-8
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP MC78L12ACH
+D MC78L12ACH, Positive 100mA 30V Linear Regulator, Fixed Output 12V, SOT-89
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP MC78L12ACP
+D MC78L12ACP, Positive 100mA 30V Linear Regulator, Fixed Output 12V, TO-92
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP MC78L15ACP
+D MC78L15ACP, Positive 100mA 30V Linear Regulator, Fixed Output 15V, TO-92
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP MC78L18ACP
+D MC78L18ACP, Positive 100mA 30V Linear Regulator, Fixed Output 18V, TO-92
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP MC78L24ACP
+D MC78L24ACP, Positive 100mA 30V Linear Regulator, Fixed Output 24V, TO-92
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
+$CMP MC78M05CDT
+D MC78M05CDT, Positive 0.5A 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)
+K Voltage Regulator 0.5A Positive
+F http://www.fairchildsemi.com/ds/LM/LM78M05.pdf
+$ENDCMP
+#
+#End Doc Library

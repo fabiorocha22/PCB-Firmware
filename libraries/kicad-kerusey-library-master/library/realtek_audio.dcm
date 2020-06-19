@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ALC861-VD-GR
+D ALC861-VD-GR, Realtek 7.1 Channel UAA HD Audio Codec, LQFP-48
+K UAA HD Audio 7.1
+F http://www.hardwaresecrets.com/datasheets/ALC861-VD-GR_DataSheet_1.1.pdf
+$ENDCMP
+#
+$CMP ALC886-GR
+D ALC886-GR, Realtek 7.1+2 Channel UAA HD Audio Codec, LQFP-48
+K UAA HD Audio 7.1+2
+F http://realtek.info/pdf/ALC888_1-0.pdf
+$ENDCMP
+#
+$CMP ALC888-GR
+D ALC888-GR, Realtek 7.1+2 Channel UAA HD Audio Codec, LQFP-48
+K UAA HD Audio 7.1+2
+F http://realtek.info/pdf/ALC888_1-0.pdf
+$ENDCMP
+#
+$CMP ALC888DD-GR
+D ALC888DD-GR, Realtek 7.1+2 Channel UAA HD Audio Codec, Dolby Digital Live DTS (Software), LQFP-48
+K UAA HD Audio 7.1+2
+F http://realtek.info/pdf/ALC888_1-0.pdf
+$ENDCMP
+#
+$CMP ALC888H-GR
+D ALC888H-GR, Realtek 7.1+2 Channel UAA HD Audio Codec, Dolby Home Theater (Software), LQFP-48
+K UAA HD Audio 7.1+2
+F http://realtek.info/pdf/ALC888_1-0.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP I386EX_PQFP
+D Intel I386EX Embedded microprocessor, PQFP132
+K MPRO
+$ENDCMP
+#
+#End Doc Library

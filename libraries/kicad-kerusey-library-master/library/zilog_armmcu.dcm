@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ARM-JTAG-20
+D Standard IDC20 Male Connector, ARM legacy JTAG interface
+K IDC20 Male Connector ARM JTAG
+F http://infocenter.arm.com/help/topic/com.arm.doc.faqs/attached/13634/cortex_debug_connectors.pdf
+$ENDCMP
+#
+$CMP Z32F06410AES
+D Z32F06410AES, 32bit 48MHz ARM Cortex-M3, 64KB Flash, 8KB RAM, LQFP-48
+K 48MHz Cortex-M3 Zilog ARM
+F http://www.zilog.com/docs/PS0344.pdf
+$ENDCMP
+#
+$CMP Z32F06410AKS
+D Z32F06410AKS, 32bit 48MHz ARM Cortex-M3, 64KB Flash, 8KB RAM, LQFP-32
+K 48MHz Cortex-M3 Zilog ARM
+F http://www.zilog.com/docs/PS0344.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,266 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AZ23CXX
+D AZ23Cxx, Small Dual Zener Diode Common Anode, Vz 2V7-51V, 300mW, SOT-23
+K Small Dual Zener Diode Common Anode 2V7-51V
+F http://www.diodes.com/_files/datasheets/ds18003.pdf
+$ENDCMP
+#
+$CMP BAL99
+D BAL99, Small HiSpeed Diode, Vr 70V, Ifm 500mA, SOT-23
+K Small HiSpeed Diode 70V
+F http://www.nxp.com/documents/data_sheet/BAL99.pdf
+$ENDCMP
+#
+$CMP BAS16
+D BAS16, Small HiSpeed Diode, Vr 100V, Ifm 200mA, SOT-23
+K Small HiSpeed Diode 100V
+F http://www.nxp.com/documents/data_sheet/BAS16_SER.pdf
+$ENDCMP
+#
+$CMP BAS16T
+D BAS16T, Small HiSpeed Diode, Vr 100V, Ifm 200mA, SOT-416 (SC-75)
+K Small HiSpeed Diode 100V
+F http://www.nxp.com/documents/data_sheet/BAS16_SER.pdf
+$ENDCMP
+#
+$CMP BAS16TW
+D BAS16TW, Triple Small Diode, Vr 100V, Ifm 300mA, SOT-363
+K Triple Small Diode 100V
+F http://www.diodes.com/_files/datasheets/ds30154.pdf
+$ENDCMP
+#
+$CMP BAS16VV
+D BAS16VV, Triple Small Diode, Vr 100V, Ifm 175mA, SOT-666
+K Triple Small Diode 100V
+F http://www.nxp.com/documents/data_sheet/BAS16_SER.pdf
+$ENDCMP
+#
+$CMP BAS16VY
+D BAS16VY, Triple Small Diode, Vr 100V, Ifm 175mA, SOT-363
+K Triple Small Diode 100V
+F http://www.nxp.com/documents/data_sheet/BAS16_SER.pdf
+$ENDCMP
+#
+$CMP BAS16W
+D BAS16W, Small HiSpeed Diode, Vr 100V, Ifm 200mA, SOT-323 (SC-70)
+K Small HiSpeed Diode 100V
+F http://www.nxp.com/documents/data_sheet/BAS16_SER.pdf
+$ENDCMP
+#
+$CMP BAT54ADW
+D BAT54ADW, Double Small Dual Diode, Common Anode, Vr 30V, Ifm 200mA, SOT-563
+K Double Small Dual Diode Common Anode 30V
+F http://www.diodes.com/_files/datasheets/ds30152.pdf
+$ENDCMP
+#
+$CMP BAT54BRW
+D BAT54BRW, Double Small Dual Series Diode, Vr 30V, Ifm 200mA, SOT-363
+K Double Small Dual Series Diode 30V
+F http://www.diodes.com/_files/datasheets/ds30152.pdf
+$ENDCMP
+#
+$CMP BAT54CDW
+D BAT54CDW, Double Small Dual Diode, Common Cathode, Vr 30V, Ifm 200mA, SOT-563
+K Double Small Dual Diode Common Cathode 30V
+F http://www.diodes.com/_files/datasheets/ds30152.pdf
+$ENDCMP
+#
+$CMP BAT54SDW
+D BAT54SDW, Double Small Dual Series Diode, Vr 30V, Ifm 200mA, SOT-563
+K Double Small Dual Series Diode 30V
+F http://www.diodes.com/_files/datasheets/ds30152.pdf
+$ENDCMP
+#
+$CMP BAT54TW
+D BAT54TW, Triple Small Diode, Vr 30V, Ifm 200mA, SOT-363
+K Triple Small Diode 30V
+F http://www.diodes.com/_files/datasheets/ds30152.pdf
+$ENDCMP
+#
+$CMP BAV170
+D BAV170, Small Dual Diode Common Cathode, Vr 100V, Ifm 500mA, SOT-23
+K Small Dual Diode Common Cathode 100V
+F http://www.nxp.com/documents/data_sheet/BAV170.pdf
+$ENDCMP
+#
+$CMP BAV199
+D BAV199, Small Dual Series Diode, Vr 70V, Ifm 160mA, SOT-23
+K Small Dual Series Diode 70V
+F http://www.nxp.com/documents/data_sheet/BAV199.pdf
+$ENDCMP
+#
+$CMP BAV23
+D BAV23, Small High Voltage Diode, Vr 200V, Ifm 125mA, SOT-143B
+K Small High Voltage Diode 200V
+F http://www.nxp.com/documents/data_sheet/BAV23_SER.pdf
+$ENDCMP
+#
+$CMP BAV23A
+D BAV23A, Small Dual Diode Common Anode, Vr 200V, Ifm 125mA, SOT-23
+K Small Dual Diode Common Anode 200V
+F http://www.nxp.com/documents/data_sheet/BAV23_SER.pdf
+$ENDCMP
+#
+$CMP BAV23C
+D BAV23C, Small Dual Diode Common Cathode, Vr 200V, Ifm 125mA, SOT-23
+K Small Dual Diode Common Cathode 200V
+F http://www.nxp.com/documents/data_sheet/BAV23_SER.pdf
+$ENDCMP
+#
+$CMP BAV23S
+D BAV23S, Small Dual Diode Series, Vr 200V, Ifm 125mA, SOT-23
+K Small Dual Diode Series 200V
+F http://www.nxp.com/documents/data_sheet/BAV23_SER.pdf
+$ENDCMP
+#
+$CMP BAV70
+D BAV70, Small Dual Diode Common Cathode, Vr 100V, Ifm 150mA, SOT-23
+K Small Dual Diode Common Cathode 100V
+F http://www.nxp.com/documents/data_sheet/BAV70_SER.pdf
+$ENDCMP
+#
+$CMP BAV70M
+D BAV70M, Small Dual Diode Common Cathode, Vr 100V, Ifm 150mA, Leadless SOT-883
+K Small Dual Diode Common Cathode 100V Leadless
+F http://www.nxp.com/documents/data_sheet/BAV70_SER.pdf
+$ENDCMP
+#
+$CMP BAV70S
+D BAV70S, Small Quad Dual Diode, Vr 100V, Ifm 125mA, SOT-363
+K Small Quad Dual Diode 100V
+F http://www.nxp.com/documents/data_sheet/BAV70_SER.pdf
+$ENDCMP
+#
+$CMP BAV70T
+D BAV70T, Small Dual Diode Common Cathode, Vr 100V, Ifm 150mA, SOT-416
+K Small Dual Diode Common Cathode 100V
+F http://www.nxp.com/documents/data_sheet/BAV70_SER.pdf
+$ENDCMP
+#
+$CMP BAV70W
+D BAV70W, Small Dual Diode Common Cathode, Vr 100V, Ifm 150mA, SOT-323
+K Small Dual Diode Common Cathode 100V
+F http://www.nxp.com/documents/data_sheet/BAV70_SER.pdf
+$ENDCMP
+#
+$CMP BAV756S
+D BAV756S, Double Small Dual Series Diode, Vr 90V, Ifm 250mA, SOT-363
+K Double Small Dual Series Diode 90V
+F http://www.nxp.com/documents/data_sheet/BAV756S_BAW56_SER.pdf
+$ENDCMP
+#
+$CMP BAV99
+D BAV99, Small Dual Series Diode, Vr 100V, Ifm 125mA, SOT-23
+K Small Dual Series Diode 100V
+F http://www.nxp.com/documents/data_sheet/BAV99_SER.pdf
+$ENDCMP
+#
+$CMP BAV99S
+D BAV99S, Small Quad Dual Series Diode, Vr 100V, Ifm 125mA, SOT-363
+K Small Quad Dual Series Diode 100V
+F http://www.nxp.com/documents/data_sheet/BAV99_SER.pdf
+$ENDCMP
+#
+$CMP BAV99W
+D BAV99W, Small Dual Series Diode, Vr 100V, Ifm 125mA, SOT-323
+K Small Dual Series Diode 100V
+F http://www.nxp.com/documents/data_sheet/BAV99_SER.pdf
+$ENDCMP
+#
+$CMP BAW156
+D BAW156, Small Dual Diode Common Anode, Vr 85V, Ifm 140mA, SOT-23
+K Small Dual Diode Common Anode 85V
+F http://www.diodes.com/_files/datasheets/ds30231.pdf
+$ENDCMP
+#
+$CMP BAW56DW-7-F
+D BAW56DW-7-F, Double Small Dual Diode, Common Anode, Vr 100V, Ifm 300mA, SOT-563
+K Double Small Dual Diode Common Anode 100V
+F http://www.diodes.com/_files/datasheets/ds30146.pdf
+$ENDCMP
+#
+$CMP BAW56DWQ-7-F
+D BAW56DWQ-7-F, Double Small Dual Diode, Common Anode, Vr 100V, Ifm 300mA, SOT-563
+K Double Small Dual Diode Common Anode 100V
+F http://www.diodes.com/_files/datasheets/ds30146.pdf
+$ENDCMP
+#
+$CMP CMKD6001
+D CMKD6001, Triple Small Diode, Vr 75V, Ifm 250mA, SOT-363
+K Triple Small Diode 75V
+F https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=CMKD6001.PDF
+$ENDCMP
+#
+$CMP DZ23CXX
+D DZ23Cxx, Small Dual Zener Diode Common Cathode, Vz 2V7-51V, 300mW, SOT-23
+K Small Dual Zener Diode Common Cathode 2V7-51V
+F http://www.diodes.com/_files/datasheets/ds18002.pdf
+$ENDCMP
+#
+$CMP HN1D01FU
+D HN1D01FU, Double Small Dual Diode, Common Anode, Vr 80V, Ifm 300mA, SOT-563
+K Double Small Dual Diode Common Anode 80V
+$ENDCMP
+#
+$CMP MMBD4148TW
+D MMBD4148TW, Triple Small Diode, Vr 100V, Ifm 300mA, SOT-363
+K Triple Small Diode 100V
+F http://www.diodes.com/_files/datasheets/ds30154.pdf
+$ENDCMP
+#
+$CMP MMBD4448HADW
+D MMBD4448HADW, Double Small Dual Diode, Common Anode, Vr 80V, Ifm 500mA, SOT-563
+K Double Small Dual Diode Common Anode 80V
+F http://www.diodes.com/datasheets/ds30153.pdf
+$ENDCMP
+#
+$CMP MMBD4448HAQW
+D MMBD4448HAQW, Small Quad Diode, Common Anode, Vr 80V, Ifm 500mA, SOT-353
+K Small Quad Diode 80V
+F http://www.diodes.com/datasheets/ds30153.pdf
+$ENDCMP
+#
+$CMP MMBD4448HCDW
+D MMBD4448HCDW, Double Small Dual Diode, Common Cathode, Vr 80V, Ifm 500mA, SOT-563
+K Double Small Dual Diode Common Cathode 80V
+F http://www.diodes.com/datasheets/ds30153.pdf
+$ENDCMP
+#
+$CMP MMBD4448HCQW
+D MMBD4448HCQW, Small Quad Diode, Common Cathode, Vr 80V, Ifm 500mA, SOT-353
+K Small Quad Diode 80V
+F http://www.diodes.com/datasheets/ds30153.pdf
+$ENDCMP
+#
+$CMP MMBD4448HSDW
+D MMBD4448HADW, Double Small Dual Series Diode, Vr 80V, Ifm 500mA, SOT-563
+K Double Small Dual Series Diode 80V
+F http://www.diodes.com/datasheets/ds30153.pdf
+$ENDCMP
+#
+$CMP MMBD4448HTW
+D MMBD4448HTW, Triple Small Diode, Vr 80V, Ifm 500mA, SOT-363
+K Triple Small Diode 80V
+F http://www.diodes.com/datasheets/ds30153.pdf
+$ENDCMP
+#
+$CMP QZX563C6V8C
+D QZX563C6V8C, Small Quad Zener Diode, Common Anode, Vr 6.8V, 150mW, SOT-563
+K Small Quad Zener Diode C6V8
+F http://www.diodes.com/_files/datasheets/ds30716.pdf
+$ENDCMP
+#
+$CMP UMN1N
+D UMN1N, Small Quad HiSpeed Switching Diode, Common Cathode, Vr 80V, Ifm 80mA, SOT-353
+K Small Quad Switching Diode 80V
+F http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/switching/umn1n.pdf
+$ENDCMP
+#
+$CMP UMP11N
+D UMP11N, Double Small Dual Diode, Common Anode, Vr 80V, Ifm 300mA, SOT-563
+K Double Small Dual Diode Common Anode 80V
+F http://rohmfs.rohm.com/en/products/databook/datasheet/discrete/diode/switching/ump11n.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,63 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ENC28J60-C/SS
+D ENC28J60 Single Chip Ethernet Interface, TSSOP-28
+K ENC Ethernet SPI
+F http://ww1.microchip.com/downloads/en/devicedoc/39662a.pdf
+$ENDCMP
+#
+$CMP ENC28J60-I/ML
+D ENC28J60 Single Chip Ethernet Interface
+K ENC Ethernet SPI
+F http://ww1.microchip.com/downloads/en/devicedoc/39662a.pdf
+$ENDCMP
+#
+$CMP ENC28J60-I/SO
+D ENC28J60 Single Chip Ethernet Interface, SO-28
+K ENC Ethernet SPI
+F http://ww1.microchip.com/downloads/en/devicedoc/39662a.pdf
+$ENDCMP
+#
+$CMP ENC28J60-I/SP
+D ENC28J60 Single Chip Ethernet Interface, PDIP-28
+K ENC Ethernet SPI
+F http://ww1.microchip.com/downloads/en/devicedoc/39662a.pdf
+$ENDCMP
+#
+$CMP KSZ9031RNXCA
+D KSZ9031RNXCA 10/1000/1000Mbps Ethernet Transciever with RGMII Interface
+K Ethernet PHY RGMII WoL IEEE 802.3
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002117C.pdf
+$ENDCMP
+#
+$CMP KSZ9031RNXCC
+D KSZ9031RNXCC 10/1000/1000Mbps Ethernet Transciever with RGMII Interface
+K Ethernet PHY RGMII WoL IEEE 802.3
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002117C.pdf
+$ENDCMP
+#
+$CMP KSZ9031RNXIA
+D KSZ9031RNXIA 10/1000/1000Mbps Ethernet Transciever with RGMII Interface
+K Ethernet PHY RGMII WoL IEEE 802.3
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002117C.pdf
+$ENDCMP
+#
+$CMP KSZ9031RNXIC
+D KSZ9031RNXIC 10/1000/1000Mbps Ethernet Transciever with RGMII Interface
+K Ethernet PHY RGMII WoL IEEE 802.3
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002117C.pdf
+$ENDCMP
+#
+$CMP KSZ9031RNXUA
+D KSZ9031RNXUA 10/1000/1000Mbps Ethernet Transciever with RGMII Interface
+K Ethernet PHY RGMII WoL IEEE 802.3
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002117C.pdf
+$ENDCMP
+#
+$CMP KSZ9031RNXVA
+D KSZ9031RNXVA 10/1000/1000Mbps Ethernet Transciever with RGMII Interface
+K Ethernet PHY RGMII WoL IEEE 802.3
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002117C.pdf
+$ENDCMP
+#
+#End Doc Library

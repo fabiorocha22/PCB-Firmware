@@ -1,0 +1,195 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP REF191ES
+D REF191ES, Precision voltage references 2.048V, SO-8 Narrow Body
+K Voltage Reference 2.048V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF191ESZ
+D REF191ESZ, Precision voltage references 2.048V, SO-8 Narrow Body
+K Voltage Reference 2.048V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF191GS
+D REF191GS, Precision voltage references 2.048V, SO-8 Narrow Body
+K Voltage Reference 2.048V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF191GSZ
+D REF191GSZ, Precision voltage references 2.048V, SO-8 Narrow Body
+K Voltage Reference 2.048V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF192ES
+D REF192ES, Precision voltage references 2.5V, SO-8 Narrow Body
+K Voltage Reference 2.5V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF192ESZ
+D REF192ESZ, Precision voltage references 2.5V, SO-8 Narrow Body
+K Voltage Reference 2.5V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF192FS
+D REF192FS, Precision voltage references 2.5V, SO-8 Narrow Body
+K Voltage Reference 2.5V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF192FSZ
+D REF192FZS, Precision voltage references 2.5V, SO-8 Narrow Body
+K Voltage Reference 2.5V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF192GPZ
+D REF192GPZ, Precision voltage references 2.5V, PDIP-8
+K Voltage Reference 2.5V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF192GRUZ
+D REF192GRUZ, Precision voltage references 2.5V, TSSOP-8
+K Voltage Reference 2.5V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF192GS
+D REF192GS, Precision voltage references 2.5V, SO-8 Narrow Body
+K Voltage Reference 2.5V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF192GSZ
+D REF192GSZ, Precision voltage references 2.5V, SO-8 Narrow Body
+K Voltage Reference 2.5V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF193GSZ
+D REF193GSZ, Precision voltage references 3.0V, SO-8 Narrow Body
+K Voltage Reference 3.0V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF194ES
+D REF194ES, Precision voltage references 4.5V, SO-8 Narrow Body
+K Voltage Reference 4.5V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF194ESZ
+D REF194ESZ, Precision voltage references 4.5V, SO-8 Narrow Body
+K Voltage Reference 4.5V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF194GSZ
+D REF194GSZ, Precision voltage references 4.5V, SO-8 Narrow Body
+K Voltage Reference 4.5V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF195ES
+D REF195ES, Precision voltage references 5.0V, SO-8 Narrow Body
+K Voltage Reference 5.0V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF195ESZ
+D REF195ESZ, Precision voltage references 5.0V, SO-8 Narrow Body
+K Voltage Reference 2.5V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF195FS
+D REF195FS, Precision voltage references 5.0V, SO-8 Narrow Body
+K Voltage Reference 5.0V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF195FSZ
+D REF195FSZ, Precision voltage references 5.0V, SO-8 Narrow Body
+K Voltage Reference 5.0V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF195GPZ
+D REF195GPZ, Precision voltage references 5.0V, PDIP-8
+K Voltage Reference 5.0V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF195GRUZ
+D REF195GRUZ, Precision voltage references 5.0V, TSSOP-8
+K Voltage Reference 5.0V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF195GS
+D REF195GS, Precision voltage references 5.0V, SO-8 Narrow Body
+K Voltage Reference 5.0V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF195GSZ
+D REF195GSZ, Precision voltage references 5.0V, SO-8 Narrow Body
+K Voltage Reference 5.0V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF196GRUZ
+D REF196GRUZ, Precision voltage references 3.3V, TSSOP-8
+K Voltage Reference 3.3V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF196GSZ
+D REF196GSZ, Precision voltage references 3.3V, SO-8 Narrow Body
+K Voltage Reference 3.3V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF198ES
+D REF198ES, Precision voltage references 4.096V, SO-8 Narrow Body
+K Voltage Reference 4.096V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF198ESZ
+D REF198ESZ, Precision voltage references 4.096V, SO-8 Narrow Body
+K Voltage Reference 4.096V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF198FSZ
+D REF198FSZ, Precision voltage references 4.096V, SO-8 Narrow Body
+K Voltage Reference 4.096V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF198GRUZ
+D REF198GRUZ, Precision voltage references 4.096V, TSSOP-8
+K Voltage Reference 4.096V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF198GS
+D REF198GS, Precision voltage references 4.096V, SO-8 Narrow Body
+K Voltage Reference 4.096V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+$CMP REF198GSZ
+D REF198GSZ, Precision voltage references 4.096V, SO-8 Narrow Body
+K Voltage Reference 4.096V
+F http://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf
+$ENDCMP
+#
+#End Doc Library

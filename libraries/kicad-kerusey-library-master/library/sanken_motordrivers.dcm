@@ -1,0 +1,51 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SLA7070MPRT
+D SLA7070MPRT, Unipolar 2-phase Stepper Motor Driver, ZIP23
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7070mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7071MPRT
+D SLA7071MPRT, Unipolar 2-phase Stepper Motor Driver, ZIP23
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7071mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7072MPRT
+D SLA7072MPRT, Unipolar 2-phase Stepper Motor Driver, ZIP23
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7072mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7073MPRT
+D SLA7073MPRT, Unipolar 2-phase Stepper Motor Driver, ZIP23
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7073mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7075MPRT
+D SLA7075MPRT, Unipolar 2-phase Stepper Motor Driver, ZIP23
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7075mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7076MPRT
+D SLA7076MPRT, Unipolar 2-phase Stepper Motor Driver, ZIP23
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7076mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7077MPRT
+D SLA7077MPRT, Unipolar 2-phase Stepper Motor Driver, ZIP23
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7077mprt_ds_en.pdf
+$ENDCMP
+#
+$CMP SLA7078MPRT
+D SLA7078MPRT, Unipolar 2-phase Stepper Motor Driver, ZIP23
+K Stepper driver
+F http://www.semicon.sanken-ele.co.jp/sk_content/sla7078mprt_ds_en.pdf
+$ENDCMP
+#
+#End Doc Library

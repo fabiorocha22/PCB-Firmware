@@ -1,0 +1,63 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M25PX32-VMF
+D M25PX32-VMF, 32Mb, Dual I/O, 4KB Subsector Erase, 3V Serial Flash Memory with 75 MHz SPI Bus Interface, SO-16
+K NOR Serial Flash Embedded Memory
+F https://www.micron.com/~/media/documents/products/data-sheet/nor-flash/serial-nor/m25px/m25px32.pdf
+$ENDCMP
+#
+$CMP M25PX32-VMP
+D M25PX32-VMP, 32Mb, Dual I/O, 4KB Subsector Erase, 3V Serial Flash Memory with 75 MHz SPI Bus Interface, VFQFPN-8
+K NOR Serial Flash Embedded Memory
+F https://www.micron.com/~/media/documents/products/data-sheet/nor-flash/serial-nor/m25px/m25px32.pdf
+$ENDCMP
+#
+$CMP M25PX32-VMW
+D M25PX32-VMW, 32Mb, Dual I/O, 4KB Subsector Erase, 3V Serial Flash Memory with 75 MHz SPI Bus Interface, SO8W
+K NOR Serial Flash Embedded Memory
+F https://www.micron.com/~/media/documents/products/data-sheet/nor-flash/serial-nor/m25px/m25px32.pdf
+$ENDCMP
+#
+$CMP M25PX32-VZM
+D M25PX32-VZM, 32Mb, Dual I/O, 4KB Subsector Erase, 3V Serial Flash Memory with 75 MHz SPI Bus Interface, TBGA-24
+K NOR Serial Flash Embedded Memory
+F https://www.micron.com/~/media/documents/products/data-sheet/nor-flash/serial-nor/m25px/m25px32.pdf
+$ENDCMP
+#
+$CMP MT48LC16M4A2P
+D MT48LC16M4A2P, PC100/PC133 Compliant SDRAM, 64Mb (16Mb x 4), TSOP II 54pin
+K SDRAM Synchronus DRAM PC133 PC100 64Mb 16Mbx4
+F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
+$ENDCMP
+#
+$CMP MT48LC16M4A2TG
+D MT48LC16M4A2TG, PC100/PC133 Compliant SDRAM, 64Mb (16Mb x 4), TSOP II 54pin
+K SDRAM Synchronus DRAM PC133 PC100 64Mb 16Mbx4
+F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
+$ENDCMP
+#
+$CMP MT48LC4M16A2P
+D MT48LC4M16A2P, PC100/PC133 Compliant SDRAM, 64Mb (4Mb x 16), TSOP II 54pin
+K SDRAM Synchronus DRAM PC133 PC100 64Mb 4Mbx16
+F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
+$ENDCMP
+#
+$CMP MT48LC4M16A2TG
+D MT48LC4M16A2TG, PC100/PC133 Compliant SDRAM, 64Mb (4Mb x 16), TSOP II 54pin
+K SDRAM Synchronus DRAM PC133 PC100 64Mb 4Mbx16
+F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
+$ENDCMP
+#
+$CMP MT48LC8M8A2P
+D MT48LC8M8A2P, PC100/PC133 Compliant SDRAM, 64Mb (8Mb x 8), TSOP II 54pin
+K SDRAM Synchronus DRAM PC133 PC100 64Mb 8Mbx8
+F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
+$ENDCMP
+#
+$CMP MT48LC8M8A2TG
+D MT48LC8M8A2TG, PC100/PC133 Compliant SDRAM, 64Mb (8Mb x 8), TSOP II 54pin
+K SDRAM Synchronus DRAM PC133 PC100 64Mb 8Mbx8
+F http://download.micron.com/pdf/datasheets/dram/sdram/64MSDRAM.pdf
+$ENDCMP
+#
+#End Doc Library

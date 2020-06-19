@@ -1,0 +1,75 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM1875
+D LM1875, 20W Audio Power Amplifier, TO220-5
+K LM1875 Amplifier 20W
+F http://www.ti.com/lit/ds/symlink/lm1875.pdf
+$ENDCMP
+#
+$CMP LM1876
+D LM1876, Dual 20W Overture Seriers Audio Power Amplifier, with Mute Standby Mode, TO220-15 (MultiWatt)
+K LM1876 Overture Amplifier Dual 20W
+F http://www.ti.com/lit/ds/symlink/lm1876.pdf
+$ENDCMP
+#
+$CMP LM1877M
+D LM1877M, 2W/8R Dual Audio Power Amplifier, Supply Voltage 6-24V, SO14L
+K Dual Audio Amplifier 2W 24V
+F http://www.ti.com/lit/ds/symlink/lm1877.pdf
+$ENDCMP
+#
+$CMP LM1877N
+D LM1877N, 2W/8R Dual Audio Power Amplifier, Supply Voltage 6-24V, DIP14
+K Dual Audio Amplifier 2W 24V
+F http://www.ti.com/lit/ds/symlink/lm1877.pdf
+$ENDCMP
+#
+$CMP LM3886T
+D LM3886, Single 68W Overture Seriers Audio Power Amplifier, with Mute Mode, TO220-11 (MultiWatt)
+K LM3886 Overture Amplifier Single 86W
+F http://www.ti.com/lit/ds/symlink/lm3886.pdf
+$ENDCMP
+#
+$CMP LM3886TF
+D LM3886, Single 68W Overture Seriers Audio Power Amplifier, with Mute Mode, PFM-11 (Plastic MultiWatt)
+K LM3886 Overture Amplifier Single 86W
+F http://www.ti.com/lit/ds/symlink/lm3886.pdf
+$ENDCMP
+#
+$CMP LM4950TA
+D LM4950TA, Audio 3.1W Stereo Power Amplifier, TO220-9
+K LM4950 Stereo Power Aplifier 3.1W
+F http://www.ti.com/lit/ds/symlink/lm4950.pdf
+$ENDCMP
+#
+$CMP LM4950TS
+D LM4950TS, Audio 3.1W Stereo Power Amplifier, TO263-9
+K LM4950 Stereo Power Aplifier 3.1W
+F http://www.ti.com/lit/ds/symlink/lm4950.pdf
+$ENDCMP
+#
+$CMP LM4990ITL/NOPB
+D LM4990ITL/NOPB, 2W Audio Power Apmlifier, DSBGA-9
+K 2W Audio Amp
+F http://www.ti.com/lit/ds/symlink/lm4990.pdf
+$ENDCMP
+#
+$CMP LM4990LD/NOPB
+D LM4990LD/NOPB, 2W Audio Power Apmlifier, WSON-8
+K 2W Audio Amp
+F http://www.ti.com/lit/ds/symlink/lm4990.pdf
+$ENDCMP
+#
+$CMP LM4990MH/NOPB
+D LM4990MH/NOPB, 2W Audio Power Apmlifier, MSOP-8+EP
+K 2W Audio Amp
+F http://www.ti.com/lit/ds/symlink/lm4990.pdf
+$ENDCMP
+#
+$CMP LM4990MM/NOPB
+D LM4990MM/NOPB, 2W Audio Power Apmlifier, VSSOP-8
+K 2W Audio Amp
+F http://www.ti.com/lit/ds/symlink/lm4990.pdf
+$ENDCMP
+#
+#End Doc Library

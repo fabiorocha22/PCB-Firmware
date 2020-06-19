@@ -1,0 +1,99 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 16450
+D PC16450, Universal Asynchronous Receiver/Transmitter, PDIP-40
+K 1ch UART
+$ENDCMP
+#
+$CMP 16550
+D PC16550D, Universal Asynchronous Receiver/Transmitter with FIFOs, PDIP-40
+K 1ch UART FIFO
+F http://www.ti.com/lit/ds/symlink/pc16550d.pdf
+$ENDCMP
+#
+$CMP 8250
+D PC8250, Universal Asynchronous Receiver/Transmitter, PDIP-40
+K 1ch UART
+$ENDCMP
+#
+$CMP 8250A
+D PC8250A, Universal Asynchronous Receiver/Transmitter, PDIP-40
+K 1ch UART
+$ENDCMP
+#
+$CMP 8250B
+D PC8250B, Universal Asynchronous Receiver/Transmitter, PDIP-40
+K 1ch UART
+$ENDCMP
+#
+$CMP 8251
+D PC8251, Universal Asynchronous Receiver/Transmitter, PDIP-28
+K 1ch UART
+$ENDCMP
+#
+$CMP 8251A
+D PC8251A, Universal Asynchronous Receiver/Transmitter, PDIP-28
+K 1ch UART
+$ENDCMP
+#
+$CMP 8252
+D Universal Asynchronous Receiver/Transmitter, PDIP-28
+K UART Serial Interface
+$ENDCMP
+#
+$CMP 8253
+D 8253, Triple Channel Timer/Counter, PDIP-28
+K Timer Counter
+$ENDCMP
+#
+$CMP 8254
+D 8254, Triple Channel Timer/Counter, PDIP-28
+K Timer Counter
+$ENDCMP
+#
+$CMP 8255
+D 8255, Paralell Pheripherial Interface, PDIP-40
+K PPI
+$ENDCMP
+#
+$CMP 8256AH
+D 8256AH, Multifunction Pheripherial Controller, MUART, PDIP-40
+K MUART
+$ENDCMP
+#
+$CMP 8257
+D 8257, Four Channel DMA Controller, PDIP-40
+K DMA 4ch
+$ENDCMP
+#
+$CMP 8257-5
+D 8257, Four Channel DMA Controller, PDIP-40
+K DMA 4ch
+$ENDCMP
+#
+$CMP 8259
+D 8259, Programmable Interrupt Controller, PDIP-28
+K PIC
+$ENDCMP
+#
+$CMP 8259A
+D 8259A, Programmable Interrupt Controller, PDIP-28
+K PIC
+$ENDCMP
+#
+$CMP 82720
+D Graphics Display Controller, PDIP-40
+K Graphics Controller
+$ENDCMP
+#
+$CMP 8284
+D Clock Generator and Driver for i8086/88 Microcontrollers, PDIP-18
+K Clock Generator
+$ENDCMP
+#
+$CMP 82C54_PLCC
+D 82C54, Triple Channel Timer/Counter, PLCC-28
+K Timer Counter
+$ENDCMP
+#
+#End Doc Library

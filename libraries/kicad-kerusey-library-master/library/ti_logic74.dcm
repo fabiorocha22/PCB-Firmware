@@ -1,0 +1,182 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LS00
+D 74LS00, Quad 2 Input NAND Gate
+K Quad NAND
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS01
+D 74LS01, Quad 2 Input NAND Open Collector Gate
+K Quad NAND OC
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS02
+D 74LS02, Quad 2 Input NOR Gate
+K Quad NOR
+$ENDCMP
+#
+$CMP 74LS03
+D 74LS03, Quad 2 Input NAND Open Collector Gate
+K Quad NAND OC
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS04
+D 74LS04, Six Inverter Gate
+K Six NOT Inverter
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS05
+D 74LS05, Six Inverter Gate Open Drain
+K Six NOT Inverter OD
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS06
+D 74LS06, Six Inverter Gate Buffer /Dirver Open Drain
+K Six NOT Inverter OD Buffer
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS07
+D 74LS07, Six Gate Buffer/Dirver Open Drain
+K Six OD Buffer
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS08
+D 74LS08, Quad 2 Input AND Gate
+K Quad AND
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS09
+D 74LS09, Quad 2 Input AND Gate Open Collector
+K Quad AND OC
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS10
+D 74LS10, Triple 3 Input NAND Gate
+K Triple NAND
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS11
+D 74LS11, Triple 3 Input AND Gate
+K Triple AND
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS121
+D 74LS121, Single Monostable Flip-Flop
+K Single Monostable Flip Flop
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS123
+D 74LS123, Dual Monostable Flip-Flop
+K Dual Monostable Flip Flop
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS138
+D 74LS138, 3 Line to 8 Line Decoder with Enable
+K 3-8 Decoder Enable
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS14
+D 74LS14, Six Inverter Gate with Schmitt Trigger
+K Six NOT Inverter Schmitt 
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS157
+D 74LS157, Quad 2 Input Multiplexer
+K Quad 2-1 Miltiplexer
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS16
+D 74LS16, Six Inverter Gate Buffer/Dirver Open Drain High Voltage Output
+K Six NOT Inverter OD Buffer HV
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS165
+D 74LS165, Shift Register
+K Shift Register
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS245
+D 74LS245, Octal Buffer
+K Octal Buffer
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS30
+D 74LS30, Single 8 Input NAND Gate
+K Single NAND
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS42
+D 74LS42, 4 line to 10 line Decoder
+K 4-10 Decoder
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS573
+D 74LS573, Octal D-type Latch with Enable
+K Octal D-Type Latch
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS574
+D 74LS574, Octal D-type Flip-Flop with Enable
+K Octal D-Type Flip Flop
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS74
+D 74LS74, Dual D-type Flip-Flop
+K Dual D-Type Flip Flop
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS86
+D 74LS86, Quad EX-OR Gate
+K Quad EX-OR Gate
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS93
+D 74LS93, Single Hex Counter with Reset
+K Dual D-Type Flip Flop
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74S405
+D 74S405, 3 Line to 8 Line Decoder with Enable
+K 3-8 Decoder
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74S412
+D 74S412, Bus Buffer with Latch and Interrupt Logic
+K Bus Buffer Latch Logic
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74S416
+D 74S416, 4bit Bidirectional Bus Buffer
+K 4bit Bidirectional Bus Buffer
+F http://www.ti.com/lit/sl/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+#End Doc Library

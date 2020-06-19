@@ -1,0 +1,75 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIC2026-1BM
+D MIC2026-1BM, Dual-Channel Power Distribution Switch, SO8
+K MOSFET Power Switch
+F http://www.micrel.com/_PDF/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2026-1BN
+D MIC2026-1BN, Dual-Channel Power Distribution Switch, PDIP-8
+K MOSFET Power Switch
+F http://www.micrel.com/_PDF/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2026-1YM
+D MIC2026-1YM, Dual-Channel Power Distribution Switch, SO8
+K MOSFET Power Switch
+F http://www.micrel.com/_PDF/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2026-2BM
+D MIC2026-2BM, Dual-Channel Power Distribution Switch, SO8
+K MOSFET Power Switch
+F http://www.micrel.com/_PDF/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2026-2BN
+D MIC2026-2BN, Dual-Channel Power Distribution Switch, PDIP-8
+K MOSFET Power Switch
+F http://www.micrel.com/_PDF/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2026-2YM
+D MIC2026-2YM, Dual-Channel Power Distribution Switch, SO8
+K MOSFET Power Switch
+F http://www.micrel.com/_PDF/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2076-1BM
+D MIC2076-1BM, Dual-Channel Power Distribution Switch, SO8
+K MOSFET Power Switch
+F http://www.micrel.com/_PDF/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2076-1BN
+D MIC2076-1BN, Dual-Channel Power Distribution Switch, PDIP-8
+K MOSFET Power Switch
+F http://www.micrel.com/_PDF/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2076-1YM
+D MIC2076-1YM, Dual-Channel Power Distribution Switch, SO8
+K MOSFET Power Switch
+F http://www.micrel.com/_PDF/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2076-2BM
+D MIC2076-2BM, Dual-Channel Power Distribution Switch, SO8
+K MOSFET Power Switch
+F http://www.micrel.com/_PDF/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2076-2BN
+D MIC2076-2BN, Dual-Channel Power Distribution Switch, PDIP-8
+K MOSFET Power Switch
+F http://www.micrel.com/_PDF/mic2026.pdf
+$ENDCMP
+#
+$CMP MIC2076-2YM
+D MIC2076-2YM, Dual-Channel Power Distribution Switch, SO8
+K MOSFET Power Switch
+F http://www.micrel.com/_PDF/mic2026.pdf
+$ENDCMP
+#
+#End Doc Library

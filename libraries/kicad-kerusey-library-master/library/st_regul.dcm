@@ -1,0 +1,309 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LD1117D33CTR
+D LD1117D33CTR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SO-8
+K 800mA LDO Regulator Fixed 3.3V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117D33TR
+D LD1117D33TR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SO-8
+K 800mA LDO Regulator Fixed 3.3V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117DT12CTR
+D LD1117DT12CTR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.2V, TO-252 (DPAK)
+K 800mA LDO Regulator Fixed 1.2V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117DT12TR
+D LD1117DT12TR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.2V, TO-252 (DPAK)
+K 800mA LDO Regulator Fixed 1.2V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117DT18CTR
+D LD1117DT18CTR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.8V, TO-252 (DPAK)
+K 800mA LDO Regulator Fixed 1.8V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117DT18TR
+D LD1117DT18TR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.8V, TO-252 (DPAK)
+K 800mA LDO Regulator Fixed 1.8V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117DT25CTR
+D LD1117DT25CTR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 2.5V, TO-252 (DPAK)
+K 800mA LDO Regulator Fixed 2.5V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117DT25TR
+D LD1117DT25TR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 2.5V, TO-252 (DPAK)
+K 800mA LDO Regulator Fixed 2.5V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117DT33CTR
+D LD1117DT33CTR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, TO-252 (DPAK)
+K 800mA LDO Regulator Fixed 3.3V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117DT33TR
+D LD1117DT33TR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, TO-252 (DPAK)
+K 800mA LDO Regulator Fixed 3.3V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117DT50CTR
+D LD1117DT50CTR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, TO-252 (DPAK)
+K 800mA LDO Regulator Fixed 5.0V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117DT50TR
+D LD1117DT50TR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, TO-252 (DPAK)
+K 800mA LDO Regulator Fixed 5.0V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117DTC-R
+D LD1117DTC-R, 800mA Low Drop Positive Voltage Regulator, Adjustable Output 1.25V-15V, TO-252 (DPAK)
+K 800mA LDO Regulator Adjustable Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117DTTR
+D LD1117DTTR, 800mA Low Drop Positive Voltage Regulator, Adjustable Output 1.25V-15V, TO-252 (DPAK)
+K 800mA LDO Regulator Adjustable Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S12CTR
+D LD1117S12CTR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.2V, SOT-223
+K 800mA LDO Regulator Fixed 1.2V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S12TR
+D LD1117S12TR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.2V, SOT-223
+K 800mA LDO Regulator Fixed 1.2V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S18CTR
+D LD1117S18CTR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.8V, SOT-223
+K 800mA LDO Regulator Fixed 1.8V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S18TR
+D LD1117S18TR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.8V, SOT-223
+K 800mA LDO Regulator Fixed 1.8V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S25CTR
+D LD1117S25CTR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 2.5V, SOT-223
+K 800mA LDO Regulator Fixed 2.5V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S25TR
+D LD1117S25TR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 2.5V, SOT-223
+K 800mA LDO Regulator Fixed 2.5V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S33CTR
+D LD1117S33CTR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223
+K 800mA LDO Regulator Fixed 3.3V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S33TR
+D LD1117S33TR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223
+K 800mA LDO Regulator Fixed 3.3V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S50CTR
+D LD1117S50CTR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, SOT-223
+K 800mA LDO Regulator Fixed 5.0V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117S50TR
+D LD1117S50TR, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, SOT-223
+K 800mA LDO Regulator Fixed 5.0V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117SC-R
+D LD1117SC-R, 800mA Low Drop Positive Voltage Regulator, Adjustable Output 1.25V-15V, SOT-223
+K 800mA LDO Regulator Adjustable Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117STR
+D LD1117STR, 800mA Low Drop Positive Voltage Regulator, Adjustable Output 1.25V-15V, SOT-223
+K 800mA LDO Regulator Adjustable Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117V
+D LD1117V, 800mA Low Drop Positive Voltage Regulator, Adjustable Output 1.25V-15V, TO-220
+K 800mA LDO Regulator Adjustable Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117V18
+D LD1117V18, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 1.8V, TO-220
+K 800mA LDO Regulator Fixed 1.8V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117V33
+D LD1117V33, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, TO-220
+K 800mA LDO Regulator Fixed 3.3V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117V33C
+D LD1117V33C, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, TO-220
+K 800mA LDO Regulator Fixed 3.3V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117V50
+D LD1117V50, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, TO-220
+K 800mA LDO Regulator Fixed 5.0V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD1117V50C
+D LD1117V50C, 800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 5.0V, TO-220
+K 800mA LDO Regulator Fixed 5.0V Positive
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+$CMP LD3985G122R
+D LD3985G122R, 150 mA Low Dropout Voltage Regulator, Fixed Output 1.22V, TSOT-23-5
+K 150mA LDO Regulator Fixed 1.22V Positive
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+$ENDCMP
+#
+$CMP LD3985G18R
+D LD3985G18R, 150 mA Low Dropout Voltage Regulator, Fixed Output 1.8V, TSOT-23-5
+K 150mA LDO Regulator Fixed 1.8V Positive
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+$ENDCMP
+#
+$CMP LD3985G25R
+D LD3985G25R, 150 mA Low Dropout Voltage Regulator, Fixed Output 2.5V, TSOT-23-5
+K 150mA LDO Regulator Fixed 2.5V Positive
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+$ENDCMP
+#
+$CMP LD3985G26R
+D LD3985G26R, 150 mA Low Dropout Voltage Regulator, Fixed Output 2.6V, TSOT-23-5
+K 150mA LDO Regulator Fixed 2.6V Positive
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+$ENDCMP
+#
+$CMP LD3985G27R
+D LD3985G27R, 150 mA Low Dropout Voltage Regulator, Fixed Output 2.7V, TSOT-23-5
+K 150mA LDO Regulator Fixed 2.7V Positive
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+$ENDCMP
+#
+$CMP LD3985G28R
+D LD3985G28R, 150 mA Low Dropout Voltage Regulator, Fixed Output 2.8V, TSOT-23-5
+K 150mA LDO Regulator Fixed 2.8V Positive
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+$ENDCMP
+#
+$CMP LD3985G30R
+D LD3985G30R, 150 mA Low Dropout Voltage Regulator, Fixed Output 3.0V, TSOT-23-5
+K 150mA LDO Regulator Fixed 3V Positive
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+$ENDCMP
+#
+$CMP LD3985G33R
+D LD3985G33R, 150 mA Low Dropout Voltage Regulator, Fixed Output 3.3V, TSOT-23-5
+K 150mA LDO Regulator Fixed 3.3V Positive
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+$ENDCMP
+#
+$CMP LD3985G47R
+D LD3985G47R, 150 mA Low Dropout Voltage Regulator, Fixed Output 4.7V, TSOT-23-5
+K 150mA LDO Regulator Fixed 4.7V Positive
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+$ENDCMP
+#
+$CMP LD3985M122R
+D LD3985M122R, 150 mA Low Dropout Voltage Regulator, Fixed Output 1.22V, SOT-23-5
+K 150mA LDO Regulator Fixed 1.22V Positive
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+$ENDCMP
+#
+$CMP LD3985M18R
+D LD3985M18R, 150 mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5
+K 150mA LDO Regulator Fixed 1.8V Positive
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+$ENDCMP
+#
+$CMP LD3985M25R
+D LD3985M25R, 150 mA Low Dropout Voltage Regulator, Fixed Output 2.5V, SOT-23-5
+K 150mA LDO Regulator Fixed 2.5V Positive
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+$ENDCMP
+#
+$CMP LD3985M26R
+D LD3985M26R, 150 mA Low Dropout Voltage Regulator, Fixed Output 2.6V, SOT-23-5
+K 150mA LDO Regulator Fixed 2.6V Positive
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+$ENDCMP
+#
+$CMP LD3985M27R
+D LD3985M27R, 150 mA Low Dropout Voltage Regulator, Fixed Output 2.7V, SOT-23-5
+K 150mA LDO Regulator Fixed 2.7V Positive
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+$ENDCMP
+#
+$CMP LD3985M28R
+D LD3985M28R, 150 mA Low Dropout Voltage Regulator, Fixed Output 2.8V, SOT-23-5
+K 150mA LDO Regulator Fixed 2.8V Positive
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+$ENDCMP
+#
+$CMP LD3985M29R
+D LD3985M29R, 150 mA Low Dropout Voltage Regulator, Fixed Output 2.8V, SOT-23-5
+K 150mA LDO Regulator Fixed 2.8V Positive
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+$ENDCMP
+#
+$CMP LD3985M30R
+D LD3985M30R, 150 mA Low Dropout Voltage Regulator, Fixed Output 3.0V, SOT-23-5
+K 150mA LDO Regulator Fixed 3V Positive
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+$ENDCMP
+#
+$CMP LD3985M33R
+D LD3985M33R, 150 mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5
+K 150mA LDO Regulator Fixed 3.3V Positive
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+$ENDCMP
+#
+$CMP LD3985M47R
+D LD3985M47R, 150 mA Low Dropout Voltage Regulator, Fixed Output 4.7V, SOT-23-5
+K 150mA LDO Regulator Fixed 4.7V Positive
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+$ENDCMP
+#
+#End Doc Library

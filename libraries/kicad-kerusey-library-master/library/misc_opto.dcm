@@ -1,0 +1,43 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 4N25
+D 4N25, DIP6, DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 2500V
+K NPN DC Optocoupler Base Connected
+$ENDCMP
+#
+$CMP 4N26
+D 4N26, DIP6, DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 1500V
+K NPN DC Optocoupler Base Connected
+$ENDCMP
+#
+$CMP ASMT-YTC2-0AA02
+D ASMT-YTC2-0AA02, Triple RGB LED Avago Technology, PLCC6
+K LED RGB PLCC
+F http://www.avagotech.com/docs/AV02-2589EN
+$ENDCMP
+#
+$CMP HCNW3120
+D HCNW3120, DIP8, DC Optocoupler, IGBT/MOSFET Driver, Output 30V 2.5A 0.5us
+K DC Optocoupler IGBT MOSFET Driver
+F http://docs.avagotech.com/docs/AV02-0161EN
+$ENDCMP
+#
+$CMP HCPL-3120
+D HCPL-3120, DIP8, DC Optocoupler, IGBT/MOSFET Driver, Output 30V 2.5A 0.5us
+K DC Optocoupler IGBT MOSFET Driver
+F http://docs.avagotech.com/docs/AV02-0161EN
+$ENDCMP
+#
+$CMP HCPL-316J
+D HCPL-316J, 2.5A Gate Driver Optocoupler, Desaturation Detector and Fault Signal, SO-16
+K Gate Driver
+F http://docs.avagotech.com/docs/AV02-0717EN
+$ENDCMP
+#
+$CMP NSL-32
+D NSL-32SR3, Opto Resistor
+K Opto Resistor
+F http://www.alliedelec.com/images/products/datasheets/bm/SILONEX_INC/70136790.pdf
+$ENDCMP
+#
+#End Doc Library

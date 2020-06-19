@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP16301HT-I/CHY
+D MCP16301HT-I/CHY, 36V 1A Synchronus Switching Regulator, SOT-23-6
+K 36V 1A DC-DC Converter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005004D.pdf
+$ENDCMP
+#
+$CMP MCP16301T-I/CHY
+D MCP16301T-I/CHY, 30V 1A Synchronus Switching Regulator, SOT-23-6
+K 30V 1A DC-DC Converter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005004D.pdf
+$ENDCMP
+#
+$CMP MCP16311-E/MS
+D MCP16311-E/MS, 30V 1A Synchronus Switching Regulator, MSOP-8
+K 30V 1A DC-DC Converter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005255B.pdf
+$ENDCMP
+#
+$CMP MCP16312-E/MS
+D MCP16312-E/MS, 30V 1A Synchronus Switching Regulator, MSOP-8
+K 30V 1A DC-DC Converter
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005255B.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AT42QT1040-MMH
+D AT42QT1040, 4key QTouch Sensor, AKS, QFN10 3x3mm
+K QTouch Sensor
+F http://www.atmel.com/Images/Atmel-9524-AT42-QTouch-BSW-AT42QT1040_Datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

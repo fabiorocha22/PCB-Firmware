@@ -1,0 +1,31 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADC0800
+D Analog to Digital 8 bits converter
+K CAD
+F adc-dac/adc0800.pdf
+$ENDCMP
+#
+$CMP ADC08060
+D Fast ADC  (20 .. 60 Mhz)
+K ADC CAN VIDEO
+F adc-dac/adc08060.pdf
+$ENDCMP
+#
+$CMP ADC0832
+D 2 inputs AD Converter (serial output)
+K ADC CAN
+$ENDCMP
+#
+$CMP ADC1173
+D Fast ADC  (15 Mhz)
+K ADC CAN VIDEO
+F adc-dac/adc1173.pdf
+$ENDCMP
+#
+$CMP CA3300
+D Convertisseur A->D 6 bits rapide
+K ADC CAN
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,26 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ST1CC40PHR
+D ST1CC40PHR, DC/DC Buck CC Converter for LED's, Vin 18V, 3A, Power SO-8  (Preliminary)
+K DC/DC Buck Conwerter 3A Low Voltage Input LED Lighting
+$ENDCMP
+#
+$CMP ST1S10PHR
+D ST1S10PHR, DC/DC Buck Converter, Vin 18V, 3A, Power SO-8
+K DC/DC Buck Conwerter 3A Low Voltage Input
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00169322.pdf
+$ENDCMP
+#
+$CMP ST1S10PUR
+D ST1S10PHR, DC/DC Buck Converter, Vin 18V, 3A, DFN-8 (4x4mm)
+K DC/DC Buck Conwerter 3A Low Voltage Input
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00169322.pdf
+$ENDCMP
+#
+$CMP ST1S14PHR
+D ST1S14PHR, DC/DC Buck Converter, Vin 48V, 3A, Power SO-8
+K DC/DC Buck Conwerter 3A
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00285678.pdf
+$ENDCMP
+#
+#End Doc Library

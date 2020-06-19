@@ -1,0 +1,51 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CH376T
+D CH376T, File Management USB Flash Card SD Interface, TSSOP20
+K File Management USB Flash Card SD Interface
+F http://iteadstudio.com/store/images/produce/Platform/FPGA/BlackGold/CH376DS1.PDF
+$ENDCMP
+#
+$CMP EL7242CN
+D EL7242CN, High Speed Dual Channel MOSFET Driver,  DIP-8
+K Dual Channel MOSFET Driver
+F https://www.intersil.com/content/dam/Intersil/documents/el72/el7242-52.pdf
+$ENDCMP
+#
+$CMP EL7242CNZ
+D EL7242CNZ, High Speed Dual Channel MOSFET Driver,  DIP-8
+K Dual Channel MOSFET Driver
+F https://www.intersil.com/content/dam/Intersil/documents/el72/el7242-52.pdf
+$ENDCMP
+#
+$CMP EL7242CS
+D EL7242CS, High Speed Dual Channel MOSFET Driver, SOIC-8
+K Dual Channel MOSFET Driver
+F https://www.intersil.com/content/dam/Intersil/documents/el72/el7242-52.pdf
+$ENDCMP
+#
+$CMP EL7242CSZ
+D EL7242CSZ, High Speed Dual Channel MOSFET Driver, SOIC-8
+K Dual Channel MOSFET Driver
+F https://www.intersil.com/content/dam/Intersil/documents/el72/el7242-52.pdf
+$ENDCMP
+#
+$CMP EL7252CN
+D EL7252CN, High Speed Dual Channel MOSFET Driver, DIP-8
+K Dual Channel MOSFET Driver
+F https://www.intersil.com/content/dam/Intersil/documents/el72/el7242-52.pdf
+$ENDCMP
+#
+$CMP EL7252CS
+D EL7252CS, High Speed Dual Channel MOSFET Driver, SOIC-8
+K Dual Channel MOSFET Driver
+F https://www.intersil.com/content/dam/Intersil/documents/el72/el7242-52.pdf
+$ENDCMP
+#
+$CMP EL7252CSZ
+D EL7252CSZ, High Speed Dual Channel MOSFET Driver, SOIC-8
+K Dual Channel MOSFET Driver
+F https://www.intersil.com/content/dam/Intersil/documents/el72/el7242-52.pdf
+$ENDCMP
+#
+#End Doc Library

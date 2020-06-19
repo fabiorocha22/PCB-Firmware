@@ -1,0 +1,297 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP2515-E/P
+D MCP2515-E/P, Standalone CAN Controller, SPI, DIP-18
+K CAN Conroller SPI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf
+$ENDCMP
+#
+$CMP MCP2515-E/SO
+D MCP2515-E/SO, Standalone CAN Controller, SPI, SOIC-18
+K CAN Conroller SPI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf
+$ENDCMP
+#
+$CMP MCP2515-E/ST
+D MCP2515-E/ST, Standalone CAN Controller, SPI, TSSOP-20
+K CAN Conroller SPI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf
+$ENDCMP
+#
+$CMP MCP2551-I/P
+D MCP2551-I/P, High-Speed CAN Transceiver, PDIP8
+K High-Speed CAN Transceiver
+F http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf
+$ENDCMP
+#
+$CMP MCP2551-I/SN
+D MCP2551-I/SN, High-Speed CAN Transceiver, SO8
+K High-Speed CAN Transceiver
+F http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf
+$ENDCMP
+#
+$CMP MCP41010-I/P
+D MCP41010-I/P, Single Digital Potentiometer, SPI interface, 256 taps, 10 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP41010-I/SN
+D MCP41010-I/SN, Single Digital Potentiometer, SPI interface, 256 taps, 10 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP41050-I/P
+D MCP41050-I/P, Single Digital Potentiometer, SPI interface, 256 taps, 50 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP41050-I/SN
+D MCP41050-I/SN, Single Digital Potentiometer, SPI interface, 256 taps, 50 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP41100-I/P
+D MCP41100-I/P, Single Digital Potentiometer, SPI interface, 256 taps, 100 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP41100-I/SN
+D MCP41100-I/SN, Single Digital Potentiometer, SPI interface, 256 taps, 100 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42010-I/P
+D MCP42010-I/P, Dual Digital Potentiometer, SPI interface, 256 taps, 10 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42010-I/SL
+D MCP42010-I/SL, Dual Digital Potentiometer, SPI interface, 256 taps, 10 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42010-I/ST
+D MCP42010-I/ST, Dual Digital Potentiometer, SPI interface, 256 taps, 10 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42050-I/P
+D MCP42050-I/P, Dual Digital Potentiometer, SPI interface, 256 taps, 50 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42050-I/SL
+D MCP42050-I/SL, Dual Digital Potentiometer, SPI interface, 256 taps, 50 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42050-I/ST
+D MCP42050-I/ST, Dual Digital Potentiometer, SPI interface, 256 taps, 50 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42100-I/P
+D MCP42100-I/P, Dual Digital Potentiometer, SPI interface, 256 taps, 100 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42100-I/SL
+D MCP42100-I/SL, Dual Digital Potentiometer, SPI interface, 256 taps, 100 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP42100-I/ST
+D MCP42100-I/ST, Dual Digital Potentiometer, SPI interface, 256 taps, 100 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP TCM809JELB713
+D TCM809JELB713, Microcontroller Reset Monitor, 4.00V Theshold, SC-70
+K MCU RESET MONITOR 4.00V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809JENB713
+D TCM809JENB713, Microcontroller Reset Monitor, 4.00V Theshold, SOT-23
+K MCU RESET MONITOR 4.00V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809LELB713
+D TCM809LELB713, Microcontroller Reset Monitor, 4.63V Theshold, SC-70
+K MCU RESET MONITOR 4.63V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809LENB713
+D TCM809LENB713, Microcontroller Reset Monitor, 4.63V Theshold, SOT-23
+K MCU RESET MONITOR 4.63V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809MELB713
+D TCM809MELB713, Microcontroller Reset Monitor, 4.38V Theshold, SC-70
+K MCU RESET MONITOR 4.38V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809MENB713
+D TCM809MENB713, Microcontroller Reset Monitor, 4.38V Theshold, SOT-23
+K MCU RESET MONITOR 4.38V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809RELB713
+D TCM809RELB713, Microcontroller Reset Monitor, 2.63V Theshold, SC-70
+K MCU RESET MONITOR 2.63V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809RENB713
+D TCM809RENB713, Microcontroller Reset Monitor, 2.63V Theshold, SOT-23
+K MCU RESET MONITOR 2.63V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809SELB713
+D TCM809SELB713, Microcontroller Reset Monitor, 2.93V Theshold, SC-70
+K MCU RESET MONITOR 2.93V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809SENB713
+D TCM809SENB713, Microcontroller Reset Monitor, 2.93V Theshold, SOT-23
+K MCU RESET MONITOR 2.93V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809TELB713
+D TCM809TELB713, Microcontroller Reset Monitor, 3.08V Theshold, SC-70
+K MCU RESET MONITOR 3.08V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809TENB713
+D TCM809TENB713, Microcontroller Reset Monitor, 3.08V Theshold, SOT-23
+K MCU RESET MONITOR 3.08V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809ZELB713
+D TCM809ZELB713, Microcontroller Reset Monitor, 2.32V Theshold, SC-70
+K MCU RESET MONITOR 4.32V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809ZENB713
+D TCM809ZENB713, Microcontroller Reset Monitor, 2.32V Theshold, SOT-23
+K MCU RESET MONITOR 4.32V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810JELB713
+D TCM810JELB713, Microcontroller Reset Monitor, 4.00V Theshold, SC-70
+K MCU RESET MONITOR 4.00V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810JENB713
+D TCM810JENB713, Microcontroller Reset Monitor, 4.00V Theshold, SOT-23
+K MCU RESET MONITOR 4.00V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810LELB713
+D TCM810LELB713, Microcontroller Reset Monitor, 4.63V Theshold, SC-70
+K MCU RESET MONITOR 4.63V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810LENB713
+D TCM810LENB713, Microcontroller Reset Monitor, 4.63V Theshold, SOT-23
+K MCU RESET MONITOR 4.63V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810MELB713
+D TCM810MELB713, Microcontroller Reset Monitor, 4.38V Theshold, SC-70
+K MCU RESET MONITOR 4.38V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810MENB713
+D TCM810MENB713, Microcontroller Reset Monitor, 4.38V Theshold, SOT-23
+K MCU RESET MONITOR 4.38V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810RELB713
+D TCM810RELB713, Microcontroller Reset Monitor, 2.63V Theshold, SC-70
+K MCU RESET MONITOR 2.63V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810RENB713
+D TCM810RENB713, Microcontroller Reset Monitor, 2.63V Theshold, SOT-23
+K MCU RESET MONITOR 2.63V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810SELB713
+D TCM810SELB713, Microcontroller Reset Monitor, 2.93V Theshold, SC-70
+K MCU RESET MONITOR 2.93V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810SENB713
+D TCM810SENB713, Microcontroller Reset Monitor, 2.93V Theshold, SOT-23
+K MCU RESET MONITOR 2.93V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810TELB713
+D TCM810TELB713, Microcontroller Reset Monitor, 3.08V Theshold, SC-70
+K MCU RESET MONITOR 3.08V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810TENB713
+D TCM810TENB713, Microcontroller Reset Monitor, 3.08V Theshold, SOT-23
+K MCU RESET MONITOR 3.08V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810ZELB713
+D TCM810ZELB713, Microcontroller Reset Monitor, 2.32V Theshold, SC-70
+K MCU RESET MONITOR 4.32V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810ZENB713
+D TCM810ZENB713, Microcontroller Reset Monitor, 2.32V Theshold, SOT-23
+K MCU RESET MONITOR 4.32V
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP USB3300-EZK
+D USB3300, Hi-Speed USB Host, Device/OTG PHY, ULPI Interface, QFN-32
+K USB OTG Hi-Speed PHY ULPI Interface
+F http://microchip.com/downloads/en/DeviceDoc/00001783A.pdf
+$ENDCMP
+#
+#End Doc Library

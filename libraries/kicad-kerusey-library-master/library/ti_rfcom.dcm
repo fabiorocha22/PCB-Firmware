@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CC1000
+D CC1000, Single Chip Low Power RF Transceiver, TSSOP28
+K Low Power RF Transciever
+F http://www.ti.com/lit/ds/symlink/cc1000.pdf
+$ENDCMP
+#
+$CMP CC1200
+D CC1200, Low-Power High-Performance RF Transceiver, QFN-32
+K RF Tx Rx
+F http://www.ti.com/lit/ds/symlink/cc1200.pdf
+$ENDCMP
+#
+#End Doc Library

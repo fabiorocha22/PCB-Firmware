@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L3G4200D
+D L3G4200D, 16-bit 3 Axis Digital MEMS Gyroscope, LGA-16
+K 3-Axis MEMS Gyroscope
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00265057.pdf
+$ENDCMP
+#
+$CMP L3GD20
+D L3GD20, 16-bit 3 Axis Digital MEMS Gyroscope, LGA-16
+K 3-Axis MEMS Gyroscope
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00036465.pdf
+$ENDCMP
+#
+$CMP LIS331HH
+D LIS331HH, Digital MEMS Accelometer, 3-Axis, LGA-16
+K Accelometer MEMS 3-Axis
+F http://www2.st.com/content/ccc/resource/technical/document/datasheet/58/d2/32/92/1c/e3/43/fd/CD00250937.pdf/files/CD00250937.pdf/jcr:content/translations/en.CD00250937.pdf
+$ENDCMP
+#
+$CMP LSM303D
+D LSM303D, 16-bit 3 Axis Digital MEMS Accelerometer + Magnetometer, LGA-16
+K 3-Axis MEMS Accelerometer Magnetometer
+F http://www.st.com/web/en/resource/technical/document/datasheet/DM00057547.pdf
+$ENDCMP
+#
+$CMP LSM303DLHC
+D LSM303DLHC, 16-bit 3 Axis Digital MEMS Accelerometer + Magnetometer, LGA-14
+K 3-Axis MEMS Accelerometer Magnetometer
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00027543.pdf
+$ENDCMP
+#
+$CMP MP45DT02
+D MP45DT02, MEMS Omnidirectional Digital Microphone, HLGA-6
+K MEMS Microphone
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00025467.pdf
+$ENDCMP
+#
+#End Doc Library

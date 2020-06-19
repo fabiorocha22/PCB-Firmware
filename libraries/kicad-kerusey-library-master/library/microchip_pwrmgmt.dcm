@@ -1,0 +1,143 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TCM809JELB713
+D TCM809JELB713, Voltage Monitor Reset System, Threshold 4.00V, SC-70
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809JENB713
+D TCM809JENB713, Voltage Monitor Reset System, Threshold 4.00V, SOT-23
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809LELB713
+D TCM809LELB713, Voltage Monitor Reset System, Threshold 4.63V, SC-70
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809LENB713
+D TCM809LENB713, Voltage Monitor Reset System, Threshold 4.63V, SOT-23
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809MELB713
+D TCM809MELB713, Voltage Monitor Reset System, Threshold 4.38V, SC-70
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809MENB713
+D TCM809MENB713, Voltage Monitor Reset System, Threshold 4.38V, SOT-23
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809RELB713
+D TCM809RELB713, Voltage Monitor Reset System, Threshold 2.63V, SC-70
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809RENB713
+D TCM809RENB713, Voltage Monitor Reset System, Threshold 2.63V, SOT-23
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809SELB713
+D TCM809SELB713, Voltage Monitor Reset System, Threshold 2.93V, SC-70
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809SENB713
+D TCM809SENB713, Voltage Monitor Reset System, Threshold 2.93V, SOT-23
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809TELB713
+D TCM809TELB713, Voltage Monitor Reset System, Threshold 3.08V, SC-70
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809TENB713
+D TCM809TENB713, Voltage Monitor Reset System, Threshold 3.08V, SOT-23
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809ZELB713
+D TCM809ZELB713, Voltage Monitor Reset System, Threshold 2.32V, SC-70
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM809ZENB713
+D TCM809ZENB713, Voltage Monitor Reset System, Threshold 2.32V, SOT-23
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810JELB713
+D TCM810JELB713, Voltage Monitor Reset System, Threshold 4.00V, SC-70
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810JENB713
+D TCM810JENB713, Voltage Monitor Reset System, Threshold 4.00V, SOT-23
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810LELB713
+D TCM810LELB713, Voltage Monitor Reset System, Threshold 4.63V, SC-70
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810LENB713
+D TCM810LENB713, Voltage Monitor Reset System, Threshold 4.63V, SOT-23
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810MELB713
+D TCM810MELB713, Voltage Monitor Reset System, Threshold 4.38V, SC-70
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810MENB713
+D TCM810MENB713, Voltage Monitor Reset System, Threshold 4.38V, SOT-23
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810RELB713
+D TCM810RELB713, Voltage Monitor Reset System, Threshold 2.63V, SC-70
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810RENB713
+D TCM810RENB713, Voltage Monitor Reset System, Threshold 2.63V, SOT-23
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810SELB713
+D TCM810SELB713, Voltage Monitor Reset System, Threshold 2.93V, SC-70
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810SENB713
+D TCM810SENB713, Voltage Monitor Reset System, Threshold 2.93V, SOT-23
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810TELB713
+D TCM810TELB713, Voltage Monitor Reset System, Threshold 3.08V, SC-70
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810TENB713
+D TCM810TENB713, Voltage Monitor Reset System, Threshold 3.08V, SOT-23
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810ZELB713
+D TCM810ZELB713, Voltage Monitor Reset System, Threshold 2.32V, SC-70
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+$CMP TCM810ZENB713
+D TCM810ZENB713, Voltage Monitor Reset System, Threshold 2.32V, SOT-23
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21661E.pdf
+$ENDCMP
+#
+#End Doc Library

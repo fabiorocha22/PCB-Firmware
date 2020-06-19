@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STK672-040-E
+D STK672-040-E, Stepper motor driver with Microstepping Controller, 1.5A
+K Stepper driver
+F http://www.onsemi.com/pub_link/Collateral/EN5227-D.PDF
+$ENDCMP
+#
+$CMP STK672-080-E
+D STK672-080-E, Stepper motor driver with Microstepping Controller, 2.8A
+K Stepper driver
+F http://www.onsemi.com/pub_link/Collateral/EN6507-D.PDF
+$ENDCMP
+#
+#End Doc Library

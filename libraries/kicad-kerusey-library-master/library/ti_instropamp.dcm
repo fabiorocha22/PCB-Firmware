@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP INA210AIDCK
+D INA210AIDCK, 200V/V Amplification, Current Monitor, Low and High-Side Measurement, SC70-6
+K Current Monitor Measurement
+F http://www.ti.com/lit/ds/symlink/ina213.pdf
+$ENDCMP
+#
+$CMP INA211AIDCK
+D INA211AIDCK, 500V/V Amplification, Current Monitor, Low and High-Side Measurement, SC70-6
+K Current Monitor Measurement
+F http://www.ti.com/lit/ds/symlink/ina213.pdf
+$ENDCMP
+#
+$CMP INA212AIDCK
+D INA212AIDCK, 1000V/V Amplification, Current Monitor, Low and High-Side Measurement, SC70-6
+K Current Monitor Measurement
+F http://www.ti.com/lit/ds/symlink/ina213.pdf
+$ENDCMP
+#
+$CMP INA213AIDCK
+D INA213AIDCK, 50V/V Amplification, Current Monitor, Low and High-Side Measurement, SC70-6
+K Current Monitor Measurement
+F http://www.ti.com/lit/ds/symlink/ina213.pdf
+$ENDCMP
+#
+$CMP INA214AIDCK
+D INA214AIDCK, 100V/V Amplification, Current Monitor, Low and High-Side Measurement, SC70-6
+K Current Monitor Measurement
+F http://www.ti.com/lit/ds/symlink/ina213.pdf
+$ENDCMP
+#
+$CMP INA215AIDCK
+D INA215AIDCK, 75V/V Amplification, Current Monitor, Low and High-Side Measurement, SC70-6
+K Current Monitor Measurement
+F http://www.ti.com/lit/ds/symlink/ina213.pdf
+$ENDCMP
+#
+#End Doc Library

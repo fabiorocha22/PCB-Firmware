@@ -1,0 +1,81 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CK1059
+D CK1059, 1 Pole 12 Position Rotary Switch with Stop, Shorting Silver contact, Metric
+K 1P-12P Rotary Switch
+F http://www.lorlin.co.uk/PDF/CK.pdf
+$ENDCMP
+#
+$CMP CK1049
+D CK1049, 1 Pole 12 Position Rotary Switch with Stop, Non-Shorting Silver contact, Metric
+K 1P-12P Rotary Switch
+F http://www.lorlin.co.uk/PDF/CK.pdf
+$ENDCMP
+#
+$CMP CK1054
+D CK1054, 1 Pole 12 Position Rotary Switch with Stop, Shorting Silver contact, Imperial
+K 1P-12P Rotary Switch
+F http://www.lorlin.co.uk/PDF/CK.pdf
+$ENDCMP
+#
+$CMP CK1044
+D CK1044, 1 Pole 12 Position Rotary Switch with Stop, Non-Shorting Silver contact, Imperial
+K 1P-12P Rotary Switch
+F http://www.lorlin.co.uk/PDF/CK.pdf
+$ENDCMP
+#
+$CMP CK1512
+D CK1512, 1 Pole 12 Position Rotary Switch with Stop, Shorting Gold Flash contact, Metric
+K 1P-12P Rotary Switch
+F http://www.lorlin.co.uk/PDF/CK.pdf
+$ENDCMP
+#
+$CMP CK1506
+D CK1506, 1 Pole 12 Position Rotary Switch with Stop, Non-Shorting Gold Flash contact, Metric
+K 1P-12P Rotary Switch
+F http://www.lorlin.co.uk/PDF/CK.pdf
+$ENDCMP
+#
+$CMP CK1524
+D CK1524, 1 Pole 12 Position Rotary Switch with Stop, Shorting Gold Flash contact, Imperial
+K 1P-12P Rotary Switch
+F http://www.lorlin.co.uk/PDF/CK.pdf
+$ENDCMP
+#
+$CMP CK1528
+D CK1528, 1 Pole 12 Position Rotary Switch with Stop, Non-Shorting Gold Flash contact, Imperial
+K 1P-12P Rotary Switch
+F http://www.lorlin.co.uk/PDF/CK.pdf
+$ENDCMP
+#
+$CMP CK1475
+D CK1475, 1 Pole 12 Position Rotary Switch with Stop, Shorting Gold Plate contact, Metric
+K 1P-12P Rotary Switch
+F http://www.lorlin.co.uk/PDF/CK.pdf
+$ENDCMP
+#
+$CMP CK1312
+D CK1312, 1 Pole 12 Position Rotary Switch with Stop, Non-Shorting Gold Plate contact, Metric
+K 1P-12P Rotary Switch
+F http://www.lorlin.co.uk/PDF/CK.pdf
+$ENDCMP
+#
+$CMP CK2460
+D CK2460, 1 Pole 12 Position Rotary Switch with Stop, Shorting Gold Plate contact, Imperial
+K 1P-12P Rotary Switch
+F http://www.lorlin.co.uk/PDF/CK.pdf
+$ENDCMP
+#
+$CMP CK2461
+D CK2461, 1 Pole 12 Position Rotary Switch with Stop, Non-Shorting Gold Plate contact, Imperial
+K 1P-12P Rotary Switch
+F http://www.lorlin.co.uk/PDF/CK.pdf
+$ENDCMP
+#
+$CMP CK1062
+D CK1062, 3 Pole 4 Position Rotary Switch with Stop, Shorting Silver contact, Metric
+K 3P-4P Rotary Switch SW
+F http://www.lorlin.co.uk/PDF/CK.pdf
+$ENDCMP
+#
+#End Doc Library

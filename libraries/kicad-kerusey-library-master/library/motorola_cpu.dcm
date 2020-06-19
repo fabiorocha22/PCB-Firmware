@@ -1,0 +1,96 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DSP56301
+D DSP56301, DSP with PCI Bus Interface, 
+K DSP PCI
+$ENDCMP
+#
+$CMP MC6800
+D MC6800, 8-Bit Microprocessing Unit, 1.0MHz, PDIP-40
+K MCU 6800
+$ENDCMP
+#
+$CMP MC68000D
+D MC68000D, Motorola 68K CPU, PDIP-64
+K 68K CPU
+F http://www.nxp.com/assets/documents/data/en/reference-manuals/MC68000UM.pdf
+$ENDCMP
+#
+$CMP MC68000FN
+D MC68000FN, 16bit Motorola MC68K CPU, PLCC-68
+K 68K CPU
+F http://www.nxp.com/files/32bit/doc/ref_manual/MC68000UM.pdf
+$ENDCMP
+#
+$CMP MC68008D
+D MC68008D, 16bit Motorola MC68K CPU, 8bit Bus, PDIP-48
+K Motorola 68K
+F http://www.nxp.com/assets/documents/data/en/reference-manuals/MC68000UM.pdf
+$ENDCMP
+#
+$CMP MC68010D
+D MC68010D, 16bit Motorola MC68K CPU, PDIP-64
+K 68K CPU
+F http://www.nxp.com/assets/documents/data/en/reference-manuals/MC68000UM.pdf
+$ENDCMP
+#
+$CMP MC6809
+D MC6809, 8-Bit Microprocessing unit 1.0MHz, DIP-40
+K MCU 6809
+$ENDCMP
+#
+$CMP MC6809E
+D MC6809E, 8-Bit Microprocessing unit 1.0MHz, DIP-40
+K MCU 6809E
+$ENDCMP
+#
+$CMP MC68A00
+D MC68A00, 8-Bit Microprocessing unit 1.5MHz, DIP-40
+K MCU 6800
+$ENDCMP
+#
+$CMP MC68A09
+D MC68A09, 8-Bit Microprocessing unit 1.5MHz, DIP-40
+K MCU 6809
+$ENDCMP
+#
+$CMP MC68A09E
+D MC68A09E, 8-Bit Microprocessing unit 1.5MHz, DIP-40
+K MCU 6809E
+$ENDCMP
+#
+$CMP MC68B00
+D MC68B00, 8-Bit Microprocessing unit 2.0MHz, DIP-40
+K MCU 6800
+$ENDCMP
+#
+$CMP MC68B09
+D MC68B09, 8-Bit Microprocessing unit 2.0MHz, DIP-40
+K MCU 6809
+$ENDCMP
+#
+$CMP MC68B09E
+D MC68B09E, 8-Bit Microprocessing unit 2.0MHz, DIP-40
+K MCU 6809E
+$ENDCMP
+#
+$CMP MCF5328CVM240
+D MCF5328CVM240, Coldfire Microprocessor Unit, 240MHz, MAPBGA-256
+F http://www.nxp.com/assets/documents/data/en/data-sheets/MCF5329DS.pdf
+$ENDCMP
+#
+$CMP MMC2114CFCPU
+D MMC2114CFCPU, Motorola M*CORE Microprocessor, 100 pins
+F motorola/mmc2114.pdf
+$ENDCMP
+#
+$CMP MPC8641D
+D MPC8641D, Freescale PowerPC E600 core, BGA-1023 (Pithch 1mm)
+K POWERPC
+$ENDCMP
+#
+$CMP P4080-BGA1295
+D P4080, QorIQ P4080 Communications Processor, BGA-1295
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NRF24L01
+D nRF24L01, Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm
+K Low Power RF Transciever
+F http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf
+$ENDCMP
+#
+$CMP nRF24L01P
+D nRF24L01+, Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm
+K Low Power RF Transciever
+F http://www.nordicsemi.com/eng/content/download/2726/34069/file/nRF24L01P_Product_Specification_1_0.pdf
+$ENDCMP
+#
+$CMP NRF8001
+D nRF8001, Bluetooth Low Energy Chip, QFN32
+K BLE Bluetooth
+F https://www.nordicsemi.com/eng/content/download/2981/38488/file/nRF8001_PS_v1.2.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,50 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC68HC11A0CC
+D MC68HC11A0CC, ROMless, 256B RAM
+K HC11 MCU Microcotroller
+$ENDCMP
+#
+$CMP MC68HC11A1CC
+D MC68HC11A1CC, ROMLess, 256B RAM, 512B EEPROM
+K HC11 MCU Microcotroller
+$ENDCMP
+#
+$CMP MC68HC11A1FN
+D MC68HC11A1FN, Motorola HC11 Microcontroller, PLCC-52
+K MPRO
+$ENDCMP
+#
+$CMP MC68HC11A7CC
+D MC68HC11A7CC, 
+K HC11 MCU Microcotroller
+$ENDCMP
+#
+$CMP MC68HC11A8CC
+D MC68HC11A8CC, 8K ROM, 256B RAM, 512B EEPROM
+K HC11 MCU Microcotroller
+$ENDCMP
+#
+$CMP MC68HC11F1CC
+D ROMless, 1K RAM, 512B EEPROM, PLCC-68
+K HC11 MCU Microcontroller
+F http://cache.freescale.com/files/microcontrollers/doc/data_sheet/MC68HC11F1.pdf
+$ENDCMP
+#
+$CMP MC68HC711D3CFN2
+D MC68HC711D3CFN2, Motorola Flash HC11 Microcontroller, 2MHz, PLCC-44
+K MPRO
+$ENDCMP
+#
+$CMP MC68HC711D3CFN3
+D MC68HC711D3CFN3, Motorola Flash HC11 Microcontroller, 3MHz, PLCC-44
+K MPRO
+$ENDCMP
+#
+$CMP MC68HC811E2
+D MC68HC811E2, Motorola HC11 Microcontroller, DIP-48
+K MPRO
+F http://www.nxp.com/assets/documents/data/en/data-sheets/M68HC11E.pdf
+$ENDCMP
+#
+#End Doc Library

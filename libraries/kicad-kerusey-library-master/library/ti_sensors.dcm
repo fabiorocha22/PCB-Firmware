@@ -1,0 +1,51 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP INA193AIDBV
+D INA193AIDBV, Current Shunt Monitor, Gain 20V/V, SOT-23-5
+K Current Monitor 20V/V
+F http://www.ti.com/lit/ds/symlink/ina193.pdf
+$ENDCMP
+#
+$CMP INA194AIDBV
+D INA194AIDBV, Current Shunt Monitor, Gain 50V/V, SOT-23-5
+K Current Monitor 50V/V
+F http://www.ti.com/lit/ds/symlink/ina193.pdf
+$ENDCMP
+#
+$CMP INA195AIDBV
+D INA195AIDBV, Current Shunt Monitor, Gain 100V/V, SOT-23-5
+K Current Monitor 100V/V
+F http://www.ti.com/lit/ds/symlink/ina193.pdf
+$ENDCMP
+#
+$CMP INA196AIDBV
+D INA196AIDBV, Current Shunt Monitor, Gain 20V/V, SOT-23-5
+K Current Monitor 20V/V
+F http://www.ti.com/lit/ds/symlink/ina193.pdf
+$ENDCMP
+#
+$CMP INA197AIDBV
+D INA197AIDBV, Current Shunt Monitor, Gain 50V/V, SOT-23-5
+K Current Monitor 50V/V
+F http://www.ti.com/lit/ds/symlink/ina193.pdf
+$ENDCMP
+#
+$CMP INA198AIDBV
+D INA198AIDBV, Current Shunt Monitor, Gain 100V/V, SOT-23-5
+K Current Monitor 100V/V
+F http://www.ti.com/lit/ds/symlink/ina193.pdf
+$ENDCMP
+#
+$CMP TMP20AIDCK
+D TMP20AIDCK, Low Power Temperature Sensor, 2.5deg Accuracy, SC-70
+K Temperature Sensor Analog
+F http://www.ti.com/lit/ds/sbos466/sbos466.pdf
+$ENDCMP
+#
+$CMP TMP20AIDRL
+D TMP20AIDRL, Low Power Temperature Sensor, 2.5deg Accuracy, SOT-563-6
+K Temperature Sensor Analog
+F http://www.ti.com/lit/ds/sbos466/sbos466.pdf
+$ENDCMP
+#
+#End Doc Library

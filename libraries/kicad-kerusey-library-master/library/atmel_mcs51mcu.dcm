@@ -1,0 +1,56 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AT89C2051-P
+D 89C2051, PDIP20, 2k Flash, 128B SRAM
+K MCS-51 8bit Flash Microcontroller
+F http://www.atmel.com/Images/doc0368.pdf
+$ENDCMP
+#
+$CMP AT89C2051-S
+D 89C2051, SO20, 2k Flash, 128B SRAM
+K MCS-51 8bit Flash Microcontroller
+F http://www.atmel.com/Images/doc0368.pdf
+$ENDCMP
+#
+$CMP AT89C4051-P
+D 89C4051, DIP20, 2k Flash, 128B SRAM
+K MCS-51 8bit Flash Microcontroller
+F http://www.atmel.com/Images/doc1001.pdf
+$ENDCMP
+#
+$CMP AT89C4051-S
+D 89C4051, SO20, 2k Flash, 128B SRAM
+K MCS-51 8bit Flash Microcontroller
+F http://www.atmel.com/Images/doc1001.pdf
+$ENDCMP
+#
+$CMP AT89S2051-P
+D 89S2051, PDIP20, 2k Flash, 256B SRAM
+K MCS-51 8bit Flash Microcontroller
+F http://www.atmel.com/Images/doc3390.pdf
+$ENDCMP
+#
+$CMP AT89S2051-S
+D 89S2051, SO20, 2k Flash, 256B SRAM
+K MCS-51 8bit Flash Microcontroller
+F http://www.atmel.com/Images/doc3390.pdf
+$ENDCMP
+#
+$CMP AT89S4051-P
+D 89S4051, PDIP20, 4k Flash, 256B SRAM
+K MCS-51 8bit Flash Microcontroller
+F http://www.atmel.com/Images/doc3390.pdf
+$ENDCMP
+#
+$CMP AT89S4051-S
+D 89S4051, SO20, 4k Flash, 256B SRAM
+K MCS-51 8bit Flash Microcontroller
+F http://www.atmel.com/Images/doc3390.pdf
+$ENDCMP
+#
+$CMP AVR-ISP-6
+D Standard IDC6 Male Connector, ATMEL ISP 6pin
+K IDC6 Male Connector
+$ENDCMP
+#
+#End Doc Library

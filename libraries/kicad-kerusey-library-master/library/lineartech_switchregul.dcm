@@ -1,0 +1,399 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT1054CN8
+D LT1054CN8, Switched Capacitor Voltage Converter, DIP-8
+K DC-DC Converter Inverter
+F http://cds.linear.com/docs/en/datasheet/1054lfh.pdf
+$ENDCMP
+#
+$CMP LT1054CS8
+D LT1054CS8, Switched Capacitor Voltage Converter, SOIC-8
+K DC-DC Converter Inverter
+F http://cds.linear.com/docs/en/datasheet/1054lfh.pdf
+$ENDCMP
+#
+$CMP LT1054CSW
+D LT1054CSW, Switched Capacitor Voltage Converter, SOIC-16
+K DC-DC Converter Inverter
+F http://cds.linear.com/docs/en/datasheet/1054lfh.pdf
+$ENDCMP
+#
+$CMP LT1054IN8
+D LT1054IN8, Switched Capacitor Voltage Converter, DIP-8
+K DC-DC Converter Inverter
+F http://cds.linear.com/docs/en/datasheet/1054lfh.pdf
+$ENDCMP
+#
+$CMP LT1054IS8
+D LT1054IS8, Switched Capacitor Voltage Converter, SOIC-8
+K DC-DC Converter Inverter
+F http://cds.linear.com/docs/en/datasheet/1054lfh.pdf
+$ENDCMP
+#
+$CMP LT1054ISW
+D LT1054ISW, Switched Capacitor Voltage Converter, SOIC-16
+K DC-DC Converter Inverter
+F http://cds.linear.com/docs/en/datasheet/1054lfh.pdf
+$ENDCMP
+#
+$CMP LT1054LCS8
+D LT1054LCS8, Switched Capacitor Voltage Converter, SOIC-8
+K DC-DC Converter Inverter
+F http://cds.linear.com/docs/en/datasheet/1054lfh.pdf
+$ENDCMP
+#
+$CMP LT1054MJ8
+D LT1054MJ8, Switched Capacitor Voltage Converter, CDIP-8
+K DC-DC Converter Inverter
+F http://cds.linear.com/docs/en/datasheet/1054lfh.pdf
+$ENDCMP
+#
+$CMP LT1108CN8
+D LT1108CN8, Adjustable Micropower Switching Regulator, DIP8
+K Micropower DC-DC Converter
+F http://cds.linear.com/docs/en/datasheet/lt1108.pdf
+$ENDCMP
+#
+$CMP LT1108CN8-12
+D LT1108CN8-12, Fixed 12V Adjustable Micropower Switching Regulator, DIP8
+K Micropower DC-DC Converter 12V
+F http://cds.linear.com/docs/en/datasheet/lt1108.pdf
+$ENDCMP
+#
+$CMP LT1108CN8-5
+D LT1108CN8-5, Fixed 5V Micropower Switching Regulator, DIP8
+K Micropower DC-DC Converter 5V
+F http://cds.linear.com/docs/en/datasheet/lt1108.pdf
+$ENDCMP
+#
+$CMP LT1108CS8
+D LT1108CS8, Adjustable Micropower Switching Regulator, SO8
+K Micropower DC-DC Converter
+F http://cds.linear.com/docs/en/datasheet/lt1108.pdf
+$ENDCMP
+#
+$CMP LT1108CS8-12
+D LT1108CS8-12, Fixed 12V Adjustable Micropower Switching Regulator, SO8
+K Micropower DC-DC Converter 12V
+F http://cds.linear.com/docs/en/datasheet/lt1108.pdf
+$ENDCMP
+#
+$CMP LT1108CS8-5
+D LT1108CS8-5, Fixed 5V Micropower Switching Regulator, SO8
+K Micropower DC-DC Converter 5V
+F http://cds.linear.com/docs/en/datasheet/lt1108.pdf
+$ENDCMP
+#
+$CMP LT1307BCMS8
+D LT1307BCMS8, Micropower 600kHz PWM DC/DC Converter, MSOP8
+K Single Cell Micropower DC/DC Converter
+F http://cds.linear.com/docs/en/datasheet/1307fa.pdf
+$ENDCMP
+#
+$CMP LT1307BCS8
+D LT1307BCS8, Micropower 600kHz PWM DC/DC Converter, SO8
+K Single Cell Micropower DC/DC Converter
+F http://cds.linear.com/docs/en/datasheet/1307fa.pdf
+$ENDCMP
+#
+$CMP LT1307BIS8
+D LT1307BIS8, Micropower 600kHz PWM DC/DC Converter, SO8
+K Single Cell Micropower DC/DC Converter
+F http://cds.linear.com/docs/en/datasheet/1307fa.pdf
+$ENDCMP
+#
+$CMP LT1307CMS8
+D LT1307CMS8, Micropower 600kHz PWM DC/DC Converter, MSOP8
+K Single Cell Micropower DC/DC Converter
+F http://cds.linear.com/docs/en/datasheet/1307fa.pdf
+$ENDCMP
+#
+$CMP LT1307CN8
+D LT1307CN8, Micropower 600kHz PWM DC/DC Converter, PDIP8
+K Single Cell Micropower DC/DC Converter
+F http://cds.linear.com/docs/en/datasheet/1307fa.pdf
+$ENDCMP
+#
+$CMP LT1307CS8
+D LT1307CS8, Micropower 600kHz PWM DC/DC Converter, SO8
+K Single Cell Micropower DC/DC Converter
+F http://cds.linear.com/docs/en/datasheet/1307fa.pdf
+$ENDCMP
+#
+$CMP LT1307IS8
+D LT1307IS8, Micropower 600kHz PWM DC/DC Converter, SO8
+K Single Cell Micropower DC/DC Converter
+F http://cds.linear.com/docs/en/datasheet/1307fa.pdf
+$ENDCMP
+#
+$CMP LT1372CN8
+D LT1372CN8, 35V High Frequency 1.5A Switching Regulator, DIP8
+K High Freq Switching Regulator 1.5A
+F http://cds.linear.com/docs/en/datasheet/13727fbs.pdf
+$ENDCMP
+#
+$CMP LT1372CS8
+D LT1372CS8, 35V High Frequency 1.5A Switching Regulator, SO8
+K High Freq Switching Regulator 1.5A
+F http://cds.linear.com/docs/en/datasheet/13727fbs.pdf
+$ENDCMP
+#
+$CMP LT1372HVCN8
+D LT1372CN8, 42V High Frequency 1.5A Switching Regulator, DIP8
+K High Freq Switching Regulator 1.5A High Voltage
+F http://cds.linear.com/docs/en/datasheet/13727fbs.pdf
+$ENDCMP
+#
+$CMP LT1372HVCS8
+D LT1372HVCS8, 42V High Frequency 1.5A Switching Regulator, SO8
+K High Freq Switching Regulator 1.5A High Voltage
+F http://cds.linear.com/docs/en/datasheet/13727fbs.pdf
+$ENDCMP
+#
+$CMP LT1377CS8
+D LT1377CS8, 35V High Frequency 1.5A Switching Regulator, SO8
+K High Freq Switching Regulator 1.5A
+F http://cds.linear.com/docs/en/datasheet/13727fbs.pdf
+$ENDCMP
+#
+$CMP LT3430EFE
+D LT3430EFE, Hight Voltage Synchronus Step-Down Switching Regulator 3A, TSSOP16
+K Hight Voltage Step-Down Regulator 3A
+F http://cds.linear.com/docs/en/datasheet/34301fa.pdf
+$ENDCMP
+#
+$CMP LT3430EFE-1
+D LT3430EFE-1, Hight Voltage Synchronus Step-Down Switching Regulator 3A, TSSOP16
+K Hight Voltage Step-Down Regulator 3A
+F http://cds.linear.com/docs/en/datasheet/34301fa.pdf
+$ENDCMP
+#
+$CMP LT3430IFE
+D LT3430IFE, Hight Voltage Synchronus Step-Down Switching Regulator 3A, TSSOP16
+K Hight Voltage Step-Down Regulator 3A
+F http://cds.linear.com/docs/en/datasheet/34301fa.pdf
+$ENDCMP
+#
+$CMP LT3430IFE-1
+D LT3430IFE-1, Hight Voltage Synchronus Step-Down Switching Regulator 3A, TSSOP16
+K Hight Voltage Step-Down Regulator 3A
+F http://cds.linear.com/docs/en/datasheet/34301fa.pdf
+$ENDCMP
+#
+$CMP LT3439EFE
+D LT3439EFE, Push-Pull DC/DC 1A Transformer Driver, Low Noise, TSSOP-16
+K Push-Pull Transformer Driver 1A
+F http://cds.linear.com/docs/en/datasheet/3439fs.pdf
+$ENDCMP
+#
+$CMP LT3472EDD
+D LT3472EDD, Boost/Inverted DC/DC Converter For CCD Bias, DFN10 (3x3mm)
+K DC Converter CCD Bias
+F http://cds.linear.com/docs/en/datasheet/3472f.pdf
+$ENDCMP
+#
+$CMP LT3757AEDD
+D LT3757AEDD, Boost, Flyback, SEPIC and Inverting Regulator, DFN10 3x3mm w/Bottom Pad
+K Boost Flyback SEPIC Inverting Regulator
+F http://cds.linear.com/docs/en/datasheet/3757Afd.pdf
+$ENDCMP
+#
+$CMP LT3757AEMSE
+D LT3757AEMSE, Boost, Flyback, SEPIC and Inverting Regulator, MSOP10 w/Bottom Pad
+K Boost Flyback SEPIC Inverting Regulator
+F http://cds.linear.com/docs/en/datasheet/3757Afd.pdf
+$ENDCMP
+#
+$CMP LT3757AHMSE
+D LT3757AHMSE, Boost, Flyback, SEPIC and Inverting Regulator, MSOP10 w/Bottom Pad
+K Boost Flyback SEPIC Inverting Regulator
+F http://cds.linear.com/docs/en/datasheet/3757Afd.pdf
+$ENDCMP
+#
+$CMP LT3757AIDD
+D LT3757AIDD, Boost, Flyback, SEPIC and Inverting Regulator, DFN10 3x3mm w/Bottom Pad
+K Boost Flyback SEPIC Inverting Regulator
+F http://cds.linear.com/docs/en/datasheet/3757Afd.pdf
+$ENDCMP
+#
+$CMP LT3757AIMSE
+D LT3757AIMSE, Boost, Flyback, SEPIC and Inverting Regulator, MSOP10 w/Bottom Pad
+K Boost Flyback SEPIC Inverting Regulator
+F http://cds.linear.com/docs/en/datasheet/3757Afd.pdf
+$ENDCMP
+#
+$CMP LT3757AMPMSE
+D LT3757AMPMSE, Boost, Flyback, SEPIC and Inverting Regulator, MSOP10 w/Bottom Pad
+K Boost Flyback SEPIC Inverting Regulator
+F http://cds.linear.com/docs/en/datasheet/3757Afd.pdf
+$ENDCMP
+#
+$CMP LT3757EDD
+D LT3757EDD, Boost, Flyback, SEPIC and Inverting Regulator, DFN10 3x3mm w/Bottom Pad
+K Boost Flyback SEPIC Inverting Regulator
+F http://cds.linear.com/docs/en/datasheet/3757Afd.pdf
+$ENDCMP
+#
+$CMP LT3757EMSE
+D LT3757EMSE, Boost, Flyback, SEPIC and Inverting Regulator, MSOP10 w/Bottom Pad
+K Boost Flyback SEPIC Inverting Regulator
+F http://cds.linear.com/docs/en/datasheet/3757Afd.pdf
+$ENDCMP
+#
+$CMP LT3757HMSE
+D LT3757HMSE, Boost, Flyback, SEPIC and Inverting Regulator, MSOP10 w/Bottom Pad
+K Boost Flyback SEPIC Inverting Regulator
+F http://cds.linear.com/docs/en/datasheet/3757Afd.pdf
+$ENDCMP
+#
+$CMP LT3757IDD
+D LT3757IDD, Boost, Flyback, SEPIC and Inverting Regulator, DFN10 3x3mm w/Bottom Pad
+K Boost Flyback SEPIC Inverting Regulator
+F http://cds.linear.com/docs/en/datasheet/3757Afd.pdf
+$ENDCMP
+#
+$CMP LT3757IMSE
+D LT3757IMSE, Boost, Flyback, SEPIC and Inverting Regulator, MSOP10 w/Bottom Pad
+K Boost Flyback SEPIC Inverting Regulator
+F http://cds.linear.com/docs/en/datasheet/3757Afd.pdf
+$ENDCMP
+#
+$CMP LT3757MPMSE
+D LT3757MPMSE, Boost, Flyback, SEPIC and Inverting Regulator, MSOP10 w/Bottom Pad
+K Boost Flyback SEPIC Inverting Regulator
+F http://cds.linear.com/docs/en/datasheet/3757Afd.pdf
+$ENDCMP
+#
+$CMP LTC1044CJ8
+D LTC1044CJ8, Switched Capacitor Voltage Converter, DIP-8
+K DC-DC Converter Inverter
+F http://cds.linear.com/docs/en/datasheet/lt1044.pdf
+$ENDCMP
+#
+$CMP LTC1044CN8
+D LTC1044CN8, Switched Capacitor Voltage Converter, DIP-8
+K DC-DC Converter Inverter
+F http://cds.linear.com/docs/en/datasheet/lt1044.pdf
+$ENDCMP
+#
+$CMP LTC1044MJ8
+D LTC1044MJ8, Switched Capacitor Voltage Converter, DIP-8
+K DC-DC Converter Inverter
+F http://cds.linear.com/docs/en/datasheet/lt1044.pdf
+$ENDCMP
+#
+$CMP LTC1624CS8
+D LTC1624CS8, High Efficiency Switching Regulator Controller, SO8
+K High Efficiency Switching Regulator Controller
+F http://cds.linear.com/docs/en/datasheet/1624f.pdf
+$ENDCMP
+#
+$CMP LTC1624IS8
+D LTC1624IS8, High Efficiency Switching Regulator Controller, SO8
+K High Efficiency Switching Regulator Controller
+F http://cds.linear.com/docs/en/datasheet/1624f.pdf
+$ENDCMP
+#
+$CMP LTC1878EMS8
+D LTC1878EMS8, High Efficiency Synchronous Step-Down Regulator, MSOP8
+K High Efficiency Synchronous Step-Down Regulator
+F http://cds.linear.com/docs/en/datasheet/1878f.pdf
+$ENDCMP
+#
+$CMP LTC3406BES5
+D LTC3406BES5, 600mA Synchronus Step-Down Regulator, Adjustable, SOT-23-5
+K Step-Down Regulator 600mA Adjustable
+F http://cds.linear.com/docs/en/datasheet/3406bfa.pdf
+$ENDCMP
+#
+$CMP LTC3406BES5-1.5
+D LTC3406BES5-1.5, 1.5V 600mA Synchronus Step-Down Regulator, SOT-23-5
+K Step-Down Regulator 600mA 1.5V
+F http://cds.linear.com/docs/en/datasheet/3406bfa.pdf
+$ENDCMP
+#
+$CMP LTC3406BES5-1.8
+D LTC3406BES5-1.8, 1.8V 600mA Synchronus Step-Down Regulator, SOT-23-5
+K Step-Down Regulator 600mA 1.8V
+F http://cds.linear.com/docs/en/datasheet/3406bfa.pdf
+$ENDCMP
+#
+$CMP LTC3406ES5
+D LTC3406ES5, 600mA Synchronus Step-Down Regulator, Adjustable, SOT-23-5
+K Step-Down Regulator 600mA Adjustable
+F http://cds.linear.com/docs/en/datasheet/3406fa.pdf
+$ENDCMP
+#
+$CMP LTC3406ES5-1.5
+D LTC3406ES5-1.5, 1.5V 600mA Synchronus Step-Down Regulator, SOT-23-5
+K Step-Down Regulator 600mA 1.5V
+F http://cds.linear.com/docs/en/datasheet/3406fa.pdf
+$ENDCMP
+#
+$CMP LTC3406ES5-1.8
+D LTC3406ES5-1.8, 1.8V 600mA Synchronus Step-Down Regulator, SOT-23-5
+K Step-Down Regulator 600mA 1.8V
+F http://cds.linear.com/docs/en/datasheet/3406fa.pdf
+$ENDCMP
+#
+$CMP LTC3429BES6
+D LTC3429BES6, Adjustable 500mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect, TSOT-23-6
+K DC Converter 400mA 3V
+F http://cds.linear.com/docs/en/datasheet/3429fa.pdf
+$ENDCMP
+#
+$CMP LTC3429ES6
+D LTC3429ES6, Adjustable 500mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect, TSOT-23-6
+K DC Converter 400mA 3V
+F http://cds.linear.com/docs/en/datasheet/3429fa.pdf
+$ENDCMP
+#
+$CMP LTC3442EDE
+D LTC3442EDE, Micropower Synchronous Buck-Boost DC/DC Converter with Automatic Burst Mode Operation, DFN12 (4x3mm)
+K Micropower Synchronous Buck-Boost DC/DC Converter
+F http://cds.linear.com/docs/en/datasheet/3442fb.pdf
+$ENDCMP
+#
+$CMP LTC3525DESC6-3.3
+D LTC3525DESC6-3.3, 3.3V 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect, SC70-6
+K DC Converter 400mA 3.3V
+F http://cds.linear.com/docs/en/datasheet/3525d33fb.pdf
+$ENDCMP
+#
+$CMP LTC3525ESC6-3
+D LTC3525ESC6-3, 3V 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect, SC70-6
+K DC Converter 400mA 3V
+F http://cds.linear.com/docs/en/datasheet/3525fb.pdf
+$ENDCMP
+#
+$CMP LTC3525ESC6-3.3
+D LTC3525ESC6-3.3, 3.3V 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect, SC70-6
+K DC Converter 400mA 3.3V
+F http://cds.linear.com/docs/en/datasheet/3525fb.pdf
+$ENDCMP
+#
+$CMP LTC3525ESC6-5
+D LTC3525ESC6-5, 5V 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect, SC70-6
+K DC Converter 400mA 5V
+F http://cds.linear.com/docs/en/datasheet/3525fb.pdf
+$ENDCMP
+#
+$CMP LTC3525LESC6-3
+D LTC3525LESC6-3, 3V 400mA Micropower Synchronous Step-Up DC/DC Converter with Output Disconnect, SC70-6
+K DC Converter 400mA 3V
+F http://cds.linear.com/docs/en/datasheet/3525laf.pdf
+$ENDCMP
+#
+$CMP LTC3630EDHC
+D LTC3630EDHC, 65V 500mA Synchronus Step-Down Converter, DFN-16-EP
+K DC-DC Step Down
+F http://cds.linear.com/docs/en/datasheet/3630fd.pdf
+$ENDCMP
+#
+$CMP LTC3630EMSE
+D LTC3630EMSE, 65V 500mA Synchronus Step-Down Converter, MSOP-16-EP
+K DC-DC Step Down
+F http://cds.linear.com/docs/en/datasheet/3630fd.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0  Date: 2013-05-15 20:44:13
+#
+$CMP PC3H4
+D PC3H4, SOP4, AC/DC Optocoupler, Vce 70V, CTR 100-250%
+K NPN AC DC Optocoupler
+F http://www.sharpsme.com/download/pc3h4-epdf
+$ENDCMP
+#
+$CMP PC3H4A
+D PC3H4A, SOP4, AC/DC Optocoupler, Vce 70V, CTR 100-250%
+K NPN AC DC Optocoupler
+F http://www.sharpsma.com/webfm_send/395
+$ENDCMP
+#
+$CMP PC817
+D PC817, DIP4, DC Optocoupler, Vce 35V, CTR 50-300%
+K NPN DC Optocoupler
+F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
+$ENDCMP
+#
+$CMP PC827
+D PC827, DIP8, DC Dual Optocoupler, Vce 35V, CTR 50-300%
+K NPN DC Dual Optocoupler
+F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
+$ENDCMP
+#
+$CMP PC837
+D PC837, DIP12, DC Triple Optocoupler, Vce 35V, CTR 50-300%
+K NPN DC Triple Optocoupler
+F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
+$ENDCMP
+#
+$CMP PC847
+D PC847, DIP16, DC Quad Optocoupler, Vce 35V, CTR 50-300%
+K NPN DC Quad Optocoupler
+F http://www.soselectronic.cz/a_info/resource/d/pc817.pdf
+$ENDCMP
+#
+#End Doc Library

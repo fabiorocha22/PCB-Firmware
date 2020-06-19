@@ -1,0 +1,63 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DP83848C
+D DP83848C, MII/RMII Single 10/100Mbps Ethernet Physical Layer Transciever, LQFP48
+K Ethernet PHY MII RMII 10/100Mpbs
+F http://www.ti.com/lit/ds/symlink/dp83848c.pdf
+$ENDCMP
+#
+$CMP GD65232DB
+D GD65232DB, Multiple RS-232 Driver and Receiver, SSOP-20
+K RS232 UART Driver Receiver Interface
+F http://www.ti.com/lit/ds/symlink/gd75232.pdf
+$ENDCMP
+#
+$CMP GD65232DW
+D GD65232DW, Multiple RS-232 Driver and Receiver, SOIC20
+K RS232 UART Driver Receiver Interface
+F http://www.ti.com/lit/ds/symlink/gd75232.pdf
+$ENDCMP
+#
+$CMP GD65232PW
+D GD65232PW, Multiple RS-232 Driver and Receiver, TSSOP-20
+K RS232 UART Driver Receiver Interface
+F http://www.ti.com/lit/ds/symlink/gd75232.pdf
+$ENDCMP
+#
+$CMP GD75232DB
+D GD75232DB, Multiple RS-232 Driver and Receiver, SSOP-20
+K RS232 UART Driver Receiver Interface
+F http://www.ti.com/lit/ds/symlink/gd75232.pdf
+$ENDCMP
+#
+$CMP GD75232DW
+D GD75232DW, Multiple RS-232 Driver and Receiver, SOIC20
+K RS232 UART Driver Receiver Interface
+F http://www.ti.com/lit/ds/symlink/gd75232.pdf
+$ENDCMP
+#
+$CMP GD75232N
+D GD75232N, Multiple RS-232 Driver and Receiver, PDIP-20
+K RS232 UART Driver Receiver Interface
+F http://www.ti.com/lit/ds/symlink/gd75232.pdf
+$ENDCMP
+#
+$CMP GD75232PW
+D GD75232PW, Multiple RS-232 Driver and Receiver, TSSOP-20
+K RS232 UART Driver Receiver Interface
+F http://www.ti.com/lit/ds/symlink/gd75232.pdf
+$ENDCMP
+#
+$CMP XTR115U
+D XTR115U, 4-20mA Current Loop Transmitter, SO8
+K 4-20mA Current Loop Transmitter
+F http://www.ti.com/lit/ds/symlink/xtr115.pdf
+$ENDCMP
+#
+$CMP XTR116U
+D XTR116U, 4-20mA Current Loop Transmitter, SO8
+K 4-20mA Current Loop Transmitter
+F http://www.ti.com/lit/ds/symlink/xtr115.pdf
+$ENDCMP
+#
+#End Doc Library

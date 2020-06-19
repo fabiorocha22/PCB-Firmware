@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX1647EAP
+D MAX1647EAP, Chemistry-Independent Battery Charger, SSOP-20
+K Battery Charger
+F http://datasheets.maximintegrated.com/en/ds/MAX1647-MAX1648.pdf
+$ENDCMP
+#
+$CMP MAX1648ESE
+D MAX1648ESE, Chemistry-Independent Battery Charger, SO-16
+K Battery Charger
+F http://datasheets.maximintegrated.com/en/ds/MAX1647-MAX1648.pdf
+$ENDCMP
+#
+#End Doc Library

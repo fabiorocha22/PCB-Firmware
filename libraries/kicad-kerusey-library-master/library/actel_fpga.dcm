@@ -1,0 +1,146 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A1020B-PL44
+D A1020B, Actel ACT 1 FPGA, 2000 gates, PLCC44
+K Actel ACT FPGA
+F http://www.actel.com/documents/ACT1_DS.pdf
+$ENDCMP
+#
+$CMP A1020B-PL68
+D A1020B, Actel ACT 1 FPGA, 2000 gates, PLCC68
+K Actel ACT1 FPGA
+F http://www.actel.com/documents/ACT1_DS.pdf
+$ENDCMP
+#
+$CMP A10V20B-PL44
+D A1020B, Actel ACT 1 FPGA, 2000 gates, Low Voltage, PLCC44
+K Actel ACT FPGA
+F http://www.actel.com/documents/ACT1_DS.pdf
+$ENDCMP
+#
+$CMP A10V20B-PL68
+D A1020B, Actel ACT 1 FPGA, 2000 gates, Low Voltage, PLCC68
+K Actel ACT1 FPGA
+F http://www.actel.com/documents/ACT1_DS.pdf
+$ENDCMP
+#
+$CMP A1225A-PL84
+D A1225A, Actel ACT 2 FPGA, 2500 gates, PLCC84
+K Actel ACT2 FPGA
+F http://www.actel.com/documents/ACT2_DS.pdf
+$ENDCMP
+#
+$CMP A3P030-VQG100
+D A3P030-VQG100, Actel ProASIC3 Flash Family FPGAs, 256 MCLB, 100pin QFP100
+K ProASIC3 ACTEL FLASH
+F http://www.microsemi.com/document-portal/doc_download/130704-proasic3-flash-family-fpgas-datasheet
+$ENDCMP
+#
+$CMP A3P060-VQG100
+D A3P060-VQG100, Actel ProASIC3 Flash Family FPGAs, 512 MCLB, 100pin QFP100
+K ProASIC3 ACTEL FLASH
+F http://www.microsemi.com/document-portal/doc_download/130704-proasic3-flash-family-fpgas-datasheet
+$ENDCMP
+#
+$CMP A3P1000-PQG208
+D A3P1000-PQG208, Actel ProASIC3 Flash Family FPGAs, 1000k Gates, 208pin QFP
+K ProASIC3 ACTEL FLASH
+F http://www.microsemi.com/document-portal/doc_download/130704-proasic3-flash-family-fpgas-datasheet
+$ENDCMP
+#
+$CMP A3P125-PQG208
+D A3P125-PQG208, Actel ProASIC3 Flash Family FPGAs, 1024MCB, 208pin QFP
+K ProASIC3 ACTEL FLASH
+F http://www.microsemi.com/document-portal/doc_download/130704-proasic3-flash-family-fpgas-datasheet
+$ENDCMP
+#
+$CMP A3P125-VQG100
+D A3P125-VQG100, Actel ProASIC3 Flash Family FPGAs, 1024 MCLB, 100pin QFP100
+K ProASIC3 ACTEL FLASH
+F http://www.microsemi.com/document-portal/doc_download/130704-proasic3-flash-family-fpgas-datasheet
+$ENDCMP
+#
+$CMP A3P250-PQG208
+D A3P250-PQG208, Actel ProASIC3 Flash Family FPGAs, 2048MCB, 208pin QFP
+K ProASIC3 ACTEL FLASH
+F http://www.microsemi.com/document-portal/doc_download/130704-proasic3-flash-family-fpgas-datasheet
+$ENDCMP
+#
+$CMP A3P250-VQG100
+D A3P250-VQG100, Actel ProASIC3 Flash Family FPGAs, 2048 MCLB, 100pin QFP100
+K ProASIC3 ACTEL FLASH
+F http://www.microsemi.com/document-portal/doc_download/130704-proasic3-flash-family-fpgas-datasheet
+$ENDCMP
+#
+$CMP A3P400-PQG208
+D A3P400-PQG208, Actel ProASIC3 Flash Family FPGAs, 400k Gates, 208pin QFP
+K ProASIC3 ACTEL FLASH
+F http://www.microsemi.com/document-portal/doc_download/130704-proasic3-flash-family-fpgas-datasheet
+$ENDCMP
+#
+$CMP A3P600-PQG208
+D A3P600-PQG208, Actel ProASIC3 Flash Family FPGAs, 600k Gates, 208pin QFP
+K ProASIC3 ACTEL FLASH
+F http://www.microsemi.com/document-portal/doc_download/130704-proasic3-flash-family-fpgas-datasheet
+$ENDCMP
+#
+$CMP A40MX02-PL44
+D A40MX02, Actel 40MX FPGA, 3000 gates, PLCC44
+K Actel 40MX FPGA
+F http://www.actel.com/documents/MX_DS.pdf
+$ENDCMP
+#
+$CMP A40MX02-PL68
+D A40MX02, Actel 40MX FPGA, 4000 gates, PLCC68
+K Actel 40MX FPGA
+F http://www.actel.com/documents/MX_DS.pdf
+$ENDCMP
+#
+$CMP A40MX04-PL44
+D A40MX04, Actel 40MX FPGA, 6000 gates, PLCC44
+K Actel 40MX FPGA
+F http://www.actel.com/documents/MX_DS.pdf
+$ENDCMP
+#
+$CMP A40MX04-PL68
+D A40MX04, Actel 40MX FPGA, 6000 gates, PLCC68
+K Actel 40MX FPGA
+F http://www.actel.com/documents/MX_DS.pdf
+$ENDCMP
+#
+$CMP ACTEL-JTAG-10
+D ACTEL FLASH PRO 3/4, JTAG, IDC10 Male Connector
+K JTAG IDC10 Male Connector
+$ENDCMP
+#
+$CMP EX128-TQ100
+D eX128-TQ100, Actel eX FPGA Family, 100pin QFP
+K Actel FPGA eX eX128
+F http://www.microsemi.com/document-portal/doc_download/130687-ex-datasheet
+$ENDCMP
+#
+$CMP EX128-TQ64
+D eX128-TQ64, Actel eX Family FPGA, 64pin QFP
+K Actel FPGA eX eX128
+F http://www.microsemi.com/document-portal/doc_download/130687-ex-datasheet
+$ENDCMP
+#
+$CMP EX256-TQ100
+D eX256-TQ100, Actel eX FPGA Family, 100pin QFP
+K Actel FPGA eX eX256
+F http://www.microsemi.com/document-portal/doc_download/130687-ex-datasheet
+$ENDCMP
+#
+$CMP EX64-TQ100
+D eX64-TQ100, Actel eX Family FPGA, 100pin QFP
+K Actel FPGA eX eX64
+F http://www.microsemi.com/document-portal/doc_download/130687-ex-datasheet
+$ENDCMP
+#
+$CMP EX64-TQ64
+D eX64-TQ64, Actel eX Family FPGA, 64pin QFP
+K Actel FPGA eX eX64
+F http://www.microsemi.com/document-portal/doc_download/130687-ex-datasheet
+$ENDCMP
+#
+#End Doc Library

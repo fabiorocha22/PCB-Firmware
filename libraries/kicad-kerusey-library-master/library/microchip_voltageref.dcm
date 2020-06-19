@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0  Date: 2013-01-12 12:09:06
+#
+$CMP MCP1525T-I/TO
+D MCP1525, 2.5V Voltage Reference, TO-92
+K Voltage Reference 2.5V
+F http://ww1.microchip.com/downloads/en/devicedoc/21653b.pdf
+$ENDCMP
+#
+$CMP MCP1525T-I/TT
+D MCP1525, 2.5V Voltage Reference, SOT-23
+K Voltage Reference 2.5V
+F http://ww1.microchip.com/downloads/en/devicedoc/21653b.pdf
+$ENDCMP
+#
+$CMP MCP1541-I/TT
+D MCP1541, 4.096V Voltage Reference, SOT-23
+K Voltage Reference 4.096V
+F http://ww1.microchip.com/downloads/en/devicedoc/21653b.pdf
+$ENDCMP
+#
+$CMP MCP1541T-I/TO
+D MCP1541, 4.096V Voltage Reference, TO-92
+K Voltage Reference 4.096V
+F http://ww1.microchip.com/downloads/en/devicedoc/21653b.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,111 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XMC1100-Q024F0008
+D XMC1100-Q024F0008, 8KB Flash, 16KB SRAM, XMC1000 series ARM-M0 Microcontroller, VQFN-24-EP
+K XMC1100 ARM M0
+F http://www.infineon.com/dgdl/Infineon-xmc1100_AB-DS-v01_06-EN.pdf
+$ENDCMP
+#
+$CMP XMC1100-Q024F0016
+D XMC1100-Q024F0016, 16KB Flash, 16KB SRAM, XMC1000 series ARM-M0 Microcontroller, VQFN-24-EP
+K XMC1100 ARM M0
+F http://www.infineon.com/dgdl/Infineon-xmc1100_AB-DS-v01_06-EN.pdf
+$ENDCMP
+#
+$CMP XMC1100-Q024F0032
+D XMC1100-Q024F0032, 32KB Flash, 16KB SRAM, XMC1000 series ARM-M0 Microcontroller, VQFN-24-EP
+K XMC1100 ARM M0
+F http://www.infineon.com/dgdl/Infineon-xmc1100_AB-DS-v01_06-EN.pdf
+$ENDCMP
+#
+$CMP XMC1100-Q024F0064
+D XMC1100-Q024F0064, 64KB Flash, 16KB SRAM, XMC1000 series ARM-M0 Microcontroller, VQFN-24-EP
+K XMC1100 ARM M0
+F http://www.infineon.com/dgdl/Infineon-xmc1100_AB-DS-v01_06-EN.pdf
+$ENDCMP
+#
+$CMP XMC1100-Q040F0016
+D XMC1100-Q040F0016, 16KB Flash, 16KB SRAM, XMC1000 series ARM-M0 Microcontroller, VQFN-40-EP
+K XMC1100 ARM M0
+F http://www.infineon.com/dgdl/Infineon-xmc1100_AB-DS-v01_06-EN.pdf
+$ENDCMP
+#
+$CMP XMC1100-Q040F0032
+D XMC1100-Q040F0032, 32KB Flash, 16KB SRAM, XMC1000 series ARM-M0 Microcontroller, VQFN-40-EP
+K XMC1100 ARM M0
+F http://www.infineon.com/dgdl/Infineon-xmc1100_AB-DS-v01_06-EN.pdf
+$ENDCMP
+#
+$CMP XMC1100-Q040F0064
+D XMC1100-Q040F0064, 64KB Flash, 16KB SRAM, XMC1000 series ARM-M0 Microcontroller, VQFN-40-EP
+K XMC1100 ARM M0
+F http://www.infineon.com/dgdl/Infineon-xmc1100_AB-DS-v01_06-EN.pdf
+$ENDCMP
+#
+$CMP XMC1100-T016F0008
+D XMC1100-T016F0008, 8KB Flash, 16KB SRAM, XMC1000 series ARM-M0 Microcontroller, TSSOP-16
+K XMC1100 ARM M0
+F http://www.infineon.com/dgdl/Infineon-xmc1100_AB-DS-v01_06-EN.pdf
+$ENDCMP
+#
+$CMP XMC1100-T016F0016
+D XMC1100-T016F0016, 16KB Flash, 16KB SRAM, XMC1000 series ARM-M0 Microcontroller, TSSOP-16
+K XMC1100 ARM M0
+F http://www.infineon.com/dgdl/Infineon-xmc1100_AB-DS-v01_06-EN.pdf
+$ENDCMP
+#
+$CMP XMC1100-T016F0032
+D XMC1100-T016F0032, 32KB Flash, 16KB SRAM, XMC1000 series ARM-M0 Microcontroller, TSSOP-16
+K XMC1100 ARM M0
+F http://www.infineon.com/dgdl/Infineon-xmc1100_AB-DS-v01_06-EN.pdf
+$ENDCMP
+#
+$CMP XMC1100-T016F0064
+D XMC1100-T016F0064, 64KB Flash, 16KB SRAM, XMC1000 series ARM-M0 Microcontroller, TSSOP-16
+K XMC1100 ARM M0
+F http://www.infineon.com/dgdl/Infineon-xmc1100_AB-DS-v01_06-EN.pdf
+$ENDCMP
+#
+$CMP XMC1100-T016X0016
+D XMC1100-T016X0016, 16KB Flash, 16KB SRAM, XMC1000 series ARM-M0 Microcontroller, TSSOP-16
+K XMC1100 ARM M0
+F http://www.infineon.com/dgdl/Infineon-xmc1100_AB-DS-v01_06-EN.pdf
+$ENDCMP
+#
+$CMP XMC1100-T016X0032
+D XMC1100-T016X0032, 32KB Flash, 16KB SRAM, XMC1000 series ARM-M0 Microcontroller, TSSOP-16
+K XMC1100 ARM M0
+F http://www.infineon.com/dgdl/Infineon-xmc1100_AB-DS-v01_06-EN.pdf
+$ENDCMP
+#
+$CMP XMC1100-T016X0064
+D XMC1100-T016X0064, 64KB Flash, 16KB SRAM, XMC1000 series ARM-M0 Microcontroller, TSSOP-16
+K XMC1100 ARM M0
+F http://www.infineon.com/dgdl/Infineon-xmc1100_AB-DS-v01_06-EN.pdf
+$ENDCMP
+#
+$CMP XMC1100-T038F0016
+D XMC1100-T038F0016, 16KB Flash, 16KB SRAM, XMC1000 series ARM-M0 Microcontroller, TSSOP-38
+K XMC1100 ARM M0
+F http://www.infineon.com/dgdl/Infineon-xmc1100_AB-DS-v01_06-EN.pdf
+$ENDCMP
+#
+$CMP XMC1100-T038F0032
+D XMC1100-T038F0032, 32KB Flash, 16KB SRAM, XMC1000 series ARM-M0 Microcontroller, TSSOP-38
+K XMC1100 ARM M0
+F http://www.infineon.com/dgdl/Infineon-xmc1100_AB-DS-v01_06-EN.pdf
+$ENDCMP
+#
+$CMP XMC1100-T038F0064
+D XMC1100-T038F0064, 64KB Flash, 16KB SRAM, XMC1000 series ARM-M0 Microcontroller, TSSOP-38
+K XMC1100 ARM M0
+F http://www.infineon.com/dgdl/Infineon-xmc1100_AB-DS-v01_06-EN.pdf
+$ENDCMP
+#
+$CMP XMC1100-T038X0064
+D XMC1100-T038X0064, 64KB Flash, 16KB SRAM, XMC1000 series ARM-M0 Microcontroller, TSSOP-38
+K XMC1100 ARM M0
+F http://www.infineon.com/dgdl/Infineon-xmc1100_AB-DS-v01_06-EN.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,120 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MC13192FC
+D MC13192FC, ZigBee Controller, QFN-32
+K ZIGBEE
+F http://www.nxp.com/assets/documents/data/en/data-sheets/MC13192.pdf
+$ENDCMP
+#
+$CMP MC6821P
+D MC6821P, Peripheral Interface Adapter 1MHz, DIP-40
+K PIA
+$ENDCMP
+#
+$CMP MC6822P
+D MC6822P, Industrial Interface Adapter, DIP-40
+K IIA
+$ENDCMP
+#
+$CMP MC68230
+D MC68230, Peripheral Parallel Interface with Timer, DIP-40
+K MPRO
+F http://www.nxp.com/assets/documents/data/en/data-sheets/MC68230.pdf
+$ENDCMP
+#
+$CMP MC6840
+D MC6840, Programmable Timer Module 1.0MHz, DIP-28
+K PTM
+$ENDCMP
+#
+$CMP MC6843
+D MC6843, Floppy Disc Controller, DIP-40
+K FDC 6843
+$ENDCMP
+#
+$CMP MC6844
+D MC6844, Direct Memory Access Controller 1.0MHz, DIP-40
+K DMAC 6844
+$ENDCMP
+#
+$CMP MC6845
+D MC6845, CRT Controller 1.0MHz
+K CRTC
+$ENDCMP
+#
+$CMP MC6850
+D MC6850, Asynchronous Communications Interface Adapter 1.0MHz, DIP-24
+K ACIA
+$ENDCMP
+#
+$CMP MC68681
+D MC68681, Double Serial and Single Parallel Interface, DIP-40
+K MPRO
+$ENDCMP
+#
+$CMP MC68901_PLCC
+D MC68901, Parallel Interface, PLCC-52
+K MPRO
+$ENDCMP
+#
+$CMP MC68A21P
+D MC68A21P, Peripheral Interface Adapter 1.5MHz, DIP-40
+K PIA 6821
+$ENDCMP
+#
+$CMP MC68A22P
+D MC68A22P, Peripheral Interface Adapter 1MHz, DIP-40
+K PIA
+$ENDCMP
+#
+$CMP MC68A40
+D MC68A40, Programmable Timer Module 1.5MHz, DIP-28
+K PTM 6840
+$ENDCMP
+#
+$CMP MC68A44
+D MC68A44, Direct Memory Access Controller 1.5MHz, DIP-40
+K DMAC 6844
+$ENDCMP
+#
+$CMP MC68A44
+D MC68A44, CRT Controller 1.5MHz, DIP-40
+K CRTC 6845
+$ENDCMP
+#
+$CMP MC68A50
+D MC68A50, Asynchronous Communications Interface Adapter 1.5MHz, DIP-24
+K ACIA 6850
+$ENDCMP
+#
+$CMP MC68B21P
+D MC68B21P, Peripheral Interface Adapter 2MHz, DIP-40
+K PIA 6821
+$ENDCMP
+#
+$CMP MC68B22P
+D MC68B22P, Peripheral Interface Adapter 1MHz, DIP-40
+K PIA
+$ENDCMP
+#
+$CMP MC68B40
+D MC68B40, Programmable Timer Module 2.0MHz, DIP-28
+K PTM 6840
+$ENDCMP
+#
+$CMP MC68B44
+D MC68B44, Direct Memory Access Controller 2.0MHz, DIP-40
+K DMAC 6844
+$ENDCMP
+#
+$CMP MC68B45
+D MC68B45, CRT Controller 2.0MHz, DIP-40
+K CRTC 6845
+$ENDCMP
+#
+$CMP MC68B50
+D MC68B50, Asynchronous Communications Interface Adapter 2.0MHz, DIP-24
+K ACIA 6850
+$ENDCMP
+#
+#End Doc Library

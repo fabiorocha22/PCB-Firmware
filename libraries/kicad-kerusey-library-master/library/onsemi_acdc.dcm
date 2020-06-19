@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0  Date: 2013-06-15 11:57:02
+#
+$CMP NCP1200P
+D NCP1200P, SMPS Controller, AC-DC, PDIP-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1200-D.PDF
+$ENDCMP
+#
+$CMP NCP1200S
+D NCP1200S, SMPS Controller, AC-DC, SO-8
+K SMPS Controller AC-DC
+F http://www.onsemi.com/pub_link/Collateral/NCP1200-D.PDF
+$ENDCMP
+#
+#End Doc Library

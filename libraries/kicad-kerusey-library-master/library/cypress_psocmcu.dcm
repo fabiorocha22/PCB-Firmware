@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CY8C4244AXI-443
+D CY8C4245AXI-443, PSoC4200 Series, ARM Cortex-M0, 16KB Flash, 4KB SRAM, LCD, CapSense, TQFP-44
+K PSoC4 Programmable SoC
+F http://www.cypress.com/file/138656/download
+$ENDCMP
+#
+$CMP CY8C4245AXI-473
+D CY8C4245AXI-473, PSoC4200 Series, ARM Cortex-M0, 32KB Flash, 4KB SRAM, TQFP-44
+K PSoC4200 Programmable SoC
+F http://www.cypress.com/file/138656/download
+$ENDCMP
+#
+$CMP CY8C4245AXI-483
+D CY8C4245AXI-483, PSoC4200 Series, ARM Cortex-M0, 32KB Flash, 4KB SRAM, LCD, CapSense, TQFP-44
+K PSoC4 Programmable SoC
+F http://www.cypress.com/file/138656/download
+$ENDCMP
+#
+#End Doc Library

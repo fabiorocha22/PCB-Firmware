@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HDMI_A
+D HDMI Type A Connector, HDMI 1.4+
+K HDMI A
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMS44400DJ
+D TMS44400DJ, 1Mb x 4 DRAM, SOJ-26-28
+F http://www.ti.com/lit/ds/symlink/tms44400.pdf
+$ENDCMP
+#
+$CMP TMS46400DJ
+D TMS44400DJ, 1Mb x 4 DRAM, 3.3V, SOJ-26-28
+F http://www.ti.com/lit/ds/symlink/tms44400.pdf
+$ENDCMP
+#
+$CMP TMS44400DGA
+D TMS44400DGA, 1Mb x 4 DRAM, TSSOP-26-28
+F http://www.ti.com/lit/ds/symlink/tms44400.pdf
+$ENDCMP
+#
+$CMP TMS46400DGA
+D TMS44400DGA, 1Mb x 4 DRAM, 3.3V, TSSOP-26-28
+F http://www.ti.com/lit/ds/symlink/tms44400.pdf
+$ENDCMP
+#
+#End Doc Library

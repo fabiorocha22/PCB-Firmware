@@ -1,0 +1,119 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PAM8301
+D PAM8301, Class D Audio Amplifier with Shutdown, TSOT-26
+K Class D Amplifier
+F http://www.diodes.com/_files/datasheets/PAM8301.pdf
+$ENDCMP
+#
+$CMP PGA4311
+D 4 channels Audio Volume Control
+K AUDIO
+F texas\pga4311.pdf
+$ENDCMP
+#
+$CMP PT2399
+D PT2399, Echo Effect Processor IC, DIP-16
+K CMOS Digital Audio Processing
+F http://sound.westhost.com/pt2399.pdf
+$ENDCMP
+#
+$CMP PT2399S
+D PT2399S, Echo Effect Processor IC, SOIC-16
+K CMOS Digital Audio Processing
+F http://sound.westhost.com/pt2399.pdf
+$ENDCMP
+#
+$CMP SSM-2017P
+D Audio low noise preamp
+K Audio PREAMP
+$ENDCMP
+#
+$CMP SSM-2018T
+D audio VCA
+K AUDIO VCA
+$ENDCMP
+#
+$CMP SSM2120P
+D Dual VCA & level detectors
+K AUDIO VCA
+$ENDCMP
+#
+$CMP SSM2122P
+D Dual VCA
+K AUDIO VCA
+$ENDCMP
+#
+$CMP SSM2165-1S
+D SSM2165-1S, Microphone Preamplifier and Compressor, Gain 18dB, SO8
+K Microphone Preamplifier Compressor
+F http://www.analog.com/static/imported-files/data_sheets/ssm2165.pdf
+$ENDCMP
+#
+$CMP SSM2165-2S
+D SSM2165-2S, Microphone Preamplifier and Compressor, Gain 8dB, SO8
+K Microphone Preamplifier Compressor
+F http://www.analog.com/static/imported-files/data_sheets/ssm2165.pdf
+$ENDCMP
+#
+$CMP SSM2210P
+D SSM2210P, 40V Vce, 0.02A Ic, Dual Matched Low Noise Audio NPN Transistor, DIP8
+K Dual Low Noise Audio NPN Transistor
+F http://www.analog.com/static/imported-files/data_sheets/ssm2210.pdf
+$ENDCMP
+#
+$CMP SSM2210S
+D SSM2210S, 40V Vce, 0.02A Ic, Dual Matched Low Noise Audio NPN Transistor, SO8
+K Dual Low Noise Audio NPN Transistor
+F http://www.analog.com/static/imported-files/data_sheets/ssm2210.pdf
+$ENDCMP
+#
+$CMP SSM2220P
+D SSM2220P, 36V Vce, 0.02A Ic, Dual Matched Low Noise Audio PNP Transistor, DIP8
+K Dual Low Noise Audio PNP Transistor
+F http://www.analog.com/static/imported-files/data_sheets/ssm2220.pdf
+$ENDCMP
+#
+$CMP SSM2220S
+D SSM2220S, 36V Vce, 0.02A Ic, Dual Matched Low Noise Audio PNP Transistor, SO8
+K Dual Low Noise Audio PNP Transistor
+F http://www.analog.com/static/imported-files/data_sheets/ssm2220.pdf
+$ENDCMP
+#
+$CMP THAT2180A
+D THAT2180A, Audio Voltage Controlled Amplifier (VCA), THD 0.01%, SIP8
+K Audio VCA
+F http://www.thatcorp.com/datashts/THAT_2180-Series_Datasheet.pdf
+$ENDCMP
+#
+$CMP THAT2180B
+D THAT2180B, Audio Voltage Controlled Amplifier (VCA), THD 0.02%, SIP8
+K Audio VCA
+F http://www.thatcorp.com/datashts/THAT_2180-Series_Datasheet.pdf
+$ENDCMP
+#
+$CMP THAT2180C
+D THAT2180C, Audio Voltage Controlled Amplifier (VCA), THD 0.05%, SIP8
+K Audio VCA
+F http://www.thatcorp.com/datashts/THAT_2180-Series_Datasheet.pdf
+$ENDCMP
+#
+$CMP THAT2181A
+D THAT2181A, Audio Voltage Controlled Amplifier (VCA), THD 0.01%, SIP8
+K Audio VCA
+F http://www.thatcorp.com/datashts/THAT_2181-Series_Datasheet.pdf
+$ENDCMP
+#
+$CMP THAT2181B
+D THAT2181B, Audio Voltage Controlled Amplifier (VCA), THD 0.01%, SIP8
+K Audio VCA
+F http://www.thatcorp.com/datashts/THAT_2181-Series_Datasheet.pdf
+$ENDCMP
+#
+$CMP THAT2181C
+D THAT2181C, Audio Voltage Controlled Amplifier (VCA), THD 0.01%, SIP8
+K Audio VCA
+F http://www.thatcorp.com/datashts/THAT_2181-Series_Datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

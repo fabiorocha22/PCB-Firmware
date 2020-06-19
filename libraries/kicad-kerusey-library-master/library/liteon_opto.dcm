@@ -1,0 +1,66 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTV-352T
+D LTV-352T, MFSOP6, DC Darlington Optocoupler, Vce 300V, CTR 1000%
+K NPN Darlington DC Optocoupler
+$ENDCMP
+#
+$CMP LTV-354T
+D LTV-354T, MFSOP6, AC/DC Optocoupler, Vce 35V, CTR 20%
+K NPN AC DC Optocoupler
+$ENDCMP
+#
+$CMP LTV-355T
+D LTV-355T, MFSOP6, DC Darlington Optocoupler, Vce 35V, CTR 600%
+K NPN Darlington DC Optocoupler
+$ENDCMP
+#
+$CMP LTV-356T
+D LTV-356T, MFSOP6, DC Optocoupler, Vce 80V, CTR 50%
+K NPN DC Optocoupler
+$ENDCMP
+#
+$CMP LTV-357T
+D LTV-357T, MFSOP6, DC Optocoupler, Vce 35V, CTR 50%
+K NPN DC Optocoupler
+$ENDCMP
+#
+$CMP LTV-358T
+D LTV-358T, MFSOP6, DC Optocoupler, Vce 120V, CTR 50%
+K NPN DC Optocoupler
+$ENDCMP
+#
+$CMP LTV-814
+D LTV-814, DIP4, AC/DC Optocoupler, Vce 35V, CTR 20%
+K NPN AC DC Optocoupler
+$ENDCMP
+#
+$CMP LTV-817
+D LTV-817, DC Optocoupler, Vce 35V, CTR 50%, DIP4
+K 1ch NPN DC Optocoupler
+F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
+$ENDCMP
+#
+$CMP LTV-824
+D LTV-824, DIP8, Dual AC/DC Optocoupler, Vce 35V, CTR 20%
+K Dual NPN AC DC Optocoupler
+$ENDCMP
+#
+$CMP LTV-827
+D LTV-827, 2ch DC Optocoupler, Vce 35V, CTR 50%, DIP8
+K 2ch NPN DC Optocoupler
+F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
+$ENDCMP
+#
+$CMP LTV-844
+D LTV-824, DIP16, Quad AC/DC Optocoupler, Vce 35V, CTR 20%
+K Quad NPN AC DC Optocoupler
+$ENDCMP
+#
+$CMP LTV-847
+D LTV-847, 4ch DC Optocoupler, Vce 35V, CTR 50%, DIP16
+K 4ch NPN DC Optocoupler
+F http://www.us.liteon.com/downloads/LTV-817-827-847.PDF
+$ENDCMP
+#
+#End Doc Library

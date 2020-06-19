@@ -1,0 +1,51 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT3748EMSE
+D LT3748EMSE, 100V AC-DC Isolated Flyback Converter, MSOP-16(12)
+K 100V AC-DC Flyback Converter PFC
+F http://cds.linear.com/docs/en/datasheet/3748fb.pdf
+$ENDCMP
+#
+$CMP LT3748HMSE
+D LT3748HMSE, 100V AC-DC Isolated Flyback Converter, MSOP-16(12)
+K 100V AC-DC Flyback Converter PFC
+F http://cds.linear.com/docs/en/datasheet/3748fb.pdf
+$ENDCMP
+#
+$CMP LT3748IMSE
+D LT3748IMSE, 100V AC-DC Isolated Flyback Converter, MSOP-16(12)
+K 100V AC-DC Flyback Converter PFC
+F http://cds.linear.com/docs/en/datasheet/3748fb.pdf
+$ENDCMP
+#
+$CMP LT3748MPMSE
+D LT3748MPMSE, 100V AC-DC Isolated Flyback Converter, MSOP-16(12)
+K 100V AC-DC Flyback Converter PFC
+F http://cds.linear.com/docs/en/datasheet/3748fb.pdf
+$ENDCMP
+#
+$CMP LT3798EMSE
+D LT3798EMSE, AC-DC Isolated Flyback Converter with Active PFC, 86% Eff, MSOP-16EP
+K AC-DC Flyback Converter PFC High Eff
+F http://cds.linear.com/docs/en/datasheet/3798fa.pdf
+$ENDCMP
+#
+$CMP LT3798HMSE
+D LT3798HMSE, AC-DC Isolated Flyback Converter with Active PFC, 86% Eff, MSOP-16EP
+K AC-DC Flyback Converter PFC High Eff
+F http://cds.linear.com/docs/en/datasheet/3798fa.pdf
+$ENDCMP
+#
+$CMP LT3798IMSE
+D LT3798IMSE, AC-DC Isolated Flyback Converter with Active PFC, 86% Eff, MSOP-16EP
+K AC-DC Flyback Converter PFC High Eff
+F http://cds.linear.com/docs/en/datasheet/3798fa.pdf
+$ENDCMP
+#
+$CMP LT3798MPMSE
+D LT3798MPMSE, AC-DC Isolated Flyback Converter with Active PFC, 86% Eff, MSOP-16EP
+K AC-DC Flyback Converter PFC High Eff
+F http://cds.linear.com/docs/en/datasheet/3798fa.pdf
+$ENDCMP
+#
+#End Doc Library
